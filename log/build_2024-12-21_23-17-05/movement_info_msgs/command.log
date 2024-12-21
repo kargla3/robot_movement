@@ -1,0 +1,6 @@
+Invoking command in '/home/kargla/robot_movement/build/movement_info_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kargla/robot_movement/src/movement_info_msgs -DCMAKE_INSTALL_PREFIX=/home/kargla/robot_movement/install/movement_info_msgs
+Invoked command in '/home/kargla/robot_movement/build/movement_info_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kargla/robot_movement/src/movement_info_msgs -DCMAKE_INSTALL_PREFIX=/home/kargla/robot_movement/install/movement_info_msgs
+Invoking command in '/home/kargla/robot_movement/build/movement_info_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kargla/robot_movement/build/movement_info_msgs -- -j12 -l12
+Invoked command in '/home/kargla/robot_movement/build/movement_info_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kargla/robot_movement/build/movement_info_msgs -- -j12 -l12
+Invoking command in '/home/kargla/robot_movement/build/movement_info_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kargla/robot_movement/build/movement_info_msgs
+Invoked command in '/home/kargla/robot_movement/build/movement_info_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kargla/robot_movement/build/movement_info_msgs

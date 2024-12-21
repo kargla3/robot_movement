@@ -1,0 +1,16 @@
+/home/kargla/robot_movement/install/movement_info/lib/movement_info/movement
+/home/kargla/robot_movement/install/movement_info/share/ament_index/resource_index/package_run_dependencies/movement_info
+/home/kargla/robot_movement/install/movement_info/share/ament_index/resource_index/parent_prefix_path/movement_info
+/home/kargla/robot_movement/install/movement_info/share/movement_info/environment/ament_prefix_path.sh
+/home/kargla/robot_movement/install/movement_info/share/movement_info/environment/ament_prefix_path.dsv
+/home/kargla/robot_movement/install/movement_info/share/movement_info/environment/path.sh
+/home/kargla/robot_movement/install/movement_info/share/movement_info/environment/path.dsv
+/home/kargla/robot_movement/install/movement_info/share/movement_info/local_setup.bash
+/home/kargla/robot_movement/install/movement_info/share/movement_info/local_setup.sh
+/home/kargla/robot_movement/install/movement_info/share/movement_info/local_setup.zsh
+/home/kargla/robot_movement/install/movement_info/share/movement_info/local_setup.dsv
+/home/kargla/robot_movement/install/movement_info/share/movement_info/package.dsv
+/home/kargla/robot_movement/install/movement_info/share/ament_index/resource_index/packages/movement_info
+/home/kargla/robot_movement/install/movement_info/share/movement_info/cmake/movement_infoConfig.cmake
+/home/kargla/robot_movement/install/movement_info/share/movement_info/cmake/movement_infoConfig-version.cmake
+/home/kargla/robot_movement/install/movement_info/share/movement_info/package.xml

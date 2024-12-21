@@ -1,0 +1,23 @@
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1[m[K:
+[01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:[m[K In member function ‘[01m[Kvoid Movement::publish_movement_info()[m[K’:
+[01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:18:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kmessage[m[K’ was not declared in this scope; did you mean ‘[01m[Kmessage_[m[K’?
+   18 |         RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", [01;31m[Kmessage[m[K.movement.c_str());
+      |                                                             [01;31m[K^~~~~~~[m[K
+[01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:19:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kmessage[m[K’ was not declared in this scope; did you mean ‘[01m[Kmessage_[m[K’?
+   19 |         publisher_->publish([01;31m[Kmessage[m[K);
+      |                             [01;31m[K^~~~~~~[m[K
+      |                             [32m[Kmessage_[m[K
+gmake[2]: *** [CMakeFiles/movement.dir/build.make:76: CMakeFiles/movement.dir/src/movement.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/movement.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

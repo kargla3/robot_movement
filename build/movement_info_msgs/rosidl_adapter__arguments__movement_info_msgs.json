@@ -1,0 +1,6 @@
+{
+  "package_name": "movement_info_msgs",
+  "non_idl_tuples": [
+    "/home/kargla/robot_movement/src/movement_info_msgs:msg/MovementInfo.msg"
+  ]
+}
