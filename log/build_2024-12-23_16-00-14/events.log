@@ -1,0 +1,356 @@
+[0.000000] (-) TimerEvent: {}
+[0.000218] (movement_info) JobQueued: {'identifier': 'movement_info', 'dependencies': OrderedDict()}
+[0.000270] (movement_info_msgs) JobQueued: {'identifier': 'movement_info_msgs', 'dependencies': OrderedDict()}
+[0.000298] (movement_info) JobStarted: {'identifier': 'movement_info'}
+[0.008653] (movement_info_msgs) JobStarted: {'identifier': 'movement_info_msgs'}
+[0.015047] (movement_info) JobProgress: {'identifier': 'movement_info', 'progress': 'cmake'}
+[0.015905] (movement_info) JobProgress: {'identifier': 'movement_info', 'progress': 'build'}
+[0.016806] (movement_info) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kargla/robot_movement/build/movement_info', '--', '-j12', '-l12'], 'cwd': '/home/kargla/robot_movement/build/movement_info', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kargla'), ('LC_TIME', 'pl_PL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kargla/robot_movement/install/movement_info_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kargla'), ('OLDPWD', '/home/kargla'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pl_PL.UTF-8'), ('SYSTEMD_EXEC_PID', '3185'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kargla/robot_movement/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kargla'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kargla'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/kargla/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kargla-ideapad:@/tmp/.ICE-unix/3144,unix/kargla-ideapad:/tmp/.ICE-unix/3144'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pl_PL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e4a82e57_471b_4589_bb52_5aa70aa7dec9'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pl_PL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GYPCZ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.300'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kargla/robot_movement/install/movement_info_msgs:/home/kargla/robot_movement/install/movement_info:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pl_PL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pl_PL.UTF-8'), ('LC_IDENTIFICATION', 'pl_PL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kargla/robot_movement/build/movement_info'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kargla/robot_movement/install/movement_info_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pl_PL.UTF-8'), ('LC_PAPER', 'pl_PL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kargla/robot_movement/install/movement_info_msgs:/home/kargla/robot_movement/install/movement_info:/opt/ros/humble')]), 'shell': False}
+[0.026825] (movement_info_msgs) JobProgress: {'identifier': 'movement_info_msgs', 'progress': 'cmake'}
+[0.027710] (movement_info_msgs) JobProgress: {'identifier': 'movement_info_msgs', 'progress': 'build'}
+[0.035596] (movement_info_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kargla/robot_movement/build/movement_info_msgs', '--', '-j12', '-l12'], 'cwd': '/home/kargla/robot_movement/build/movement_info_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kargla'), ('LC_TIME', 'pl_PL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kargla/robot_movement/install/movement_info_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kargla'), ('OLDPWD', '/home/kargla'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pl_PL.UTF-8'), ('SYSTEMD_EXEC_PID', '3185'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kargla/robot_movement/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kargla'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kargla'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/kargla/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kargla-ideapad:@/tmp/.ICE-unix/3144,unix/kargla-ideapad:/tmp/.ICE-unix/3144'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pl_PL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e4a82e57_471b_4589_bb52_5aa70aa7dec9'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pl_PL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GYPCZ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.300'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kargla/robot_movement/install/movement_info_msgs:/home/kargla/robot_movement/install/movement_info:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pl_PL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pl_PL.UTF-8'), ('LC_IDENTIFICATION', 'pl_PL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kargla/robot_movement/build/movement_info_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kargla/robot_movement/install/movement_info_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pl_PL.UTF-8'), ('LC_PAPER', 'pl_PL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kargla/robot_movement/install/movement_info_msgs:/home/kargla/robot_movement/install/movement_info:/opt/ros/humble')]), 'shell': False}
+[0.096941] (movement_info) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target movement\x1b[0m\n'}
+[0.098727] (-) TimerEvent: {}
+[0.126265] (movement_info_msgs) StdoutLine: {'line': b'[  9%] Built target movement_info_msgs__rosidl_generator_c\n'}
+[0.126846] (movement_info_msgs) StdoutLine: {'line': b'[ 12%] Built target movement_info_msgs__cpp\n'}
+[0.136754] (movement_info) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/movement.dir/src/movement.cpp.o\x1b[0m\n'}
+[0.152747] (movement_info_msgs) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_movement_info_msgs\n'}
+[0.179286] (movement_info_msgs) StdoutLine: {'line': b'[ 22%] Built target movement_info_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.181817] (movement_info_msgs) StdoutLine: {'line': b'[ 32%] Built target movement_info_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.182240] (movement_info_msgs) StdoutLine: {'line': b'[ 41%] Built target movement_info_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.182600] (movement_info_msgs) StdoutLine: {'line': b'[ 61%] Built target movement_info_msgs__rosidl_typesupport_cpp\n'}
+[0.182945] (movement_info_msgs) StdoutLine: {'line': b'[ 61%] Built target movement_info_msgs__rosidl_typesupport_c\n'}
+[0.186760] (movement_info_msgs) StdoutLine: {'line': b'[ 70%] Built target movement_info_msgs__rosidl_typesupport_introspection_c\n'}
+[0.200485] (-) TimerEvent: {}
+[0.226272] (movement_info_msgs) StdoutLine: {'line': b'[ 70%] Built target movement_info_msgs\n'}
+[0.265365] (movement_info_msgs) StdoutLine: {'line': b'[ 74%] Built target movement_info_msgs__py\n'}
+[0.301648] (-) TimerEvent: {}
+[0.303377] (movement_info_msgs) StdoutLine: {'line': b'[ 80%] Built target movement_info_msgs__rosidl_generator_py\n'}
+[0.366979] (movement_info_msgs) StdoutLine: {'line': b'[ 87%] Built target movement_info_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.367334] (movement_info_msgs) StdoutLine: {'line': b'[ 93%] Built target movement_info_msgs__rosidl_typesupport_c__pyext\n'}
+[0.367554] (movement_info_msgs) StdoutLine: {'line': b'[100%] Built target movement_info_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[0.401797] (-) TimerEvent: {}
+[0.505679] (-) TimerEvent: {}
+[0.577039] (movement_info_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[0.578024] (movement_info_msgs) StdoutLine: {'line': b'writing movement_info_msgs.egg-info/PKG-INFO\n'}
+[0.578441] (movement_info_msgs) StdoutLine: {'line': b'writing dependency_links to movement_info_msgs.egg-info/dependency_links.txt\n'}
+[0.578768] (movement_info_msgs) StdoutLine: {'line': b'writing top-level names to movement_info_msgs.egg-info/top_level.txt\n'}
+[0.582548] (movement_info_msgs) StdoutLine: {'line': b"reading manifest file 'movement_info_msgs.egg-info/SOURCES.txt'\n"}
+[0.587168] (movement_info_msgs) StdoutLine: {'line': b"writing manifest file 'movement_info_msgs.egg-info/SOURCES.txt'\n"}
+[0.605878] (-) TimerEvent: {}
+[0.638376] (movement_info_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_movement_info_msgs_egg\n'}
+[0.665622] (movement_info_msgs) CommandEnded: {'returncode': 0}
+[0.666275] (movement_info_msgs) JobProgress: {'identifier': 'movement_info_msgs', 'progress': 'install'}
+[0.678939] (movement_info_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kargla/robot_movement/build/movement_info_msgs'], 'cwd': '/home/kargla/robot_movement/build/movement_info_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kargla'), ('LC_TIME', 'pl_PL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kargla/robot_movement/install/movement_info_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kargla'), ('OLDPWD', '/home/kargla'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pl_PL.UTF-8'), ('SYSTEMD_EXEC_PID', '3185'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kargla/robot_movement/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kargla'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kargla'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/kargla/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kargla-ideapad:@/tmp/.ICE-unix/3144,unix/kargla-ideapad:/tmp/.ICE-unix/3144'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pl_PL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e4a82e57_471b_4589_bb52_5aa70aa7dec9'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pl_PL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GYPCZ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.300'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kargla/robot_movement/install/movement_info_msgs:/home/kargla/robot_movement/install/movement_info:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pl_PL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pl_PL.UTF-8'), ('LC_IDENTIFICATION', 'pl_PL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kargla/robot_movement/build/movement_info_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kargla/robot_movement/install/movement_info_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pl_PL.UTF-8'), ('LC_PAPER', 'pl_PL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kargla/robot_movement/install/movement_info_msgs:/home/kargla/robot_movement/install/movement_info:/opt/ros/humble')]), 'shell': False}
+[0.693035] (movement_info_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.693429] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/share/ament_index/resource_index/rosidl_interfaces/movement_info_msgs\n'}
+[0.693628] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/include/movement_info_msgs/movement_info_msgs\n'}
+[0.693830] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/include/movement_info_msgs/movement_info_msgs/msg\n'}
+[0.694030] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/include/movement_info_msgs/movement_info_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.694225] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/include/movement_info_msgs/movement_info_msgs/msg/detail\n'}
+[0.694593] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/include/movement_info_msgs/movement_info_msgs/msg/detail/movement_info__struct.h\n'}
+[0.694715] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/include/movement_info_msgs/movement_info_msgs/msg/detail/movement_info__type_support.h\n'}
+[0.694843] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/include/movement_info_msgs/movement_info_msgs/msg/detail/movement_info__functions.c\n'}
+[0.694928] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/include/movement_info_msgs/movement_info_msgs/msg/detail/movement_info__functions.h\n'}
+[0.695009] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/include/movement_info_msgs/movement_info_msgs/msg/movement_info.h\n'}
+[0.695115] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/share/movement_info_msgs/environment/library_path.sh\n'}
+[0.695269] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/share/movement_info_msgs/environment/library_path.dsv\n'}
+[0.695378] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/lib/libmovement_info_msgs__rosidl_generator_c.so\n'}
+[0.695574] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/include/movement_info_msgs/movement_info_msgs\n'}
+[0.695688] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/include/movement_info_msgs/movement_info_msgs/msg\n'}
+[0.695792] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/include/movement_info_msgs/movement_info_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.695896] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/include/movement_info_msgs/movement_info_msgs/msg/detail\n'}
+[0.695999] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/include/movement_info_msgs/movement_info_msgs/msg/detail/movement_info__rosidl_typesupport_fastrtps_c.h\n'}
+[0.696106] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/lib/libmovement_info_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[0.696213] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/include/movement_info_msgs/movement_info_msgs\n'}
+[0.696450] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/include/movement_info_msgs/movement_info_msgs/msg\n'}
+[0.696579] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/include/movement_info_msgs/movement_info_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.696690] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/include/movement_info_msgs/movement_info_msgs/msg/detail\n'}
+[0.696799] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/include/movement_info_msgs/movement_info_msgs/msg/detail/movement_info__rosidl_typesupport_introspection_c.h\n'}
+[0.696908] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/include/movement_info_msgs/movement_info_msgs/msg/detail/movement_info__type_support.c\n'}
+[0.697017] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/lib/libmovement_info_msgs__rosidl_typesupport_introspection_c.so\n'}
+[0.697125] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/lib/libmovement_info_msgs__rosidl_typesupport_c.so\n'}
+[0.697233] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/include/movement_info_msgs/movement_info_msgs\n'}
+[0.697341] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/include/movement_info_msgs/movement_info_msgs/msg\n'}
+[0.697587] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/include/movement_info_msgs/movement_info_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.697706] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/include/movement_info_msgs/movement_info_msgs/msg/detail\n'}
+[0.697813] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/include/movement_info_msgs/movement_info_msgs/msg/detail/movement_info__traits.hpp\n'}
+[0.697987] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/include/movement_info_msgs/movement_info_msgs/msg/detail/movement_info__struct.hpp\n'}
+[0.698083] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/include/movement_info_msgs/movement_info_msgs/msg/detail/movement_info__type_support.hpp\n'}
+[0.698192] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/include/movement_info_msgs/movement_info_msgs/msg/detail/movement_info__builder.hpp\n'}
+[0.698298] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/include/movement_info_msgs/movement_info_msgs/msg/movement_info.hpp\n'}
+[0.698421] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/include/movement_info_msgs/movement_info_msgs\n'}
+[0.698542] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/include/movement_info_msgs/movement_info_msgs/msg\n'}
+[0.698650] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/include/movement_info_msgs/movement_info_msgs/msg/detail\n'}
+[0.698758] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/include/movement_info_msgs/movement_info_msgs/msg/detail/movement_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.699003] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/include/movement_info_msgs/movement_info_msgs/msg/detail/dds_fastrtps\n'}
+[0.699116] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/include/movement_info_msgs/movement_info_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.699223] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/lib/libmovement_info_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.699329] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/include/movement_info_msgs/movement_info_msgs\n'}
+[0.699536] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/include/movement_info_msgs/movement_info_msgs/msg\n'}
+[0.699670] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/include/movement_info_msgs/movement_info_msgs/msg/detail\n'}
+[0.699757] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/include/movement_info_msgs/movement_info_msgs/msg/detail/movement_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.699845] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/include/movement_info_msgs/movement_info_msgs/msg/detail/movement_info__type_support.cpp\n'}
+[0.699986] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/lib/libmovement_info_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[0.700171] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/lib/libmovement_info_msgs__rosidl_typesupport_cpp.so\n'}
+[0.700295] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/share/movement_info_msgs/environment/pythonpath.sh\n'}
+[0.700421] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/share/movement_info_msgs/environment/pythonpath.dsv\n'}
+[0.700553] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/local/lib/python3.10/dist-packages/movement_info_msgs-0.0.0-py3.10.egg-info\n'}
+[0.700657] (movement_info_msgs) StdoutLine: {'line': b'-- Installing: /home/kargla/robot_movement/install/movement_info_msgs/local/lib/python3.10/dist-packages/movement_info_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.700763] (movement_info_msgs) StdoutLine: {'line': b'-- Installing: /home/kargla/robot_movement/install/movement_info_msgs/local/lib/python3.10/dist-packages/movement_info_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.700868] (movement_info_msgs) StdoutLine: {'line': b'-- Installing: /home/kargla/robot_movement/install/movement_info_msgs/local/lib/python3.10/dist-packages/movement_info_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.703765] (movement_info_msgs) StdoutLine: {'line': b'-- Installing: /home/kargla/robot_movement/install/movement_info_msgs/local/lib/python3.10/dist-packages/movement_info_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.704123] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/local/lib/python3.10/dist-packages/movement_info_msgs\n'}
+[0.704238] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/local/lib/python3.10/dist-packages/movement_info_msgs/movement_info_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.704347] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/local/lib/python3.10/dist-packages/movement_info_msgs/msg\n'}
+[0.704479] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/local/lib/python3.10/dist-packages/movement_info_msgs/msg/_movement_info_s.c\n'}
+[0.704593] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/local/lib/python3.10/dist-packages/movement_info_msgs/msg/_movement_info.py\n'}
+[0.704697] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/local/lib/python3.10/dist-packages/movement_info_msgs/msg/__init__.py\n'}
+[0.704800] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/local/lib/python3.10/dist-packages/movement_info_msgs/__init__.py\n'}
+[0.704904] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/local/lib/python3.10/dist-packages/movement_info_msgs/movement_info_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.705010] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/local/lib/python3.10/dist-packages/movement_info_msgs/_movement_info_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.705145] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/local/lib/python3.10/dist-packages/movement_info_msgs/_movement_info_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.705250] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/local/lib/python3.10/dist-packages/movement_info_msgs/movement_info_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.705356] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/local/lib/python3.10/dist-packages/movement_info_msgs/libmovement_info_msgs__rosidl_generator_py.so\n'}
+[0.705489] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/local/lib/python3.10/dist-packages/movement_info_msgs/_movement_info_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[0.706470] (-) TimerEvent: {}
+[0.756872] (movement_info_msgs) StdoutLine: {'line': b"Listing '/home/kargla/robot_movement/install/movement_info_msgs/local/lib/python3.10/dist-packages/movement_info_msgs'...\n"}
+[0.757275] (movement_info_msgs) StdoutLine: {'line': b"Listing '/home/kargla/robot_movement/install/movement_info_msgs/local/lib/python3.10/dist-packages/movement_info_msgs/msg'...\n"}
+[0.764793] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/local/lib/python3.10/dist-packages/movement_info_msgs/movement_info_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.765707] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/local/lib/python3.10/dist-packages/movement_info_msgs/movement_info_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.766645] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/local/lib/python3.10/dist-packages/movement_info_msgs/movement_info_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.767146] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/lib/libmovement_info_msgs__rosidl_generator_py.so\n'}
+[0.767373] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/share/movement_info_msgs/msg/MovementInfo.idl\n'}
+[0.767535] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/share/movement_info_msgs/msg/MovementInfo.msg\n'}
+[0.767669] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/share/ament_index/resource_index/package_run_dependencies/movement_info_msgs\n'}
+[0.767852] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/share/ament_index/resource_index/parent_prefix_path/movement_info_msgs\n'}
+[0.768006] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/share/movement_info_msgs/environment/ament_prefix_path.sh\n'}
+[0.768151] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/share/movement_info_msgs/environment/ament_prefix_path.dsv\n'}
+[0.768250] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/share/movement_info_msgs/environment/path.sh\n'}
+[0.768359] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/share/movement_info_msgs/environment/path.dsv\n'}
+[0.768480] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/share/movement_info_msgs/local_setup.bash\n'}
+[0.768575] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/share/movement_info_msgs/local_setup.sh\n'}
+[0.768675] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/share/movement_info_msgs/local_setup.zsh\n'}
+[0.772706] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/share/movement_info_msgs/local_setup.dsv\n'}
+[0.772964] (movement_info_msgs) StdoutLine: {'line': b'-- Installing: /home/kargla/robot_movement/install/movement_info_msgs/share/movement_info_msgs/package.dsv\n'}
+[0.773067] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/share/ament_index/resource_index/packages/movement_info_msgs\n'}
+[0.773175] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/share/movement_info_msgs/cmake/export_movement_info_msgs__rosidl_generator_cExport.cmake\n'}
+[0.773277] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/share/movement_info_msgs/cmake/export_movement_info_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.773412] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/share/movement_info_msgs/cmake/export_movement_info_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.773538] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/share/movement_info_msgs/cmake/export_movement_info_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.773651] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/share/movement_info_msgs/cmake/movement_info_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.773757] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/share/movement_info_msgs/cmake/movement_info_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.773860] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/share/movement_info_msgs/cmake/movement_info_msgs__rosidl_typesupport_cExport.cmake\n'}
+[0.773967] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/share/movement_info_msgs/cmake/movement_info_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.774069] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/share/movement_info_msgs/cmake/export_movement_info_msgs__rosidl_generator_cppExport.cmake\n'}
+[0.774169] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/share/movement_info_msgs/cmake/export_movement_info_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.774271] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/share/movement_info_msgs/cmake/export_movement_info_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.774376] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/share/movement_info_msgs/cmake/movement_info_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.774512] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/share/movement_info_msgs/cmake/movement_info_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.774644] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/share/movement_info_msgs/cmake/movement_info_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[0.774749] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/share/movement_info_msgs/cmake/movement_info_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.774863] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/share/movement_info_msgs/cmake/export_movement_info_msgs__rosidl_generator_pyExport.cmake\n'}
+[0.774971] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/share/movement_info_msgs/cmake/export_movement_info_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.775085] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/share/movement_info_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[0.775198] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/share/movement_info_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.775315] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/share/movement_info_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.775739] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/share/movement_info_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.775860] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/share/movement_info_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.775963] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/share/movement_info_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.776064] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/share/movement_info_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.776170] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/share/movement_info_msgs/cmake/movement_info_msgsConfig.cmake\n'}
+[0.776274] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/share/movement_info_msgs/cmake/movement_info_msgsConfig-version.cmake\n'}
+[0.776376] (movement_info_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info_msgs/share/movement_info_msgs/package.xml\n'}
+[0.781511] (movement_info_msgs) CommandEnded: {'returncode': 0}
+[0.806873] (-) TimerEvent: {}
+[0.823298] (movement_info_msgs) JobEnded: {'identifier': 'movement_info_msgs', 'rc': 0}
+[0.907042] (-) TimerEvent: {}
+[1.010692] (-) TimerEvent: {}
+[1.111262] (-) TimerEvent: {}
+[1.211821] (-) TimerEvent: {}
+[1.315535] (-) TimerEvent: {}
+[1.416047] (-) TimerEvent: {}
+[1.516535] (-) TimerEvent: {}
+[1.616977] (-) TimerEvent: {}
+[1.717469] (-) TimerEvent: {}
+[1.817940] (-) TimerEvent: {}
+[1.918564] (-) TimerEvent: {}
+[2.018985] (-) TimerEvent: {}
+[2.119464] (-) TimerEvent: {}
+[2.221382] (-) TimerEvent: {}
+[2.322336] (-) TimerEvent: {}
+[2.422854] (-) TimerEvent: {}
+[2.523342] (-) TimerEvent: {}
+[2.623900] (-) TimerEvent: {}
+[2.727536] (-) TimerEvent: {}
+[2.828042] (-) TimerEvent: {}
+[2.928495] (-) TimerEvent: {}
+[3.028943] (-) TimerEvent: {}
+[3.129444] (-) TimerEvent: {}
+[3.229883] (-) TimerEvent: {}
+[3.331612] (-) TimerEvent: {}
+[3.432196] (-) TimerEvent: {}
+[3.534297] (movement_info) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[3.534661] (-) TimerEvent: {}
+[3.534853] (movement_info) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[3.534983] (movement_info) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[3.535071] (movement_info) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[3.535161] (movement_info) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.535234] (movement_info) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.535353] (movement_info) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.535503] (movement_info) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.535622] (movement_info) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.535742] (movement_info) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.535869] (movement_info) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.536022] (movement_info) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1\x1b[m\x1b[K:\n'}
+[3.536116] (movement_info) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Movement::odometry_callback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.536235] (movement_info) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:45:41:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%s\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.536345] (movement_info) StderrLine: {'line': b'   45 |         RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"Received: \'%s\'"\x1b[m\x1b[K, \x1b[32m\x1b[Kstd::to_string(x)\x1b[m\x1b[K);\n'}
+[3.536504] (movement_info) StderrLine: {'line': b'      |                                         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K  \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.536602] (movement_info) StderrLine: {'line': b'      |                                                                         \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[3.536698] (movement_info) StderrLine: {'line': b'      |                                                                         \x1b[32m\x1b[Kstd::string {aka std::__cxx11::basic_string<char>}\x1b[m\x1b[K\n'}
+[3.536794] (movement_info) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:45:54:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[3.536890] (movement_info) StderrLine: {'line': b'   45 |         RCLCPP_INFO(this->get_logger(), "Received: \'\x1b[01;36m\x1b[K%s\x1b[m\x1b[K\'", std::to_string(x));\n'}
+[3.536983] (movement_info) StderrLine: {'line': b'      |                                                     \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[3.537078] (movement_info) StderrLine: {'line': b'      |                                                      \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[3.537170] (movement_info) StderrLine: {'line': b'      |                                                      \x1b[01;36m\x1b[Kchar*\x1b[m\x1b[K\n'}
+[3.537262] (movement_info) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[3.537354] (movement_info) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[3.537483] (movement_info) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[3.537580] (movement_info) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[3.537673] (movement_info) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.537767] (movement_info) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.537861] (movement_info) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.537956] (movement_info) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.538079] (movement_info) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.538176] (movement_info) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.538271] (movement_info) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.538366] (movement_info) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1\x1b[m\x1b[K:\n'}
+[3.538487] (movement_info) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:46:41:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%s\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.538608] (movement_info) StderrLine: {'line': b'   46 |         RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"Received: \'%s\'"\x1b[m\x1b[K, \x1b[32m\x1b[Kstd::to_string(y)\x1b[m\x1b[K);\n'}
+[3.538706] (movement_info) StderrLine: {'line': b'      |                                         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K  \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.538801] (movement_info) StderrLine: {'line': b'      |                                                                         \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[3.538896] (movement_info) StderrLine: {'line': b'      |                                                                         \x1b[32m\x1b[Kstd::string {aka std::__cxx11::basic_string<char>}\x1b[m\x1b[K\n'}
+[3.538992] (movement_info) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:46:54:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[3.539087] (movement_info) StderrLine: {'line': b'   46 |         RCLCPP_INFO(this->get_logger(), "Received: \'\x1b[01;36m\x1b[K%s\x1b[m\x1b[K\'", std::to_string(y));\n'}
+[3.539182] (movement_info) StderrLine: {'line': b'      |                                                     \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[3.539277] (movement_info) StderrLine: {'line': b'      |                                                      \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[3.539371] (movement_info) StderrLine: {'line': b'      |                                                      \x1b[01;36m\x1b[Kchar*\x1b[m\x1b[K\n'}
+[3.634849] (-) TimerEvent: {}
+[3.735565] (-) TimerEvent: {}
+[3.836059] (-) TimerEvent: {}
+[3.936633] (-) TimerEvent: {}
+[4.038485] (-) TimerEvent: {}
+[4.138925] (-) TimerEvent: {}
+[4.239591] (-) TimerEvent: {}
+[4.340043] (-) TimerEvent: {}
+[4.440511] (-) TimerEvent: {}
+[4.540992] (-) TimerEvent: {}
+[4.641508] (-) TimerEvent: {}
+[4.742022] (-) TimerEvent: {}
+[4.842590] (-) TimerEvent: {}
+[4.943073] (-) TimerEvent: {}
+[5.043530] (-) TimerEvent: {}
+[5.143998] (-) TimerEvent: {}
+[5.244481] (-) TimerEvent: {}
+[5.344958] (-) TimerEvent: {}
+[5.445457] (-) TimerEvent: {}
+[5.545903] (-) TimerEvent: {}
+[5.646355] (-) TimerEvent: {}
+[5.746846] (-) TimerEvent: {}
+[5.847314] (-) TimerEvent: {}
+[5.947832] (-) TimerEvent: {}
+[6.048324] (-) TimerEvent: {}
+[6.148857] (-) TimerEvent: {}
+[6.249328] (-) TimerEvent: {}
+[6.349824] (-) TimerEvent: {}
+[6.450289] (-) TimerEvent: {}
+[6.550782] (-) TimerEvent: {}
+[6.651312] (-) TimerEvent: {}
+[6.751810] (-) TimerEvent: {}
+[6.852289] (-) TimerEvent: {}
+[6.952761] (-) TimerEvent: {}
+[7.053194] (-) TimerEvent: {}
+[7.153703] (-) TimerEvent: {}
+[7.254202] (-) TimerEvent: {}
+[7.354711] (-) TimerEvent: {}
+[7.455197] (-) TimerEvent: {}
+[7.555811] (-) TimerEvent: {}
+[7.656269] (-) TimerEvent: {}
+[7.756799] (-) TimerEvent: {}
+[7.857269] (-) TimerEvent: {}
+[7.957741] (-) TimerEvent: {}
+[8.058187] (-) TimerEvent: {}
+[8.158663] (-) TimerEvent: {}
+[8.259117] (-) TimerEvent: {}
+[8.359548] (-) TimerEvent: {}
+[8.459922] (-) TimerEvent: {}
+[8.560381] (-) TimerEvent: {}
+[8.660830] (-) TimerEvent: {}
+[8.761301] (-) TimerEvent: {}
+[8.861782] (-) TimerEvent: {}
+[8.962240] (-) TimerEvent: {}
+[9.062728] (-) TimerEvent: {}
+[9.163176] (-) TimerEvent: {}
+[9.263649] (-) TimerEvent: {}
+[9.364106] (-) TimerEvent: {}
+[9.464526] (-) TimerEvent: {}
+[9.564977] (-) TimerEvent: {}
+[9.665461] (-) TimerEvent: {}
+[9.765927] (-) TimerEvent: {}
+[9.866404] (-) TimerEvent: {}
+[9.966867] (-) TimerEvent: {}
+[10.067329] (-) TimerEvent: {}
+[10.167826] (-) TimerEvent: {}
+[10.268291] (-) TimerEvent: {}
+[10.368781] (-) TimerEvent: {}
+[10.469246] (-) TimerEvent: {}
+[10.569735] (-) TimerEvent: {}
+[10.670224] (-) TimerEvent: {}
+[10.770721] (-) TimerEvent: {}
+[10.871193] (-) TimerEvent: {}
+[10.971904] (-) TimerEvent: {}
+[11.072375] (-) TimerEvent: {}
+[11.172872] (-) TimerEvent: {}
+[11.273338] (-) TimerEvent: {}
+[11.373838] (-) TimerEvent: {}
+[11.474253] (-) TimerEvent: {}
+[11.574809] (-) TimerEvent: {}
+[11.675318] (-) TimerEvent: {}
+[11.775861] (-) TimerEvent: {}
+[11.806237] (movement_info) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable movement\x1b[0m\n'}
+[11.876013] (-) TimerEvent: {}
+[11.976516] (-) TimerEvent: {}
+[12.077034] (-) TimerEvent: {}
+[12.177648] (-) TimerEvent: {}
+[12.278534] (-) TimerEvent: {}
+[12.381546] (-) TimerEvent: {}
+[12.482008] (-) TimerEvent: {}
+[12.582550] (-) TimerEvent: {}
+[12.683050] (-) TimerEvent: {}
+[12.783571] (-) TimerEvent: {}
+[12.805994] (movement_info) StdoutLine: {'line': b'[100%] Built target movement\n'}
+[12.824977] (movement_info) CommandEnded: {'returncode': 0}
+[12.826029] (movement_info) JobProgress: {'identifier': 'movement_info', 'progress': 'install'}
+[12.826551] (movement_info) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kargla/robot_movement/build/movement_info'], 'cwd': '/home/kargla/robot_movement/build/movement_info', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kargla'), ('LC_TIME', 'pl_PL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kargla/robot_movement/install/movement_info_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kargla'), ('OLDPWD', '/home/kargla'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pl_PL.UTF-8'), ('SYSTEMD_EXEC_PID', '3185'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kargla/robot_movement/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kargla'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kargla'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/kargla/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kargla-ideapad:@/tmp/.ICE-unix/3144,unix/kargla-ideapad:/tmp/.ICE-unix/3144'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pl_PL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e4a82e57_471b_4589_bb52_5aa70aa7dec9'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pl_PL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GYPCZ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.300'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kargla/robot_movement/install/movement_info_msgs:/home/kargla/robot_movement/install/movement_info:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pl_PL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pl_PL.UTF-8'), ('LC_IDENTIFICATION', 'pl_PL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kargla/robot_movement/build/movement_info'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kargla/robot_movement/install/movement_info_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pl_PL.UTF-8'), ('LC_PAPER', 'pl_PL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kargla/robot_movement/install/movement_info_msgs:/home/kargla/robot_movement/install/movement_info:/opt/ros/humble')]), 'shell': False}
+[12.839753] (movement_info) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.840199] (movement_info) StdoutLine: {'line': b'-- Installing: /home/kargla/robot_movement/install/movement_info/lib/movement_info/movement\n'}
+[12.858930] (movement_info) StdoutLine: {'line': b'-- Set runtime path of "/home/kargla/robot_movement/install/movement_info/lib/movement_info/movement" to ""\n'}
+[12.859712] (movement_info) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/ament_index/resource_index/package_run_dependencies/movement_info\n'}
+[12.859862] (movement_info) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/ament_index/resource_index/parent_prefix_path/movement_info\n'}
+[12.859970] (movement_info) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/movement_info/environment/ament_prefix_path.sh\n'}
+[12.860073] (movement_info) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/movement_info/environment/ament_prefix_path.dsv\n'}
+[12.860178] (movement_info) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/movement_info/environment/path.sh\n'}
+[12.860280] (movement_info) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/movement_info/environment/path.dsv\n'}
+[12.860379] (movement_info) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/movement_info/local_setup.bash\n'}
+[12.861698] (movement_info) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/movement_info/local_setup.sh\n'}
+[12.861888] (movement_info) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/movement_info/local_setup.zsh\n'}
+[12.861996] (movement_info) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/movement_info/local_setup.dsv\n'}
+[12.862185] (movement_info) StdoutLine: {'line': b'-- Installing: /home/kargla/robot_movement/install/movement_info/share/movement_info/package.dsv\n'}
+[12.862312] (movement_info) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/ament_index/resource_index/packages/movement_info\n'}
+[12.862443] (movement_info) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/movement_info/cmake/movement_infoConfig.cmake\n'}
+[12.862551] (movement_info) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/movement_info/cmake/movement_infoConfig-version.cmake\n'}
+[12.862653] (movement_info) StdoutLine: {'line': b'-- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/movement_info/package.xml\n'}
+[12.862758] (movement_info) CommandEnded: {'returncode': 0}
+[12.876668] (movement_info) JobEnded: {'identifier': 'movement_info', 'rc': 0}
+[12.877449] (-) EventReactorShutdown: {}

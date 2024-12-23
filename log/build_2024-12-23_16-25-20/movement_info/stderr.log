@@ -1,0 +1,7 @@
+[01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:[m[K In member function ‘[01m[Kvoid Movement::odometry_callback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:45:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _pose_type = struct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kangular[m[K’
+   45 |         float z = msg->pose.pose.[01;31m[Kangular[m[K.z;
+      |                                  [01;31m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/movement.dir/build.make:76: CMakeFiles/movement.dir/src/movement.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/movement.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

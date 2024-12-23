@@ -1,0 +1,46 @@
+[0.015s] Invoking command in '/home/kargla/robot_movement/build/movement_info': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kargla/robot_movement/build/movement_info -- -j12 -l12
+[0.080s] [35m[1mConsolidate compiler generated dependencies of target movement[0m
+[0.118s] [ 50%] [32mBuilding CXX object CMakeFiles/movement.dir/src/movement.cpp.o[0m
+[3.504s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.504s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.504s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.504s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.504s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.504s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.504s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.504s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.504s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.504s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.504s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.505s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1[m[K:
+[3.505s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:[m[K In member function ‘[01m[Kvoid Movement::odometry_callback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.505s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:35:41:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+[3.505s]    35 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"Odometry callback"[m[K, msg->pose.pose.orientation.z);
+[3.505s]       |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.508s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:[m[K In member function ‘[01m[Kvoid Movement::velocity_callback(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.508s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:48:41:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+[3.508s]    48 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"Velocity callback"[m[K, msg->angular.z);
+[3.508s]       |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[11.625s] [100%] [32m[1mLinking CXX executable movement[0m
+[12.574s] [100%] Built target movement
+[12.592s] Invoked command in '/home/kargla/robot_movement/build/movement_info' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kargla/robot_movement/build/movement_info -- -j12 -l12
+[12.594s] Invoking command in '/home/kargla/robot_movement/build/movement_info': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kargla/robot_movement/build/movement_info
+[12.603s] -- Install configuration: ""
+[12.604s] -- Installing: /home/kargla/robot_movement/install/movement_info/lib/movement_info/movement
+[12.614s] -- Set runtime path of "/home/kargla/robot_movement/install/movement_info/lib/movement_info/movement" to ""
+[12.614s] -- Installing: /home/kargla/robot_movement/install/movement_info/share/ament_index/resource_index/package_run_dependencies/movement_info
+[12.615s] -- Installing: /home/kargla/robot_movement/install/movement_info/share/ament_index/resource_index/parent_prefix_path/movement_info
+[12.615s] -- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/movement_info/environment/ament_prefix_path.sh
+[12.615s] -- Installing: /home/kargla/robot_movement/install/movement_info/share/movement_info/environment/ament_prefix_path.dsv
+[12.615s] -- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/movement_info/environment/path.sh
+[12.615s] -- Installing: /home/kargla/robot_movement/install/movement_info/share/movement_info/environment/path.dsv
+[12.615s] -- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/movement_info/local_setup.bash
+[12.615s] -- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/movement_info/local_setup.sh
+[12.615s] -- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/movement_info/local_setup.zsh
+[12.615s] -- Installing: /home/kargla/robot_movement/install/movement_info/share/movement_info/local_setup.dsv
+[12.615s] -- Installing: /home/kargla/robot_movement/install/movement_info/share/movement_info/package.dsv
+[12.616s] -- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/ament_index/resource_index/packages/movement_info
+[12.616s] -- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/movement_info/cmake/movement_infoConfig.cmake
+[12.616s] -- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/movement_info/cmake/movement_infoConfig-version.cmake
+[12.616s] -- Installing: /home/kargla/robot_movement/install/movement_info/share/movement_info/package.xml
+[12.618s] Invoked command in '/home/kargla/robot_movement/build/movement_info' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kargla/robot_movement/build/movement_info

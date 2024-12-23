@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target movement[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/movement.dir/src/movement.cpp.o[0m
+[100%] [32m[1mLinking CXX executable movement[0m
+[100%] Built target movement
+-- Install configuration: ""
+-- Installing: /home/kargla/robot_movement/install/movement_info/lib/movement_info/movement
+-- Set runtime path of "/home/kargla/robot_movement/install/movement_info/lib/movement_info/movement" to ""
+-- Installing: /home/kargla/robot_movement/install/movement_info/share/ament_index/resource_index/package_run_dependencies/movement_info
+-- Installing: /home/kargla/robot_movement/install/movement_info/share/ament_index/resource_index/parent_prefix_path/movement_info
+-- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/movement_info/environment/ament_prefix_path.sh
+-- Installing: /home/kargla/robot_movement/install/movement_info/share/movement_info/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/movement_info/environment/path.sh
+-- Installing: /home/kargla/robot_movement/install/movement_info/share/movement_info/environment/path.dsv
+-- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/movement_info/local_setup.bash
+-- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/movement_info/local_setup.sh
+-- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/movement_info/local_setup.zsh
+-- Installing: /home/kargla/robot_movement/install/movement_info/share/movement_info/local_setup.dsv
+-- Installing: /home/kargla/robot_movement/install/movement_info/share/movement_info/package.dsv
+-- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/ament_index/resource_index/packages/movement_info
+-- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/movement_info/cmake/movement_infoConfig.cmake
+-- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/movement_info/cmake/movement_infoConfig-version.cmake
+-- Installing: /home/kargla/robot_movement/install/movement_info/share/movement_info/package.xml

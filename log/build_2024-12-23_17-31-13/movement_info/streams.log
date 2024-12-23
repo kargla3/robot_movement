@@ -1,0 +1,26 @@
+[0.015s] Invoking command in '/home/kargla/robot_movement/build/movement_info': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kargla/robot_movement/build/movement_info -- -j12 -l12
+[0.068s] [35m[1mConsolidate compiler generated dependencies of target movement[0m
+[0.096s] [ 50%] [32mBuilding CXX object CMakeFiles/movement.dir/src/movement.cpp.o[0m
+[10.710s] [100%] [32m[1mLinking CXX executable movement[0m
+[11.553s] [100%] Built target movement
+[11.573s] Invoked command in '/home/kargla/robot_movement/build/movement_info' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kargla/robot_movement/build/movement_info -- -j12 -l12
+[11.575s] Invoking command in '/home/kargla/robot_movement/build/movement_info': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kargla/robot_movement/build/movement_info
+[11.582s] -- Install configuration: ""
+[11.582s] -- Installing: /home/kargla/robot_movement/install/movement_info/lib/movement_info/movement
+[11.591s] -- Set runtime path of "/home/kargla/robot_movement/install/movement_info/lib/movement_info/movement" to ""
+[11.591s] -- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/ament_index/resource_index/package_run_dependencies/movement_info
+[11.591s] -- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/ament_index/resource_index/parent_prefix_path/movement_info
+[11.591s] -- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/movement_info/environment/ament_prefix_path.sh
+[11.591s] -- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/movement_info/environment/ament_prefix_path.dsv
+[11.591s] -- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/movement_info/environment/path.sh
+[11.591s] -- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/movement_info/environment/path.dsv
+[11.592s] -- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/movement_info/local_setup.bash
+[11.592s] -- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/movement_info/local_setup.sh
+[11.592s] -- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/movement_info/local_setup.zsh
+[11.592s] -- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/movement_info/local_setup.dsv
+[11.592s] -- Installing: /home/kargla/robot_movement/install/movement_info/share/movement_info/package.dsv
+[11.592s] -- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/ament_index/resource_index/packages/movement_info
+[11.592s] -- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/movement_info/cmake/movement_infoConfig.cmake
+[11.592s] -- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/movement_info/cmake/movement_infoConfig-version.cmake
+[11.592s] -- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/movement_info/package.xml
+[11.595s] Invoked command in '/home/kargla/robot_movement/build/movement_info' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kargla/robot_movement/build/movement_info

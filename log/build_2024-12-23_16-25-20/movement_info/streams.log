@@ -1,0 +1,11 @@
+[0.019s] Invoking command in '/home/kargla/robot_movement/build/movement_info': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kargla/robot_movement/build/movement_info -- -j12 -l12
+[0.077s] [35m[1mConsolidate compiler generated dependencies of target movement[0m
+[0.102s] [ 50%] [32mBuilding CXX object CMakeFiles/movement.dir/src/movement.cpp.o[0m
+[2.927s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:[m[K In member function ‘[01m[Kvoid Movement::odometry_callback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.927s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:45:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _pose_type = struct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kangular[m[K’
+[2.927s]    45 |         float z = msg->pose.pose.[01;31m[Kangular[m[K.z;
+[2.927s]       |                                  [01;31m[K^~~~~~~[m[K
+[5.951s] gmake[2]: *** [CMakeFiles/movement.dir/build.make:76: CMakeFiles/movement.dir/src/movement.cpp.o] Error 1
+[5.952s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/movement.dir/all] Error 2
+[5.953s] gmake: *** [Makefile:146: all] Error 2
+[5.956s] Invoked command in '/home/kargla/robot_movement/build/movement_info' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kargla/robot_movement/build/movement_info -- -j12 -l12

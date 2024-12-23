@@ -1,0 +1,126 @@
+[0.034s] Invoking command in '/home/kargla/robot_movement/build/movement_info': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kargla/robot_movement/build/movement_info -- -j12 -l12
+[0.106s] [35m[1mConsolidate compiler generated dependencies of target movement[0m
+[0.148s] [ 50%] [32mBuilding CXX object CMakeFiles/movement.dir/src/movement.cpp.o[0m
+[3.647s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:19:26:[m[K [01;31m[Kerror: [m[K‘[01m[Knav_msgs[m[K’ was not declared in this scope
+[3.647s]    19 |     rclcpp::Subscription<[01;31m[Knav_msgs[m[K::msg::Odometry>::SharedPtr odom_subscriber;
+[3.647s]       |                          [01;31m[K^~~~~~~~[m[K
+[3.647s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:19:49:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.647s]    19 |     rclcpp::Subscription<nav_msgs::msg::Odometry[01;31m[K>[m[K::SharedPtr odom_subscriber;
+[3.647s]       |                                                 [01;31m[K^[m[K
+[3.647s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:19:49:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[3.647s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:19:49:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[3.647s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:19:49:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[3.647s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:19:52:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[3.647s]    19 |     rclcpp::Subscription<nav_msgs::msg::Odometry>::[01;31m[KSharedPtr[m[K odom_subscriber;
+[3.647s]       |                                                    [01;31m[K^~~~~~~~~[m[K
+[3.648s]       |                                                             [32m[K;[m[K
+[3.650s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:19:62:[m[K [01;31m[Kerror: [m[K‘[01m[Kodom_subscriber[m[K’ does not name a type
+[3.650s]    19 |     rclcpp::Subscription<nav_msgs::msg::Odometry>::SharedPtr [01;31m[Kodom_subscriber[m[K;
+[3.650s]       |                                                              [01;31m[K^~~~~~~~~~~~~~~[m[K
+[3.659s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:20:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs[m[K’ was not declared in this scope
+[3.660s]    20 |     rclcpp::Subscription<[01;31m[Kgeometry_msgs[m[K::msg::Twist>::SharedPtr vel_subscriber;
+[3.660s]       |                          [01;31m[K^~~~~~~~~~~~~[m[K
+[3.660s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:20:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.660s]    20 |     rclcpp::Subscription<geometry_msgs::msg::Twist[01;31m[K>[m[K::SharedPtr vel_subscriber;
+[3.661s]       |                                                   [01;31m[K^[m[K
+[3.661s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:20:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[3.661s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:20:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[3.661s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:20:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[3.661s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:20:54:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[3.661s]    20 |     rclcpp::Subscription<geometry_msgs::msg::Twist>::[01;31m[KSharedPtr[m[K vel_subscriber;
+[3.661s]       |                                                      [01;31m[K^~~~~~~~~[m[K
+[3.661s]       |                                                               [32m[K;[m[K
+[3.662s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:20:54:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint Movement::SharedPtr[m[K’
+[3.662s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:19:52:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint Movement::SharedPtr[m[K’
+[3.662s]    19 |     rclcpp::Subscription<nav_msgs::msg::Odometry>::[01;36m[KSharedPtr[m[K odom_subscriber;
+[3.662s]       |                                                    [01;36m[K^~~~~~~~~[m[K
+[3.664s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:20:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kvel_subscriber[m[K’ does not name a type
+[3.664s]    20 |     rclcpp::Subscription<geometry_msgs::msg::Twist>::SharedPtr [01;31m[Kvel_subscriber[m[K;
+[3.664s]       |                                                                [01;31m[K^~~~~~~~~~~~~~[m[K
+[3.666s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:31:34:[m[K [01;31m[Kerror: [m[K‘[01m[Knav_msgs[m[K’ does not name a type
+[3.667s]    31 |     void odometry_callback(const [01;31m[Knav_msgs[m[K::msg::Odometry::SharedPtr msg)
+[3.667s]       |                                  [01;31m[K^~~~~~~~[m[K
+[3.667s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:31:47:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+[3.667s]    31 |     void odometry_callback(const nav_msgs::msg[01;31m[K::[m[KOdometry::SharedPtr msg)
+[3.667s]       |                                               [01;31m[K^~[m[K
+[3.667s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:31:47:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+[3.667s]    31 |     void odometry_callback[34m[K([m[Kconst nav_msgs::msg[01;31m[K:[m[K[32m[K:[m[KOdometry::SharedPtr msg)
+[3.667s]       |                           [34m[K~[m[K                   [01;31m[K^[m[K[32m[K~[m[K
+[3.667s]       |                                               [32m[K)[m[K
+[3.668s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:31:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[3.668s]    31 |     void odometry_callback(const nav_msgs::[01;31m[Kmsg[m[K::Odometry::SharedPtr msg)
+[3.668s]       |                                            [01;31m[K^~~[m[K
+[3.668s]       |                                               [32m[K;[m[K
+[3.669s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:31:49:[m[K [01;31m[Kerror: [m[K‘[01m[KOdometry[m[K’ in namespace ‘[01m[K::[m[K’ does not name a type
+[3.669s]    31 |     void odometry_callback(const nav_msgs::msg::[01;31m[KOdometry[m[K::SharedPtr msg)
+[3.669s]       |                                                 [01;31m[K^~~~~~~~[m[K
+[3.672s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:44:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs[m[K’ does not name a type
+[3.672s]    44 |     void velocity_callback(const [01;31m[Kgeometry_msgs[m[K::msg::Twist::SharedPtr msg)
+[3.672s]       |                                  [01;31m[K^~~~~~~~~~~~~[m[K
+[3.672s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:44:52:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+[3.673s]    44 |     void velocity_callback(const geometry_msgs::msg[01;31m[K::[m[KTwist::SharedPtr msg)
+[3.673s]       |                                                    [01;31m[K^~[m[K
+[3.673s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:44:52:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+[3.673s]    44 |     void velocity_callback[34m[K([m[Kconst geometry_msgs::msg[01;31m[K:[m[K[32m[K:[m[KTwist::SharedPtr msg)
+[3.673s]       |                           [34m[K~[m[K                        [01;31m[K^[m[K[32m[K~[m[K
+[3.673s]       |                                                    [32m[K)[m[K
+[3.673s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:44:49:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[3.673s]    44 |     void velocity_callback(const geometry_msgs::[01;31m[Kmsg[m[K::Twist::SharedPtr msg)
+[3.673s]       |                                                 [01;31m[K^~~[m[K
+[3.673s]       |                                                    [32m[K;[m[K
+[3.675s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:44:54:[m[K [01;31m[Kerror: [m[K‘[01m[KTwist[m[K’ in namespace ‘[01m[K::[m[K’ does not name a type
+[3.675s]    44 |     void velocity_callback(const geometry_msgs::msg::[01;31m[KTwist[m[K::SharedPtr msg)
+[3.675s]       |                                                      [01;31m[K^~~~~[m[K
+[3.689s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:[m[K In constructor ‘[01m[KMovement::Movement()[m[K’:
+[3.689s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:10:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kodom_subscriber[m[K’ was not declared in this scope; did you mean ‘[01m[Kcount_subscribers[m[K’?
+[3.689s]    10 |         [01;31m[Kodom_subscriber[m[K = this->create_subscription<nav_msgs::msg::Odometry>("/ibp3/diff_drive/odom", 10, std::bind(&Movement::odometry_callback, this, std::placeholders::_1));
+[3.689s]       |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[3.689s]       |         [32m[Kcount_subscribers[m[K
+[3.699s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:10:53:[m[K [01;31m[Kerror: [m[K‘[01m[Knav_msgs[m[K’ was not declared in this scope
+[3.699s]    10 |         odom_subscriber = this->create_subscription<[01;31m[Knav_msgs[m[K::msg::Odometry>("/ibp3/diff_drive/odom", 10, std::bind(&Movement::odometry_callback, this, std::placeholders::_1));
+[3.699s]       |                                                     [01;31m[K^~~~~~~~[m[K
+[3.701s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:10:33:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[3.701s]    10 |         odom_subscriber = this->[01;31m[Kcreate_subscription<nav_msgs::msg::Odometry>[m[K("/ibp3/diff_drive/odom", 10, std::bind(&Movement::odometry_callback, this, std::placeholders::_1));
+[3.701s]       |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.704s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:10:77:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMovement::create_subscription<<expression error> >(const char [22], int, std::_Bind_helper<false, void (Movement::*)(...), Movement*, const std::_Placeholder<1>&>::type)[m[K’
+[3.704s]    10 |         odom_subscriber = [01;31m[Kthis->create_subscription<nav_msgs::msg::Odometry>("/ibp3/diff_drive/odom", 10, std::bind(&Movement::odometry_callback, this, std::placeholders::_1))[m[K;
+[3.705s]       |                           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.705s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.705s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[3.705s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.705s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1[m[K:
+[3.705s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+[3.705s]   219 |   [01;36m[Kcreate_subscription[m[K(
+[3.705s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.706s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.706s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:10:77:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.706s]    10 |         odom_subscriber = [01;31m[Kthis->create_subscription<nav_msgs::msg::Odometry>("/ibp3/diff_drive/odom", 10, std::bind(&Movement::odometry_callback, this, std::placeholders::_1))[m[K;
+[3.706s]       |                           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.714s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:11:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kvel_subscriber[m[K’ was not declared in this scope; did you mean ‘[01m[Kcount_subscribers[m[K’?
+[3.715s]    11 |         [01;31m[Kvel_subscriber[m[K = this->create_subscription<geometry_msgs::msg::Twist>("/ibp3/diff_drive/cmd_vel", 10, std::bind(&Movement::velocity_callback, this, std::placeholders::_1));
+[3.715s]       |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[3.715s]       |         [32m[Kcount_subscribers[m[K
+[3.728s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:11:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs[m[K’ was not declared in this scope
+[3.728s]    11 |         vel_subscriber = this->create_subscription<[01;31m[Kgeometry_msgs[m[K::msg::Twist>("/ibp3/diff_drive/cmd_vel", 10, std::bind(&Movement::velocity_callback, this, std::placeholders::_1));
+[3.728s]       |                                                    [01;31m[K^~~~~~~~~~~~~[m[K
+[3.728s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:11:32:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[3.728s]    11 |         vel_subscriber = this->[01;31m[Kcreate_subscription<geometry_msgs::msg::Twist>[m[K("/ibp3/diff_drive/cmd_vel", 10, std::bind(&Movement::velocity_callback, this, std::placeholders::_1));
+[3.728s]       |                                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.728s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:11:78:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMovement::create_subscription<<expression error> >(const char [25], int, std::_Bind_helper<false, void (Movement::*)(...), Movement*, const std::_Placeholder<1>&>::type)[m[K’
+[3.729s]    11 |         vel_subscriber = [01;31m[Kthis->create_subscription<geometry_msgs::msg::Twist>("/ibp3/diff_drive/cmd_vel", 10, std::bind(&Movement::velocity_callback, this, std::placeholders::_1))[m[K;
+[3.729s]       |                          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.729s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.729s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[3.729s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.729s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1[m[K:
+[3.729s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+[3.729s]   219 |   [01;36m[Kcreate_subscription[m[K(
+[3.729s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.729s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.729s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:11:78:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.730s]    11 |         vel_subscriber = [01;31m[Kthis->create_subscription<geometry_msgs::msg::Twist>("/ibp3/diff_drive/cmd_vel", 10, std::bind(&Movement::velocity_callback, this, std::placeholders::_1))[m[K;
+[3.730s]       |                          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.758s] gmake[2]: *** [CMakeFiles/movement.dir/build.make:76: CMakeFiles/movement.dir/src/movement.cpp.o] Error 1
+[4.759s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/movement.dir/all] Error 2
+[4.760s] gmake: *** [Makefile:146: all] Error 2
+[4.766s] Invoked command in '/home/kargla/robot_movement/build/movement_info' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kargla/robot_movement/build/movement_info -- -j12 -l12
