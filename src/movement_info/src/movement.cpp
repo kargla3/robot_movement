@@ -16,9 +16,15 @@ public:
         this->declare_parameter<std::string>("velocity_topic", "/diff_drive/cmd_vel");
 
         this->get_parameter("treshold", treshold);
+        this->get_parameter("movement_topic", movement_topic);
         this->get_parameter("odometry_topic", odometry_topic);  
         this->get_parameter("velocity_topic", velocity_topic);
-        this->get_parameter("movement_topic", movement_topic);
+
+        if(movement_topic.empty() || odometry_topic.empty() || velocity_topic.empty())
+        {
+            RCLCPP_ERROR(this->get_logger(), "One or more parameters are empty");
+            rclcpp::shutdown();
+        }
 
         RCLCPP_INFO(this->get_logger(), "Treshold: '%f'", treshold);
         RCLCPP_INFO(this->get_logger(), "Movement topic: '%s'", movement_topic.c_str());
@@ -28,8 +34,8 @@ public:
         publisher_ = this->create_publisher<movement_info_msgs::msg::MovementInfo>(movement_topic, 10);
         odom_subscriber = this->create_subscription<nav_msgs::msg::Odometry>(odometry_topic, 10, std::bind(&Movement::odometry_callback, this, std::placeholders::_1));
         vel_subscriber = this->create_subscription<geometry_msgs::msg::TwistStamped>(velocity_topic, 10, std::bind(&Movement::velocity_callback, this, std::placeholders::_1));
-        message_.heading = "straight";
-        message_.movement = "standstill";
+        message_.heading =  movement_info_msgs::msg::MovementInfo::STRAIGHT;
+        message_.movement = movement_info_msgs::msg::MovementInfo::STANDSTILL;
         timer_ = this->create_wall_timer(std::chrono::seconds(1), std::bind(&Movement::publish_movement_info, this));
     }
 
@@ -44,8 +50,8 @@ private:
 
     void publish_movement_info()
     {
-        RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", message_.movement.c_str());
-        RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", message_.heading.c_str());
+        //RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", message_.movement.c_str());
+        //RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", message_.heading.c_str());
         publisher_->publish(message_);
     }
 
@@ -57,7 +63,11 @@ private:
     // The message contains the position and orientation of the robot.
     void odometry_callback(const nav_msgs::msg::Odometry::SharedPtr msg)
     {
-        
+        if(message_.movement == movement_info_msgs::msg::MovementInfo::STANDSTILL)
+        {
+            RCLCPP_INFO(this->get_logger(), "Robot is standing still");
+        }
+        RCLCPP_INFO(this->get_logger(), "Angular z: '%f'", msg->twist.twist.angular.z);
     }
 
     // Callback function for the subscriber
@@ -69,15 +79,15 @@ private:
     {
         if (msg->twist.linear.x < treshold && msg->twist.linear.x > -treshold)
         {
-            message_.movement = "standstill";
+            message_.movement = movement_info_msgs::msg::MovementInfo::STANDSTILL;
         }
         else if (msg->twist.linear.x > treshold)
         {
-            message_.movement = "forward";
+            message_.movement = movement_info_msgs::msg::MovementInfo::FORWARD;
         }
         else if(msg->twist.linear.x < treshold)
         {
-            message_.movement = "backward";
+            message_.movement = movement_info_msgs::msg::MovementInfo::BACKWARD;
         }
     }
 };

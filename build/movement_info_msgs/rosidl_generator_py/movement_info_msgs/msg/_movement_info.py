@@ -20,6 +20,12 @@ class Metaclass_MovementInfo(type):
     _TYPE_SUPPORT = None
 
     __constants = {
+        'FORWARD': 'forward',
+        'BACKWARD': 'backward',
+        'STANDSTILL': 'standstill',
+        'LEFT': 'left',
+        'RIGHT': 'right',
+        'STRAIGHT': 'straight',
     }
 
     @classmethod
@@ -48,11 +54,57 @@ class Metaclass_MovementInfo(type):
         # the message class under "Data and other attributes defined here:"
         # as well as populate each message instance
         return {
+            'FORWARD': cls.__constants['FORWARD'],
+            'BACKWARD': cls.__constants['BACKWARD'],
+            'STANDSTILL': cls.__constants['STANDSTILL'],
+            'LEFT': cls.__constants['LEFT'],
+            'RIGHT': cls.__constants['RIGHT'],
+            'STRAIGHT': cls.__constants['STRAIGHT'],
         }
+
+    @property
+    def FORWARD(self):
+        """Message constant 'FORWARD'."""
+        return Metaclass_MovementInfo.__constants['FORWARD']
+
+    @property
+    def BACKWARD(self):
+        """Message constant 'BACKWARD'."""
+        return Metaclass_MovementInfo.__constants['BACKWARD']
+
+    @property
+    def STANDSTILL(self):
+        """Message constant 'STANDSTILL'."""
+        return Metaclass_MovementInfo.__constants['STANDSTILL']
+
+    @property
+    def LEFT(self):
+        """Message constant 'LEFT'."""
+        return Metaclass_MovementInfo.__constants['LEFT']
+
+    @property
+    def RIGHT(self):
+        """Message constant 'RIGHT'."""
+        return Metaclass_MovementInfo.__constants['RIGHT']
+
+    @property
+    def STRAIGHT(self):
+        """Message constant 'STRAIGHT'."""
+        return Metaclass_MovementInfo.__constants['STRAIGHT']
 
 
 class MovementInfo(metaclass=Metaclass_MovementInfo):
-    """Message class 'MovementInfo'."""
+    """
+    Message class 'MovementInfo'.
+
+    Constants:
+      FORWARD
+      BACKWARD
+      STANDSTILL
+      LEFT
+      RIGHT
+      STRAIGHT
+    """
 
     __slots__ = [
         '_movement',

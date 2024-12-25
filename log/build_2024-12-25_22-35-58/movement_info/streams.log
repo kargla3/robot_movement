@@ -1,0 +1,19 @@
+[0.019s] Invoking command in '/home/kargla/robot_movement/build/movement_info': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kargla/robot_movement/build/movement_info -- -j12 -l12
+[0.104s] [35m[1mConsolidate compiler generated dependencies of target movement[0m
+[0.151s] [ 50%] [32mBuilding CXX object CMakeFiles/movement.dir/src/movement.cpp.o[0m
+[3.996s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:[m[K In constructor ‘[01m[KMovement::Movement()[m[K’:
+[3.996s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:31:29:[m[K [01;31m[Kerror: [m[K‘[01m[KMovementInfo[m[K’ has not been declared
+[3.996s]    31 |         message_.heading =  [01;31m[KMovementInfo[m[K::STRAIGHT;
+[3.996s]       |                             [01;31m[K^~~~~~~~~~~~[m[K
+[3.996s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:32:29:[m[K [01;31m[Kerror: [m[K‘[01m[KMovementInfo[m[K’ has not been declared
+[3.996s]    32 |         message_.movement = [01;31m[KMovementInfo[m[K::STANDSTILL;
+[3.996s]       |                             [01;31m[K^~~~~~~~~~~~[m[K
+[4.012s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:[m[K In member function ‘[01m[Kvoid Movement::odometry_callback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[4.012s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:58:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.012s]    58 |    void odometry_callback([01;35m[Kconst nav_msgs::msg::Odometry::SharedPtr msg[m[K)
+[4.012s]       |                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[4.013s] 
+[7.916s] gmake[2]: *** [CMakeFiles/movement.dir/build.make:76: CMakeFiles/movement.dir/src/movement.cpp.o] Error 1
+[7.916s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/movement.dir/all] Error 2
+[7.917s] gmake: *** [Makefile:146: all] Error 2
+[7.921s] Invoked command in '/home/kargla/robot_movement/build/movement_info' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kargla/robot_movement/build/movement_info -- -j12 -l12

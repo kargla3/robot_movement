@@ -5,6 +5,18 @@
 
 module movement_info_msgs {
   module msg {
+    module MovementInfo_Constants {
+      const string FORWARD = "forward";
+      const string BACKWARD = "backward";
+      const string STANDSTILL = "standstill";
+      @verbatim (language="comment", text=
+        "enums for movement heading")
+      const string LEFT = "left";
+      const string RIGHT = "right";
+      const string STRAIGHT = "straight";
+    };
+    @verbatim (language="comment", text=
+      "enums for movement direction")
     struct MovementInfo {
       @verbatim (language="comment", text=
         "defines movement direction: FORWARD, BACKWARD, STANDSTILL")

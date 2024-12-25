@@ -78,6 +78,12 @@ struct MovementInfo_
   }
 
   // constant declarations
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> FORWARD;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> BACKWARD;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> STANDSTILL;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> LEFT;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> RIGHT;
+  static const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> STRAIGHT;
 
   // pointer types
   using RawPtr =
@@ -138,6 +144,24 @@ using MovementInfo =
   movement_info_msgs::msg::MovementInfo_<std::allocator<void>>;
 
 // constant definitions
+template<typename ContainerAllocator>
+const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
+MovementInfo_<ContainerAllocator>::FORWARD = "forward";
+template<typename ContainerAllocator>
+const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
+MovementInfo_<ContainerAllocator>::BACKWARD = "backward";
+template<typename ContainerAllocator>
+const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
+MovementInfo_<ContainerAllocator>::STANDSTILL = "standstill";
+template<typename ContainerAllocator>
+const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
+MovementInfo_<ContainerAllocator>::LEFT = "left";
+template<typename ContainerAllocator>
+const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
+MovementInfo_<ContainerAllocator>::RIGHT = "right";
+template<typename ContainerAllocator>
+const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>
+MovementInfo_<ContainerAllocator>::STRAIGHT = "straight";
 
 }  // namespace msg
 

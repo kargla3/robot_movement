@@ -17,12 +17,36 @@ extern "C"
 
 // Constants defined in the message
 
+/// Constant 'FORWARD'.
+static const char * const movement_info_msgs__msg__MovementInfo__FORWARD = "forward";
+
+/// Constant 'BACKWARD'.
+static const char * const movement_info_msgs__msg__MovementInfo__BACKWARD = "backward";
+
+/// Constant 'STANDSTILL'.
+static const char * const movement_info_msgs__msg__MovementInfo__STANDSTILL = "standstill";
+
+/// Constant 'LEFT'.
+/**
+  * enums for movement heading
+ */
+static const char * const movement_info_msgs__msg__MovementInfo__LEFT = "left";
+
+/// Constant 'RIGHT'.
+static const char * const movement_info_msgs__msg__MovementInfo__RIGHT = "right";
+
+/// Constant 'STRAIGHT'.
+static const char * const movement_info_msgs__msg__MovementInfo__STRAIGHT = "straight";
+
 // Include directives for member types
 // Member 'movement'
 // Member 'heading'
 #include "rosidl_runtime_c/string.h"
 
 /// Struct defined in msg/MovementInfo in the package movement_info_msgs.
+/**
+  * enums for movement direction
+ */
 typedef struct movement_info_msgs__msg__MovementInfo
 {
   /// defines movement direction: FORWARD, BACKWARD, STANDSTILL
