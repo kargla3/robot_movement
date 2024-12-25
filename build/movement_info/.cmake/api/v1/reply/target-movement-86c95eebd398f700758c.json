@@ -99,11 +99,6 @@
 				{
 					"backtrace" : 6,
 					"isSystem" : true,
-					"path" : "/home/kargla/robot_movement/install/movement_info_msgs/include/movement_info_msgs"
-				},
-				{
-					"backtrace" : 6,
-					"isSystem" : true,
 					"path" : "/opt/ros/humble/include/rclcpp"
 				},
 				{
@@ -120,6 +115,11 @@
 					"backtrace" : 6,
 					"isSystem" : true,
 					"path" : "/opt/ros/humble/include/nav_msgs"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/home/kargla/robot_movement/install/movement_info_msgs/include/movement_info_msgs"
 				},
 				{
 					"backtrace" : 4,

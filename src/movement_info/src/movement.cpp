@@ -2,17 +2,34 @@
 #include "nav_msgs/msg/odometry.hpp"
 #include "geometry_msgs/msg/twist_stamped.hpp"
 #include "movement_info_msgs/msg/movement_info.hpp"
+#include "yaml-cpp/yaml.h"
+
 
 class Movement : public rclcpp::Node
 {
 public:
     Movement() : Node("movement")
     {
-        publisher_ = this->create_publisher<movement_info_msgs::msg::MovementInfo>("/movement_info", 10);
+        this->declare_parameter<float>("treshold", 0.1);
+        this->declare_parameter<std::string>("movement_topic", "/movement_info");
+        this->declare_parameter<std::string>("odometry_topic", "/diff_drive/odom");
+        this->declare_parameter<std::string>("velocity_topic", "/diff_drive/cmd_vel");
+
+        this->get_parameter("treshold", treshold);
+        this->get_parameter("odometry_topic", odometry_topic);  
+        this->get_parameter("velocity_topic", velocity_topic);
+        this->get_parameter("movement_topic", movement_topic);
+
+        RCLCPP_INFO(this->get_logger(), "Treshold: '%f'", treshold);
+        RCLCPP_INFO(this->get_logger(), "Movement topic: '%s'", movement_topic.c_str());
+        RCLCPP_INFO(this->get_logger(), "Odometry topic: '%s'", odometry_topic.c_str());
+        RCLCPP_INFO(this->get_logger(), "Velocity topic: '%s'", velocity_topic.c_str());
+
+        publisher_ = this->create_publisher<movement_info_msgs::msg::MovementInfo>(movement_topic, 10);
+        odom_subscriber = this->create_subscription<nav_msgs::msg::Odometry>(odometry_topic, 10, std::bind(&Movement::odometry_callback, this, std::placeholders::_1));
+        vel_subscriber = this->create_subscription<geometry_msgs::msg::TwistStamped>(velocity_topic, 10, std::bind(&Movement::velocity_callback, this, std::placeholders::_1));
         message_.heading = "straight";
         message_.movement = "standstill";
-        odom_subscriber = this->create_subscription<nav_msgs::msg::Odometry>("/ibp3/diff_drive/odom", 10, std::bind(&Movement::odometry_callback, this, std::placeholders::_1));
-        vel_subscriber = this->create_subscription<geometry_msgs::msg::TwistStamped>("/ibp3/diff_drive/cmd_vel", 10, std::bind(&Movement::velocity_callback, this, std::placeholders::_1));
         timer_ = this->create_wall_timer(std::chrono::seconds(1), std::bind(&Movement::publish_movement_info, this));
     }
 
@@ -20,9 +37,10 @@ private:
     rclcpp::Publisher<movement_info_msgs::msg::MovementInfo>::SharedPtr publisher_;
     rclcpp::Subscription<nav_msgs::msg::Odometry>::SharedPtr odom_subscriber;
     rclcpp::Subscription<geometry_msgs::msg::TwistStamped>::SharedPtr vel_subscriber;
-    rclcpp::TimerBase::SharedPtr timer_;
+    rclcpp::TimerBase::SharedPtr timer_;    
     movement_info_msgs::msg::MovementInfo message_;
-    float treshold = 0.0001;
+    float treshold;
+    std::string odometry_topic, velocity_topic, movement_topic;
 
     void publish_movement_info()
     {
@@ -39,16 +57,7 @@ private:
     // The message contains the position and orientation of the robot.
     void odometry_callback(const nav_msgs::msg::Odometry::SharedPtr msg)
     {
-        float x = msg->pose.pose.position.x;
-        float y = msg->pose.pose.position.y;
-        float z = msg->pose.pose.orientation.z;
-        std::string x_str = std::to_string(x);
-        std::string y_str = std::to_string(y);
-        std::string z_str = std::to_string(z);
-
-        //RCLCPP_INFO(this->get_logger(), "Received position x: '%s'", x_str.c_str());
-        //RCLCPP_INFO(this->get_logger(), "Received position y: '%s'", y_str.c_str());
-        //RCLCPP_INFO(this->get_logger(), "Received orientation z: '%s'", z_str.c_str());
+        
     }
 
     // Callback function for the subscriber
