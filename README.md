@@ -1,4 +1,4 @@
-# robot_movement
+# robot_movement ROS2 Humble node
 
 This application analyzes telemetry data from a robot to determine its movement and heading direction. 
 
