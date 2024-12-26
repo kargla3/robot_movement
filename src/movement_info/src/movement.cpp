@@ -10,12 +10,14 @@ class Movement : public rclcpp::Node
 public:
     Movement() : Node("movement")
     {
-        this->declare_parameter<float>("treshold", 0.1);
+        this->declare_parameter<float>("direction_treshold", 0.1);
+        this->declare_parameter<float>("heading_treshold", 0.1);
         this->declare_parameter<std::string>("movement_topic", "/movement_info");
         this->declare_parameter<std::string>("odometry_topic", "/diff_drive/odom");
         this->declare_parameter<std::string>("velocity_topic", "/diff_drive/cmd_vel");
 
-        this->get_parameter("treshold", treshold);
+        this->get_parameter("direction_treshold", dir_treshold);
+        this->get_parameter("heading_treshold", heading_treshold);
         this->get_parameter("movement_topic", movement_topic);
         this->get_parameter("odometry_topic", odometry_topic);  
         this->get_parameter("velocity_topic", velocity_topic);
@@ -26,7 +28,8 @@ public:
             rclcpp::shutdown();
         }
 
-        RCLCPP_INFO(this->get_logger(), "Treshold: '%f'", treshold);
+        RCLCPP_INFO(this->get_logger(), "Direction treshold: '%f'", dir_treshold);
+        RCLCPP_INFO(this->get_logger(), "Heading treshold: '%f'", heading_treshold);
         RCLCPP_INFO(this->get_logger(), "Movement topic: '%s'", movement_topic.c_str());
         RCLCPP_INFO(this->get_logger(), "Odometry topic: '%s'", odometry_topic.c_str());
         RCLCPP_INFO(this->get_logger(), "Velocity topic: '%s'", velocity_topic.c_str());
@@ -45,13 +48,13 @@ private:
     rclcpp::Subscription<geometry_msgs::msg::TwistStamped>::SharedPtr vel_subscriber;
     rclcpp::TimerBase::SharedPtr timer_;    
     movement_info_msgs::msg::MovementInfo message_;
-    float treshold;
+    float dir_treshold, heading_treshold;
     std::string odometry_topic, velocity_topic, movement_topic;
 
     void publish_movement_info()
     {
-        //RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", message_.movement.c_str());
-        //RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", message_.heading.c_str());
+        RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", message_.movement.c_str());
+        RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", message_.heading.c_str());
         publisher_->publish(message_);
     }
 
@@ -67,7 +70,14 @@ private:
         {
             RCLCPP_INFO(this->get_logger(), "Robot is standing still");
         }
-        RCLCPP_INFO(this->get_logger(), "Angular z: '%f'", msg->twist.twist.angular.z);
+        else if(message_.movement == movement_info_msgs::msg::MovementInfo::FORWARD)
+        {
+            RCLCPP_INFO(this->get_logger(), "Robot is moving forward");
+        }
+        else if(message_.movement == movement_info_msgs::msg::MovementInfo::BACKWARD)
+        {
+            RCLCPP_INFO(this->get_logger(), "Robot is moving backward");
+        }
     }
 
     // Callback function for the subscriber
@@ -77,17 +87,41 @@ private:
     // The message contains the linear and angular velocity of the robot.
     void velocity_callback(const geometry_msgs::msg::TwistStamped::SharedPtr msg)
     {
-        if (msg->twist.linear.x < treshold && msg->twist.linear.x > -treshold)
+        determine_dir(msg);
+        determine_heading(msg);
+        RCLCPP_INFO(this->get_logger(), "Linear x from velocity: '%f'", msg->twist.linear.x);
+        RCLCPP_INFO(this->get_logger(), "Angular z from velocity: '%f'", msg->twist.angular.z);
+    }
+
+    void determine_dir(const geometry_msgs::msg::TwistStamped::SharedPtr msg)
+    {
+        if (msg->twist.linear.x < dir_treshold && msg->twist.linear.x > -dir_treshold)
         {
             message_.movement = movement_info_msgs::msg::MovementInfo::STANDSTILL;
         }
-        else if (msg->twist.linear.x > treshold)
+        else if (msg->twist.linear.x > dir_treshold)
         {
             message_.movement = movement_info_msgs::msg::MovementInfo::FORWARD;
         }
-        else if(msg->twist.linear.x < treshold)
+        else if(msg->twist.linear.x < dir_treshold)
         {
             message_.movement = movement_info_msgs::msg::MovementInfo::BACKWARD;
+        }
+    }
+
+    void determine_heading(const geometry_msgs::msg::TwistStamped::SharedPtr msg)
+    {
+        if(msg->twist.angular.z < heading_treshold && msg->twist.angular.z > -heading_treshold)
+        {
+            message_.heading = movement_info_msgs::msg::MovementInfo::STRAIGHT;
+        }
+        else if(msg->twist.angular.z > heading_treshold)
+        {
+            message_.heading = movement_info_msgs::msg::MovementInfo::LEFT;
+        }
+        else if(msg->twist.angular.z < -heading_treshold)
+        {
+            message_.heading = movement_info_msgs::msg::MovementInfo::RIGHT;
         }
     }
 };
