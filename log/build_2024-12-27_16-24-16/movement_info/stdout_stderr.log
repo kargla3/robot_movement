@@ -1,0 +1,31 @@
+[35m[1mConsolidate compiler generated dependencies of target movement[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/movement_info_library.dir/src/movement.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/movement.dir/src/movement.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/movement.dir/src/main.cpp.o[0m
+[ 80%] [32m[1mLinking CXX static library libmovement_info_library.a[0m
+[100%] [32m[1mLinking CXX executable movement[0m
+[100%] Built target movement_info_library
+[100%] Built target movement
+-- Install configuration: ""
+-- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/movement_info/config
+-- Installing: /home/kargla/robot_movement/install/movement_info/share/movement_info/config/params.yaml
+-- Up-to-date: /home/kargla/robot_movement/install/movement_info/include
+-- Up-to-date: /home/kargla/robot_movement/install/movement_info/include/movement_info
+-- Installing: /home/kargla/robot_movement/install/movement_info/include/movement_info/movement.hpp
+-- Installing: /home/kargla/robot_movement/install/movement_info/lib/movement_info/movement
+-- Set runtime path of "/home/kargla/robot_movement/install/movement_info/lib/movement_info/movement" to ""
+-- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/ament_index/resource_index/package_run_dependencies/movement_info
+-- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/ament_index/resource_index/parent_prefix_path/movement_info
+-- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/movement_info/environment/ament_prefix_path.sh
+-- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/movement_info/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/movement_info/environment/path.sh
+-- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/movement_info/environment/path.dsv
+-- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/movement_info/local_setup.bash
+-- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/movement_info/local_setup.sh
+-- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/movement_info/local_setup.zsh
+-- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/movement_info/local_setup.dsv
+-- Installing: /home/kargla/robot_movement/install/movement_info/share/movement_info/package.dsv
+-- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/ament_index/resource_index/packages/movement_info
+-- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/movement_info/cmake/movement_infoConfig.cmake
+-- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/movement_info/cmake/movement_infoConfig-version.cmake
+-- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/movement_info/package.xml

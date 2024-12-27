@@ -19,7 +19,6 @@ private:
     rclcpp::TimerBase::SharedPtr timer_;
     movement_info_msgs::msg::MovementInfo message_;
     float dir_treshold, heading_treshold;
-    nav_msgs::msg::Odometry::SharedPtr previous_odom = nullptr;
     std::string odometry_topic, velocity_topic, movement_topic;
     void odometry_callback(const nav_msgs::msg::Odometry::SharedPtr msg);
     void velocity_callback(const geometry_msgs::msg::TwistStamped::SharedPtr msg);

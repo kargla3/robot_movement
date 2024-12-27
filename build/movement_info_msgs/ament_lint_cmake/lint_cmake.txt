@@ -1,0 +1,9 @@
+-- run_test.py: invoking following command in '/home/kargla/robot_movement/src/movement_info_msgs':
+ - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/kargla/robot_movement/build/movement_info_msgs/test_results/movement_info_msgs/lint_cmake.xunit.xml
+
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/kargla/robot_movement/build/movement_info_msgs/test_results/movement_info_msgs/lint_cmake.xunit.xml'

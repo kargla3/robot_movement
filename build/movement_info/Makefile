@@ -223,6 +223,45 @@ movement_info_library/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/movement_info_library.dir/build.make CMakeFiles/movement_info_library.dir/build
 .PHONY : movement_info_library/fast
 
+#=============================================================================
+# Target rules for targets named movement_info_movement_test
+
+# Build rule for target.
+movement_info_movement_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 movement_info_movement_test
+.PHONY : movement_info_movement_test
+
+# fast build rule for target.
+movement_info_movement_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/movement_info_movement_test.dir/build.make CMakeFiles/movement_info_movement_test.dir/build
+.PHONY : movement_info_movement_test/fast
+
+#=============================================================================
+# Target rules for targets named gtest
+
+# Build rule for target.
+gtest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest
+.PHONY : gtest
+
+# fast build rule for target.
+gtest/fast:
+	$(MAKE) $(MAKESILENT) -f gtest/CMakeFiles/gtest.dir/build.make gtest/CMakeFiles/gtest.dir/build
+.PHONY : gtest/fast
+
+#=============================================================================
+# Target rules for targets named gtest_main
+
+# Build rule for target.
+gtest_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest_main
+.PHONY : gtest_main
+
+# fast build rule for target.
+gtest_main/fast:
+	$(MAKE) $(MAKESILENT) -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/build
+.PHONY : gtest_main/fast
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -274,6 +313,30 @@ src/movement.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/movement_info_library.dir/build.make CMakeFiles/movement_info_library.dir/src/movement.cpp.s
 .PHONY : src/movement.cpp.s
 
+test/movement_test.o: test/movement_test.cpp.o
+.PHONY : test/movement_test.o
+
+# target to build an object file
+test/movement_test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/movement_info_movement_test.dir/build.make CMakeFiles/movement_info_movement_test.dir/test/movement_test.cpp.o
+.PHONY : test/movement_test.cpp.o
+
+test/movement_test.i: test/movement_test.cpp.i
+.PHONY : test/movement_test.i
+
+# target to preprocess a source file
+test/movement_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/movement_info_movement_test.dir/build.make CMakeFiles/movement_info_movement_test.dir/test/movement_test.cpp.i
+.PHONY : test/movement_test.cpp.i
+
+test/movement_test.s: test/movement_test.cpp.s
+.PHONY : test/movement_test.s
+
+# target to generate assembly for a file
+test/movement_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/movement_info_movement_test.dir/build.make CMakeFiles/movement_info_movement_test.dir/test/movement_test.cpp.s
+.PHONY : test/movement_test.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -289,14 +352,20 @@ help:
 	@echo "... test"
 	@echo "... movement_info_uninstall"
 	@echo "... uninstall"
+	@echo "... gtest"
+	@echo "... gtest_main"
 	@echo "... movement"
 	@echo "... movement_info_library"
+	@echo "... movement_info_movement_test"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
 	@echo "... src/movement.o"
 	@echo "... src/movement.i"
 	@echo "... src/movement.s"
+	@echo "... test/movement_test.o"
+	@echo "... test/movement_test.i"
+	@echo "... test/movement_test.s"
 .PHONY : help
 
 

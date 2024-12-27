@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="movement_info_msgs.xmllint"
+  tests="1"
+  errors="0"
+  failures="1"
+  time="0.275"
+>
+  <testcase
+    name="package.xml"
+    classname="movement_info_msgs.xmllint"
+  >
+      <failure message="Diff with 305 lines"><![CDATA[/home/kargla/robot_movement/src/movement_info_msgs/package.xml:16: element buildtool_depend: Schemas validity error : Element 'buildtool_depend': This element is not expected. Expected is one of ( member_of_group, export ).
+/home/kargla/robot_movement/src/movement_info_msgs/package.xml fails to validate
+]]></failure>
+  </testcase>
+  <system-out>Checked files:
+* package.xml</system-out>
+</testsuite>

@@ -2,6 +2,7 @@
 /home/kargla/robot_movement/build/movement_info/CMakeFiles/movement_info_uninstall.dir
 /home/kargla/robot_movement/build/movement_info/CMakeFiles/movement.dir
 /home/kargla/robot_movement/build/movement_info/CMakeFiles/movement_info_library.dir
+/home/kargla/robot_movement/build/movement_info/CMakeFiles/movement_info_movement_test.dir
 /home/kargla/robot_movement/build/movement_info/CMakeFiles/test.dir
 /home/kargla/robot_movement/build/movement_info/CMakeFiles/edit_cache.dir
 /home/kargla/robot_movement/build/movement_info/CMakeFiles/rebuild_cache.dir
@@ -9,3 +10,12 @@
 /home/kargla/robot_movement/build/movement_info/CMakeFiles/install.dir
 /home/kargla/robot_movement/build/movement_info/CMakeFiles/install/local.dir
 /home/kargla/robot_movement/build/movement_info/CMakeFiles/install/strip.dir
+/home/kargla/robot_movement/build/movement_info/gtest/CMakeFiles/gtest.dir
+/home/kargla/robot_movement/build/movement_info/gtest/CMakeFiles/gtest_main.dir
+/home/kargla/robot_movement/build/movement_info/gtest/CMakeFiles/test.dir
+/home/kargla/robot_movement/build/movement_info/gtest/CMakeFiles/edit_cache.dir
+/home/kargla/robot_movement/build/movement_info/gtest/CMakeFiles/rebuild_cache.dir
+/home/kargla/robot_movement/build/movement_info/gtest/CMakeFiles/list_install_components.dir
+/home/kargla/robot_movement/build/movement_info/gtest/CMakeFiles/install.dir
+/home/kargla/robot_movement/build/movement_info/gtest/CMakeFiles/install/local.dir
+/home/kargla/robot_movement/build/movement_info/gtest/CMakeFiles/install/strip.dir

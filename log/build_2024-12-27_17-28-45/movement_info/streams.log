@@ -1,0 +1,15 @@
+[0.011s] Invoking command in '/home/kargla/robot_movement/build/movement_info': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kargla/robot_movement/build/movement_info -- -j12 -l12
+[0.072s] [ 36%] Built target gtest_main
+[0.072s] [ 36%] Built target gtest
+[0.074s] [ 63%] Built target movement
+[0.074s] [ 81%] Built target movement_info_library
+[0.086s] [35m[1mConsolidate compiler generated dependencies of target movement_info_movement_test[0m
+[0.102s] [ 90%] [32mBuilding CXX object CMakeFiles/movement_info_movement_test.dir/test/movement_test.cpp.o[0m
+[0.274s] [01m[K/home/kargla/robot_movement/src/movement_info/test/movement_test.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kgmock/gmock.h: No such file or directory
+[0.274s]     2 | #include [01;31m[K"gmock/gmock.h"[m[K
+[0.274s]       |          [01;31m[K^~~~~~~~~~~~~~~[m[K
+[0.274s] compilation terminated.
+[0.285s] gmake[2]: *** [CMakeFiles/movement_info_movement_test.dir/build.make:76: CMakeFiles/movement_info_movement_test.dir/test/movement_test.cpp.o] Error 1
+[0.286s] gmake[1]: *** [CMakeFiles/Makefile2:213: CMakeFiles/movement_info_movement_test.dir/all] Error 2
+[0.286s] gmake: *** [Makefile:146: all] Error 2
+[0.289s] Invoked command in '/home/kargla/robot_movement/build/movement_info' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kargla/robot_movement/build/movement_info -- -j12 -l12

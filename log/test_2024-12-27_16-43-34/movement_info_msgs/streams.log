@@ -1,0 +1,59 @@
+[0.023s] Invoking command in '/home/kargla/robot_movement/build/movement_info_msgs': /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.031s] UpdateCTestConfiguration  from :/home/kargla/robot_movement/build/movement_info_msgs/CTestConfiguration.ini
+[0.031s] Parse Config file:/home/kargla/robot_movement/build/movement_info_msgs/CTestConfiguration.ini
+[0.031s]    Site: kargla-ideapad
+[0.031s]    Build name: (empty)
+[0.031s]  Add coverage exclude regular expressions.
+[0.032s] Create new tag: 20241227-1543 - Experimental
+[0.032s] UpdateCTestConfiguration  from :/home/kargla/robot_movement/build/movement_info_msgs/CTestConfiguration.ini
+[0.032s] Parse Config file:/home/kargla/robot_movement/build/movement_info_msgs/CTestConfiguration.ini
+[0.032s] Test project /home/kargla/robot_movement/build/movement_info_msgs
+[0.032s] Constructing a list of tests
+[0.032s] Done constructing a list of tests
+[0.032s] Updating test list for fixtures
+[0.032s] Added 0 tests to meet fixture requirements
+[0.032s] Checking test dependency graph...
+[0.032s] Checking test dependency graph end
+[0.032s] test 1
+[0.032s]     Start 1: lint_cmake
+[0.032s] 
+[0.033s] 1: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/kargla/robot_movement/build/movement_info_msgs/test_results/movement_info_msgs/lint_cmake.xunit.xml" "--package-name" "movement_info_msgs" "--output-file" "/home/kargla/robot_movement/build/movement_info_msgs/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/kargla/robot_movement/build/movement_info_msgs/test_results/movement_info_msgs/lint_cmake.xunit.xml"
+[0.033s] 1: Test timeout computed to be: 60
+[0.086s] 1: -- run_test.py: invoking following command in '/home/kargla/robot_movement/src/movement_info_msgs':
+[0.086s] 1:  - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/kargla/robot_movement/build/movement_info_msgs/test_results/movement_info_msgs/lint_cmake.xunit.xml
+[0.141s] 1: 
+[0.141s] 1: No problems found
+[0.152s] 1: -- run_test.py: return code 0
+[0.152s] 1: -- run_test.py: verify result file '/home/kargla/robot_movement/build/movement_info_msgs/test_results/movement_info_msgs/lint_cmake.xunit.xml'
+[0.162s] 1/2 Test #1: lint_cmake .......................   Passed    0.13 sec
+[0.162s] test 2
+[0.162s]     Start 2: xmllint
+[0.163s] 
+[0.163s] 2: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/kargla/robot_movement/build/movement_info_msgs/test_results/movement_info_msgs/xmllint.xunit.xml" "--package-name" "movement_info_msgs" "--output-file" "/home/kargla/robot_movement/build/movement_info_msgs/ament_xmllint/xmllint.txt" "--command" "/opt/ros/humble/bin/ament_xmllint" "--xunit-file" "/home/kargla/robot_movement/build/movement_info_msgs/test_results/movement_info_msgs/xmllint.xunit.xml"
+[0.163s] 2: Test timeout computed to be: 60
+[0.212s] 2: -- run_test.py: invoking following command in '/home/kargla/robot_movement/src/movement_info_msgs':
+[0.212s] 2:  - /opt/ros/humble/bin/ament_xmllint --xunit-file /home/kargla/robot_movement/build/movement_info_msgs/test_results/movement_info_msgs/xmllint.xunit.xml
+[0.542s] 2: File 'package.xml' is invalid:
+[0.542s] 2: /home/kargla/robot_movement/src/movement_info_msgs/package.xml:16: element buildtool_depend: Schemas validity error : Element 'buildtool_depend': This element is not expected. Expected is one of ( member_of_group, export ).
+[0.542s] 2: /home/kargla/robot_movement/src/movement_info_msgs/package.xml fails to validate
+[0.543s] 2: 
+[0.543s] 2: 1 files are invalid
+[0.554s] 2: -- run_test.py: return code 1
+[0.554s] 2: -- run_test.py: verify result file '/home/kargla/robot_movement/build/movement_info_msgs/test_results/movement_info_msgs/xmllint.xunit.xml'
+[0.563s] 2/2 Test #2: xmllint ..........................***Failed    0.40 sec
+[0.564s] 
+[0.564s] 50% tests passed[0;0m, [0;31m1 tests failed[0;0m out of 2
+[0.564s] 
+[0.564s] Label Time Summary:
+[0.564s] lint_cmake    =   0.13 sec*proc (1 test)
+[0.565s] linter        =   0.53 sec*proc (2 tests)
+[0.565s] xmllint       =   0.40 sec*proc (1 test)
+[0.565s] 
+[0.565s] Total Test time (real) =   0.53 sec
+[0.565s] 
+[0.565s] The following tests FAILED:
+[0.565s] 	[0;31m  2 - xmllint (Failed)[0;0m
+[0.566s] Errors while running CTest
+[0.566s] Output from these tests are in: /home/kargla/robot_movement/build/movement_info_msgs/Testing/Temporary/LastTest.log
+[0.566s] Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
+[0.569s] Invoked command in '/home/kargla/robot_movement/build/movement_info_msgs' returned '8': /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
