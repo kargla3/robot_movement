@@ -1,3 +1,5 @@
+/home/kargla/robot_movement/install/movement_info/share/movement_info/config/params.yaml
+/home/kargla/robot_movement/install/movement_info/include/movement_info/movement.hpp
 /home/kargla/robot_movement/install/movement_info/lib/movement_info/movement
 /home/kargla/robot_movement/install/movement_info/share/ament_index/resource_index/package_run_dependencies/movement_info
 /home/kargla/robot_movement/install/movement_info/share/ament_index/resource_index/parent_prefix_path/movement_info

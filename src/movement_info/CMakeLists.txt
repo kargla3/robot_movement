@@ -19,14 +19,52 @@ find_package(geometry_msgs REQUIRED)
 find_package(nav_msgs REQUIRED)
 
 
-add_executable(movement src/movement.cpp)
+add_executable(movement 
+  src/movement.cpp
+  src/main.cpp
+)
 
-ament_target_dependencies(movement rclcpp movement_info_msgs std_msgs geometry_msgs nav_msgs)
+add_library(movement_info_library
+src/movement.cpp
+)
+
+target_include_directories(movement_info_library PUBLIC
+$<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+)
+
+target_include_directories(movement PUBLIC
+$<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+)
+
+install(DIRECTORY config/
+  DESTINATION share/${PROJECT_NAME}/config
+)
+
+install(DIRECTORY include/
+DESTINATION include
+)
+
+ament_target_dependencies(movement 
+  rclcpp 
+  movement_info_msgs 
+  std_msgs 
+  geometry_msgs 
+  nav_msgs
+)
+
+ament_target_dependencies(movement_info_library
+rclcpp
+movement_info_msgs
+std_msgs
+geometry_msgs
+  nav_msgs
+)
 
 install(TARGETS
   movement
   DESTINATION lib/${PROJECT_NAME}
 )
+
 
 
 if(BUILD_TESTING)

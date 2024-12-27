@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmovement_info_library.a CMakeFiles/movement_info_library.dir/src/movement.cpp.o
+/usr/bin/ranlib libmovement_info_library.a

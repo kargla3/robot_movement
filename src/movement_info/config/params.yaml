@@ -1,6 +1,7 @@
 movement:
   ros__parameters:
-    treshold: 0.001
+    direction_treshold: 0.001
+    heading_treshold: 0.01
     odometry_topic: "/ibp3/diff_drive/odom"
     velocity_topic: "/ibp3/diff_drive/cmd_vel"
     movement_topic: "/movement_info"

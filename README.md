@@ -16,4 +16,4 @@ Custom message defined with definition:
 To run this node follow this steps:
 
 1. Define input topics names, output topic name and treshold in file movement_info/config/params.yaml
-2. Run node using ros2 movement_info movement --ros-args --params-file src/movement_info/config/params.yaml
+2. Run node using ros2 run movement_info movement --ros-args --params-file src/movement_info/config/params.yaml

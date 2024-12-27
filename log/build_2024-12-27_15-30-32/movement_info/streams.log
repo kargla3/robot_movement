@@ -1,0 +1,10 @@
+[0.015s] Invoking command in '/home/kargla/robot_movement/build/movement_info': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kargla/robot_movement/build/movement_info -- -j12 -l12
+[0.083s] [ 50%] [32mBuilding CXX object CMakeFiles/movement.dir/src/movement.cpp.o[0m
+[0.098s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:105:10:[m[K [01;31m[Kfatal error: [m[Kinclude/movement_info/movement.hpp: No such file or directory
+[0.098s]   105 | #include [01;31m[K"include/movement_info/movement.hpp"[m[K
+[0.098s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.098s] compilation terminated.
+[0.100s] gmake[2]: *** [CMakeFiles/movement.dir/build.make:76: CMakeFiles/movement.dir/src/movement.cpp.o] Error 1
+[0.100s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/movement.dir/all] Error 2
+[0.101s] gmake: *** [Makefile:146: all] Error 2
+[0.106s] Invoked command in '/home/kargla/robot_movement/build/movement_info' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kargla/robot_movement/build/movement_info -- -j12 -l12

@@ -210,12 +210,50 @@ movement/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/movement.dir/build.make CMakeFiles/movement.dir/build
 .PHONY : movement/fast
 
+#=============================================================================
+# Target rules for targets named movement_info_library
+
+# Build rule for target.
+movement_info_library: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 movement_info_library
+.PHONY : movement_info_library
+
+# fast build rule for target.
+movement_info_library/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/movement_info_library.dir/build.make CMakeFiles/movement_info_library.dir/build
+.PHONY : movement_info_library/fast
+
+src/main.o: src/main.cpp.o
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/movement.dir/build.make CMakeFiles/movement.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/movement.dir/build.make CMakeFiles/movement.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/movement.dir/build.make CMakeFiles/movement.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
+
 src/movement.o: src/movement.cpp.o
 .PHONY : src/movement.o
 
 # target to build an object file
 src/movement.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/movement.dir/build.make CMakeFiles/movement.dir/src/movement.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/movement_info_library.dir/build.make CMakeFiles/movement_info_library.dir/src/movement.cpp.o
 .PHONY : src/movement.cpp.o
 
 src/movement.i: src/movement.cpp.i
@@ -224,6 +262,7 @@ src/movement.i: src/movement.cpp.i
 # target to preprocess a source file
 src/movement.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/movement.dir/build.make CMakeFiles/movement.dir/src/movement.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/movement_info_library.dir/build.make CMakeFiles/movement_info_library.dir/src/movement.cpp.i
 .PHONY : src/movement.cpp.i
 
 src/movement.s: src/movement.cpp.s
@@ -232,6 +271,7 @@ src/movement.s: src/movement.cpp.s
 # target to generate assembly for a file
 src/movement.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/movement.dir/build.make CMakeFiles/movement.dir/src/movement.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/movement_info_library.dir/build.make CMakeFiles/movement_info_library.dir/src/movement.cpp.s
 .PHONY : src/movement.cpp.s
 
 # Help Target
@@ -250,6 +290,10 @@ help:
 	@echo "... movement_info_uninstall"
 	@echo "... uninstall"
 	@echo "... movement"
+	@echo "... movement_info_library"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 	@echo "... src/movement.o"
 	@echo "... src/movement.i"
 	@echo "... src/movement.s"

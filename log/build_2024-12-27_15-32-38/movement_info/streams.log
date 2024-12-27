@@ -1,0 +1,43 @@
+[0.016s] Invoking command in '/home/kargla/robot_movement/build/movement_info': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kargla/robot_movement/build/movement_info -- -j12 -l12
+[0.046s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.196s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.198s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.201s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.229s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.254s] -- Found movement_info_msgs: 0.0.0 (/home/kargla/robot_movement/install/movement_info_msgs/share/movement_info_msgs/cmake)
+[0.262s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.319s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.323s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.465s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.539s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.555s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.577s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.647s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.648s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/kargla/robot_movement/src/movement_info/include>
+[0.648s] -- Configured cppcheck exclude dirs and/or files: 
+[0.648s] -- Added test 'lint_cmake' to check CMake code style
+[0.649s] -- Added test 'uncrustify' to check C / C++ code style
+[0.649s] -- Configured uncrustify additional arguments: 
+[0.649s] -- Added test 'xmllint' to check XML markup files
+[0.650s] -- Configuring done
+[0.664s] -- Generating done
+[0.669s] -- Build files have been written to: /home/kargla/robot_movement/build/movement_info
+[0.704s] [35m[1mConsolidate compiler generated dependencies of target movement[0m
+[0.721s] [ 25%] [32mBuilding CXX object CMakeFiles/movement_info_library.dir/src/movement.cpp.o[0m
+[0.729s] [ 50%] [32mBuilding CXX object CMakeFiles/movement.dir/src/movement.cpp.o[0m
+[0.731s] In file included from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:105[m[K:
+[0.732s] [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:4:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[0.732s]     4 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+[0.732s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.732s] compilation terminated.
+[0.733s] gmake[2]: *** [CMakeFiles/movement_info_library.dir/build.make:76: CMakeFiles/movement_info_library.dir/src/movement.cpp.o] Error 1
+[0.733s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/movement_info_library.dir/all] Error 2
+[0.733s] gmake[1]: *** Waiting for unfinished jobs....
+[0.741s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:105:10:[m[K [01;31m[Kfatal error: [m[Kmovement_info/movement.hpp: No such file or directory
+[0.741s]   105 | #include [01;31m[K"movement_info/movement.hpp"[m[K
+[0.742s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.742s] compilation terminated.
+[0.743s] gmake[2]: *** [CMakeFiles/movement.dir/build.make:76: CMakeFiles/movement.dir/src/movement.cpp.o] Error 1
+[0.744s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/movement.dir/all] Error 2
+[0.744s] gmake: *** [Makefile:146: all] Error 2
+[0.749s] Invoked command in '/home/kargla/robot_movement/build/movement_info' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kargla/robot_movement/build/movement_info -- -j12 -l12

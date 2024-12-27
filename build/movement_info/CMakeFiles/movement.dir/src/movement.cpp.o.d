@@ -1,6 +1,7 @@
 CMakeFiles/movement.dir/src/movement.cpp.o: \
  /home/kargla/robot_movement/src/movement_info/src/movement.cpp \
  /usr/include/stdc-predef.h \
+ /home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/11/csignal \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \

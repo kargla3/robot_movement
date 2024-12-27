@@ -1,0 +1,15 @@
+[0.016s] Invoking command in '/home/kargla/robot_movement/build/movement_info': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kargla/robot_movement/build/movement_info -- -j12 -l12
+[0.063s] [35m[1mConsolidate compiler generated dependencies of target movement[0m
+[0.075s] [ 25%] [32mBuilding CXX object CMakeFiles/movement_info_library.dir/src/movement.cpp.o[0m
+[0.089s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:105:10:[m[K [01;31m[Kfatal error: [m[Kmovement_info/movement.hpp: No such file or directory
+[0.089s]   105 | #include [01;31m[K"movement_info/movement.hpp"[m[K
+[0.089s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.089s] compilation terminated.
+[0.091s] gmake[2]: *** [CMakeFiles/movement_info_library.dir/build.make:76: CMakeFiles/movement_info_library.dir/src/movement.cpp.o] Error 1
+[0.091s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/movement_info_library.dir/all] Error 2
+[0.091s] gmake[1]: *** Waiting for unfinished jobs....
+[0.096s] [ 50%] [32mBuilding CXX object CMakeFiles/movement.dir/src/movement.cpp.o[0m
+[10.411s] [ 75%] [32m[1mLinking CXX executable movement[0m
+[11.111s] [ 75%] Built target movement
+[11.113s] gmake: *** [Makefile:146: all] Error 2
+[11.117s] Invoked command in '/home/kargla/robot_movement/build/movement_info' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kargla/robot_movement/build/movement_info -- -j12 -l12

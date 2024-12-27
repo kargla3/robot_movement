@@ -1,0 +1,19 @@
+[35m[1mConsolidate compiler generated dependencies of target movement[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/movement.dir/src/movement.cpp.o[0m
+[01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:[m[K In member function ‘[01m[Kvoid Movement::odometry_callback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:76:84:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _twist_type = struct geometry_msgs::msg::TwistWithCovariance_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::TwistWithCovariance_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kangular[m[K’
+   76 |             if(angle < heading_treshold && angle > -heading_treshold && msg->twist.[01;31m[Kangular[m[K.z < heading_treshold && msg->twist.angular.z > -heading_treshold)
+      |                                                                                    [01;31m[K^~~~~~~[m[K
+[01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:76:127:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _twist_type = struct geometry_msgs::msg::TwistWithCovariance_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::TwistWithCovariance_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kangular[m[K’
+   76 | & angle > -heading_treshold && msg->twist.angular.z < heading_treshold && msg->twist.[01;31m[Kangular[m[K.z > -heading_treshold)
+      |                                                                                      [01;31m[K^~~~~~~[m[K
+
+[01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:80:60:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _twist_type = struct geometry_msgs::msg::TwistWithCovariance_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::TwistWithCovariance_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kangular[m[K’
+   80 |             else if(angle > heading_treshold && msg->twist.[01;31m[Kangular[m[K.z > heading_treshold)
+      |                                                            [01;31m[K^~~~~~~[m[K
+[01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:84:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _twist_type = struct geometry_msgs::msg::TwistWithCovariance_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::TwistWithCovariance_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kangular[m[K’
+   84 |             else if(angle < -heading_treshold && msg->twist.[01;31m[Kangular[m[K.z < -heading_treshold)
+      |                                                             [01;31m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/movement.dir/build.make:76: CMakeFiles/movement.dir/src/movement.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/movement.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
