@@ -12,6 +12,11 @@ class Movement : public rclcpp::Node
 public: 
     Movement();
     void publish_movement_info();
+    void odometry_callback(const nav_msgs::msg::Odometry::SharedPtr msg);
+    void velocity_callback(const geometry_msgs::msg::TwistStamped::SharedPtr msg);
+    movement_info_msgs::msg::MovementInfo getMessage();
+    void setHeadingTreshold(float treshold);
+    void setDirectionTreshold(float treshold);
 private:
     rclcpp::Publisher<movement_info_msgs::msg::MovementInfo>::SharedPtr publisher_;
     rclcpp::Subscription<nav_msgs::msg::Odometry>::SharedPtr odom_subscriber;
@@ -20,8 +25,6 @@ private:
     movement_info_msgs::msg::MovementInfo message_;
     float dir_treshold, heading_treshold;
     std::string odometry_topic, velocity_topic, movement_topic;
-    void odometry_callback(const nav_msgs::msg::Odometry::SharedPtr msg);
-    void velocity_callback(const geometry_msgs::msg::TwistStamped::SharedPtr msg);
 };
 
 #endif // MOVEMENT_HPP

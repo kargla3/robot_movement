@@ -34,6 +34,21 @@ Movement::Movement() : Node("movement")
     timer_ = this->create_wall_timer(std::chrono::seconds(1), std::bind(&Movement::publish_movement_info, this));
 }
 
+movement_info_msgs::msg::MovementInfo Movement::getMessage()
+{
+    return message_;
+}
+
+void Movement::setHeadingTreshold(float treshold)
+{
+    heading_treshold = treshold;
+}
+
+void Movement::setDirectionTreshold(float treshold)
+{
+    dir_treshold = treshold;
+}
+
 void Movement::publish_movement_info()
 {
     RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", message_.movement.c_str());

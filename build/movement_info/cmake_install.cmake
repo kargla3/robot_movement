@@ -132,6 +132,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/kargla/robot_movement/build/movement_info/gtest/cmake_install.cmake")
+  include("/home/kargla/robot_movement/build/movement_info/gmock/cmake_install.cmake")
 
 endif()
 

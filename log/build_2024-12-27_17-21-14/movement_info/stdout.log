@@ -1,5 +1,0 @@
-[ 36%] Built target gtest_main
-[ 36%] Built target gtest
-[ 54%] Built target movement_info_library
-[ 81%] Built target movement
-[ 90%] [32mBuilding CXX object CMakeFiles/movement_info_movement_test.dir/test/movement_test.cpp.o[0m

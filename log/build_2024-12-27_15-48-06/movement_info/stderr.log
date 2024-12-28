@@ -1,7 +1,0 @@
-/usr/bin/ld: CMakeFiles/movement.dir/src/main.cpp.o: in function `void __gnu_cxx::new_allocator<Movement>::construct<Movement>(Movement*)':
-main.cpp:(.text._ZN9__gnu_cxx13new_allocatorI8MovementE9constructIS1_JEEEvPT_DpOT0_[_ZN9__gnu_cxx13new_allocatorI8MovementE9constructIS1_JEEEvPT_DpOT0_]+0x31): undefined reference to `Movement::Movement()'
-collect2: error: ld returned 1 exit status
-gmake[2]: *** [CMakeFiles/movement.dir/build.make:183: movement] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/movement.dir/all] Error 2
-gmake[1]: *** Waiting for unfinished jobs....
-gmake: *** [Makefile:146: all] Error 2

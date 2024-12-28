@@ -1,2 +1,0 @@
-Invoking command in '/home/kargla/robot_movement/build/movement_info_msgs': /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
-Invoked command in '/home/kargla/robot_movement/build/movement_info_msgs' returned '8': /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

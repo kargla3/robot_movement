@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="1" failures="0" disabled="0" errors="0" time="0" timestamp="2024-12-28T13:31:13" name="AllTests">
+  <testsuite name="MovementTest" tests="1" failures="0" disabled="0" errors="0" time="0" timestamp="2024-12-28T13:31:13">
+    <testcase name="HeadingDeterminationTest1" status="run" result="completed" time="0" timestamp="2024-12-28T13:31:13" classname="movement_info.MovementTest" />
+  </testsuite>
+</testsuites>

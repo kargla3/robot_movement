@@ -1,0 +1,1 @@
+Invoking command in '/home/kargla/robot_movement/build/movement_info_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/kargla/robot_movement/src/movement_info_msgs -DCMAKE_INSTALL_PREFIX=/home/kargla/robot_movement/install/movement_info_msgs
