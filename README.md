@@ -26,10 +26,10 @@ To determine parameters use file src/movement_info/config/params.yaml
 
 To build program use following steps:
 
-cd robot_movement
-colcon build --packages-select movement_info_msgs
-colcon build
-source install/setup.bash
+- cd robot_movement
+- colcon build --packages-select movement_info_msgs
+- colcon build
+- source install/setup.bash
 
 # Run
 
@@ -43,6 +43,6 @@ To run this node follow this steps:
 All of the tests are included in movement_test.cpp
 
 To run tests use:
-colcon test
-colcon test-result --verbose
+- colcon test
+- colcon test-result --verbose
 
