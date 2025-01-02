@@ -22,7 +22,16 @@ To determine parameters use file src/movement_info/config/params.yaml
 - velocity_topic - The topic from which robot reads velocity data (geometry_msgs/msg/TwistStamped)
 - movement_topic - The topic where the robot publishes movement data
 
-# Launch
+# Build
+
+To build program use following steps:
+
+cd robot_movement
+colcon build --packages-select movement_info_msgs
+colcon build
+source install/setup.bash
+
+# Run
 
 To run this node follow this steps:
 
@@ -33,5 +42,7 @@ To run this node follow this steps:
 
 All of the tests are included in movement_test.cpp
 
-To run tests use colcon test, colcon test-result --verbose
+To run tests use:
+colcon test
+colcon test-result --verbose
 

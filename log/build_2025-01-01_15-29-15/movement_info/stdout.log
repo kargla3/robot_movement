@@ -1,9 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target movement[0m
-[ 10%] Built target gtest
-[ 31%] Built target gmock_main
-[ 31%] Built target gtest_main
-[ 47%] Built target gmock
-[ 52%] [32mBuilding CXX object CMakeFiles/movement_info_library.dir/src/movement.cpp.o[0m
-[ 57%] [32mBuilding CXX object CMakeFiles/movement.dir/src/movement.cpp.o[0m
-[ 68%] [32mBuilding CXX object CMakeFiles/movement.dir/src/main.cpp.o[0m
-[ 68%] [32mBuilding CXX object CMakeFiles/movement.dir/test/movement_interface.cpp.o[0m

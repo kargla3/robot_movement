@@ -1,3 +1,0 @@
-movement_info_movement_gtest 27 0.00768034
-movement_info_movement_gmock 27 0.00785869
----
