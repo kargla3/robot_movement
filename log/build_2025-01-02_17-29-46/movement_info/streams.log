@@ -1,0 +1,50 @@
+[0.014s] Invoking command in '/home/kargla/robot_movement/build/movement_info': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kargla/robot_movement/build/movement_info -- -j12 -l12
+[0.087s] [ 20%] Built target gtest_main
+[0.087s] [ 20%] Built target gmock_main
+[0.091s] [ 40%] Built target movement
+[0.091s] [ 55%] Built target gmock
+[0.094s] [ 65%] Built target gtest
+[0.101s] [ 80%] Built target movement_info_library
+[0.122s] [35m[1mConsolidate compiler generated dependencies of target movement_info_movement_gmock[0m
+[0.123s] [35m[1mConsolidate compiler generated dependencies of target movement_info_movement_gtest[0m
+[0.158s] [ 90%] [32mBuilding CXX object CMakeFiles/movement_info_movement_gtest.dir/test/movement_test.cpp.o[0m
+[0.158s] [ 90%] [32mBuilding CXX object CMakeFiles/movement_info_movement_gmock.dir/test/movement_test.cpp.o[0m
+[3.628s] [01m[K/home/kargla/robot_movement/src/movement_info/test/movement_test.cpp:[m[K In member function ‘[01m[Kvirtual void MovementTEST_DirectionDeterminationTest_Test::TestBody()[m[K’:
+[3.629s] [01m[K/home/kargla/robot_movement/src/movement_info/test/movement_test.cpp:54:27:[m[K [01;35m[Kwarning: [m[Kconverting to non-pointer type ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >::_x_type[m[K’ {aka ‘[01m[Kdouble[m[K’} from NULL [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wconversion-null-Wconversion-null]8;;[m[K]
+[3.629s]    54 |     msg->twist.linear.x = [01;35m[KNULL[m[K;
+[3.629s]       |                           [01;35m[K^~~~[m[K
+[3.772s] [01m[K/home/kargla/robot_movement/src/movement_info/test/movement_test.cpp:[m[K In member function ‘[01m[Kvirtual void MovementTEST_DirectionDeterminationTest_Test::TestBody()[m[K’:
+[3.772s] [01m[K/home/kargla/robot_movement/src/movement_info/test/movement_test.cpp:54:27:[m[K [01;35m[Kwarning: [m[Kconverting to non-pointer type ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >::_x_type[m[K’ {aka ‘[01m[Kdouble[m[K’} from NULL [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wconversion-null-Wconversion-null]8;;[m[K]
+[3.772s]    54 |     msg->twist.linear.x = [01;35m[KNULL[m[K;
+[3.772s]       |                           [01;35m[K^~~~[m[K
+[5.047s] [ 95%] [32m[1mLinking CXX executable movement_info_movement_gmock[0m
+[5.164s] [100%] [32m[1mLinking CXX executable movement_info_movement_gtest[0m
+[6.229s] [100%] Built target movement_info_movement_gmock
+[6.427s] [100%] Built target movement_info_movement_gtest
+[6.441s] Invoked command in '/home/kargla/robot_movement/build/movement_info' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kargla/robot_movement/build/movement_info -- -j12 -l12
+[6.443s] Invoking command in '/home/kargla/robot_movement/build/movement_info': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kargla/robot_movement/build/movement_info
+[6.451s] -- Install configuration: ""
+[6.451s] -- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/movement_info/config
+[6.451s] -- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/movement_info/config/params.yaml
+[6.451s] -- Up-to-date: /home/kargla/robot_movement/install/movement_info/include
+[6.452s] -- Up-to-date: /home/kargla/robot_movement/install/movement_info/include/movement_info
+[6.452s] -- Up-to-date: /home/kargla/robot_movement/install/movement_info/include/movement_info/MockPublisher.hpp
+[6.452s] -- Up-to-date: /home/kargla/robot_movement/install/movement_info/include/movement_info/movement.hpp
+[6.452s] -- Up-to-date: /home/kargla/robot_movement/install/movement_info/include/movement_info/movement_interface.hpp
+[6.452s] -- Up-to-date: /home/kargla/robot_movement/install/movement_info/lib/movement_info/movement
+[6.452s] -- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/ament_index/resource_index/package_run_dependencies/movement_info
+[6.452s] -- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/ament_index/resource_index/parent_prefix_path/movement_info
+[6.452s] -- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/movement_info/environment/ament_prefix_path.sh
+[6.452s] -- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/movement_info/environment/ament_prefix_path.dsv
+[6.452s] -- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/movement_info/environment/path.sh
+[6.452s] -- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/movement_info/environment/path.dsv
+[6.452s] -- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/movement_info/local_setup.bash
+[6.452s] -- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/movement_info/local_setup.sh
+[6.453s] -- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/movement_info/local_setup.zsh
+[6.453s] -- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/movement_info/local_setup.dsv
+[6.453s] -- Installing: /home/kargla/robot_movement/install/movement_info/share/movement_info/package.dsv
+[6.453s] -- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/ament_index/resource_index/packages/movement_info
+[6.453s] -- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/movement_info/cmake/movement_infoConfig.cmake
+[6.453s] -- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/movement_info/cmake/movement_infoConfig-version.cmake
+[6.453s] -- Up-to-date: /home/kargla/robot_movement/install/movement_info/share/movement_info/package.xml
+[6.456s] Invoked command in '/home/kargla/robot_movement/build/movement_info' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kargla/robot_movement/build/movement_info

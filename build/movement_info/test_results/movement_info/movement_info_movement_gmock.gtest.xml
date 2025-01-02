@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="1" failures="0" disabled="0" errors="0" time="0.001" timestamp="2024-12-28T13:31:13" name="AllTests">
-  <testsuite name="MovementTest" tests="1" failures="0" disabled="0" errors="0" time="0" timestamp="2024-12-28T13:31:13">
-    <testcase name="HeadingDeterminationTest1" status="run" result="completed" time="0" timestamp="2024-12-28T13:31:13" classname="movement_info.MovementTest" />
+<testsuites tests="3" failures="0" disabled="0" errors="0" time="0.033" timestamp="2025-01-02T18:11:21" name="AllTests">
+  <testsuite name="MovementTest" tests="2" failures="0" disabled="0" errors="0" time="0.024" timestamp="2025-01-02T18:11:21">
+    <testcase name="HeadingDeterminationTest" status="run" result="completed" time="0.016" timestamp="2025-01-02T18:11:21" classname="movement_info.MovementTest" />
+    <testcase name="MovementInfoPublishingTest" status="run" result="completed" time="0.008" timestamp="2025-01-02T18:11:21" classname="movement_info.MovementTest" />
+  </testsuite>
+  <testsuite name="MovementTEST" tests="1" failures="0" disabled="0" errors="0" time="0.009" timestamp="2025-01-02T18:11:21">
+    <testcase name="DirectionDeterminationTest" status="run" result="completed" time="0.009" timestamp="2025-01-02T18:11:21" classname="movement_info.MovementTEST" />
   </testsuite>
 </testsuites>

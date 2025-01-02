@@ -1,6 +1,6 @@
 #include "movement_info/movement.hpp"
 
-Movement::Movement() : Node("movement")
+Movement::Movement() : MovementInterface("movement")
 {
     this->declare_parameter<float>("direction_treshold", 0.1);
     this->declare_parameter<float>("heading_treshold", 0.1);
@@ -58,7 +58,7 @@ void Movement::publish_movement_info()
 
 void Movement::odometry_callback(const nav_msgs::msg::Odometry::SharedPtr msg)
 {
-    if (msg->twist.twist.angular.z < heading_treshold && msg->twist.twist.angular.z > -heading_treshold)
+    if (msg->twist.twist.angular.z <= heading_treshold && msg->twist.twist.angular.z >= -heading_treshold)
     {
         message_.heading = movement_info_msgs::msg::MovementInfo::STRAIGHT;
     }
@@ -74,7 +74,7 @@ void Movement::odometry_callback(const nav_msgs::msg::Odometry::SharedPtr msg)
 
 void Movement::velocity_callback(const geometry_msgs::msg::TwistStamped::SharedPtr msg)
 {
-    if (msg->twist.linear.x < dir_treshold && msg->twist.linear.x > -dir_treshold)
+    if (msg->twist.linear.x <= dir_treshold && msg->twist.linear.x >= -dir_treshold)
     {
         message_.movement = movement_info_msgs::msg::MovementInfo::STANDSTILL;
     }

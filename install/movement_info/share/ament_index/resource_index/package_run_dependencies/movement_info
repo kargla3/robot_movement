@@ -1,1 +1,1 @@
-rclcpp;std_msgs;geometry_msgs;nav_msgs;yaml-cpp;ament_cmake_gtest;gmock
+rclcpp;geometry_msgs;nav_msgs;yaml-cpp;ament_cmake_gtest;gmock

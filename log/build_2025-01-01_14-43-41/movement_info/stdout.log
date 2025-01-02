@@ -1,0 +1,6 @@
+[ 11%] Built target gtest_main
+[ 22%] Built target gmock_main
+[ 50%] Built target gtest
+[ 50%] Built target gmock
+[ 55%] [32mBuilding CXX object CMakeFiles/movement_info_library.dir/src/movement.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/movement.dir/src/movement.cpp.o[0m

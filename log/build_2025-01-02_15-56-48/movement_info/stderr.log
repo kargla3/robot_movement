@@ -1,0 +1,237 @@
+In file included from [01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock-function-mocker.h:39[m[K,
+                 from [01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock.h:61[m[K,
+                 from [01m[K/home/kargla/robot_movement/src/movement_info/test/movement_test.cpp:2[m[K:
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/MockPublisher.hpp:12:45:[m[K [01;31m[Kerror: [m[Kcannot call member function ‘[01m[Kvirtual void MovementInterface::publish_movement_info()[m[K’ without object
+   12 |     MOCK_METHOD0(void, [01;31m[Kpublish_movement_info()[m[K);
+      |                        [01;31m[K~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/MockPublisher.hpp:12:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   12 |     [01;31m[KMOCK_METHOD0[m[K(void, publish_movement_info());
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/MockPublisher.hpp:12:45:[m[K [01;31m[Kerror: [m[Kcannot call member function ‘[01m[Kvirtual void MovementInterface::publish_movement_info()[m[K’ without object
+   12 |     MOCK_METHOD0(void, [01;31m[Kpublish_movement_info()[m[K);
+      |                        [01;31m[K~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/MockPublisher.hpp:12:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   12 |     [01;31m[KMOCK_METHOD0[m[K(void, publish_movement_info());
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/MockPublisher.hpp:12:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   12 |     [01;31m[KMOCK_METHOD0[m[K(void, publish_movement_info());
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/MockPublisher.hpp:12:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K)[m[K’ token
+   12 |     [01;31m[KMOCK_METHOD0[m[K(void, publish_movement_info());
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/MockPublisher.hpp:12:45:[m[K [01;31m[Kerror: [m[Kcannot call member function ‘[01m[Kvirtual void MovementInterface::publish_movement_info()[m[K’ without object
+   12 |     MOCK_METHOD0(void, [01;31m[Kpublish_movement_info()[m[K);
+      |                        [01;31m[K~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/MockPublisher.hpp:12:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   12 |     [01;31m[KMOCK_METHOD0[m[K(void, publish_movement_info());
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/MockPublisher.hpp:12:45:[m[K [01;31m[Kerror: [m[Kcannot call member function ‘[01m[Kvirtual void MovementInterface::publish_movement_info()[m[K’ without object
+   12 |     MOCK_METHOD0(void, [01;31m[Kpublish_movement_info()[m[K);
+      |                        [01;31m[K~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/MockPublisher.hpp:12:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   12 |     [01;31m[KMOCK_METHOD0[m[K(void, publish_movement_info());
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/MockPublisher.hpp:12:45:[m[K [01;31m[Kerror: [m[Kcannot call member function ‘[01m[Kvirtual void MovementInterface::publish_movement_info()[m[K’ without object
+   12 |     MOCK_METHOD0(void, [01;31m[Kpublish_movement_info()[m[K);
+      |                        [01;31m[K~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/MockPublisher.hpp:12:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   12 |     [01;31m[KMOCK_METHOD0[m[K(void, publish_movement_info());
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/MockPublisher.hpp:12:45:[m[K [01;31m[Kerror: [m[Kcannot call member function ‘[01m[Kvirtual void MovementInterface::publish_movement_info()[m[K’ without object
+   12 |     MOCK_METHOD0(void, [01;31m[Kpublish_movement_info()[m[K);
+      |                        [01;31m[K~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/MockPublisher.hpp:12:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   12 |     [01;31m[KMOCK_METHOD0[m[K(void, publish_movement_info());
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/MockPublisher.hpp:[m[K In member function ‘[01m[Kint MockPublisher::gmock_void()[m[K’:
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/MockPublisher.hpp:12:5:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KRegisterOwner[m[K’ in ‘[01m[K((MockPublisher*)this)->MockPublisher::gmock0_void_12[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+   12 |     [01;31m[KMOCK_METHOD0[m[K(void, publish_movement_info());
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/MockPublisher.hpp:12:5:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KWith[m[K’ in ‘[01m[K((MockPublisher*)this)->MockPublisher::gmock0_void_12[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+   12 |     [01;31m[KMOCK_METHOD0[m[K(void, publish_movement_info());
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock-generated-function-mockers.h:47[m[K,
+                 from [01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock-function-mocker.h:39[m[K,
+                 from [01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock.h:61[m[K,
+                 from [01m[K/home/kargla/robot_movement/src/movement_info/test/movement_test.cpp:2[m[K:
+[01m[K/home/kargla/robot_movement/src/movement_info/test/movement_test.cpp:[m[K In member function ‘[01m[Kvirtual void MovementTest_MovementInfoPublishingTest_Test::TestBody()[m[K’:
+[01m[K/home/kargla/robot_movement/src/movement_info/test/movement_test.cpp:59:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MockPublisher[m[K’ has no member named ‘[01m[Kgmock_publish_movement_info[m[K’; did you mean ‘[01m[Kpublish_movement_info[m[K’?
+   59 |     [01;31m[KEXPECT_CALL[m[K(mockPublisher, publish_movement_info()).Times(1);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock-function-mocker.h:39[m[K,
+                 from [01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock.h:61[m[K,
+                 from [01m[K/home/kargla/robot_movement/src/movement_info/test/movement_test.cpp:2[m[K:
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/MockPublisher.hpp:12:45:[m[K [01;31m[Kerror: [m[Kcannot call member function ‘[01m[Kvirtual void MovementInterface::publish_movement_info()[m[K’ without object
+   12 |     MOCK_METHOD0(void, [01;31m[Kpublish_movement_info()[m[K);
+      |                        [01;31m[K~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock-generated-function-mockers.h:139:37:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGMOCK_METHOD0_[m[K’
+  139 |       ::testing::internal::Function<[01;36m[K__VA_ARGS__[m[K>::ArgumentCount, \
+      |                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/MockPublisher.hpp:12:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KMOCK_METHOD0[m[K’
+   12 |     [01;36m[KMOCK_METHOD0[m[K(void, publish_movement_info());
+      |     [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock-generated-function-mockers.h:139:48:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  139 |       ::testing::internal::Function<__VA_ARGS__[01;31m[K>[m[K::ArgumentCount, \
+      |                                                [01;31m[K^[m[K
+[01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock-generated-function-mockers.h:599:30:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGMOCK_METHOD0_[m[K’
+  599 | #define MOCK_METHOD0(m, ...) [01;36m[KGMOCK_METHOD0_[m[K(, , , m, __VA_ARGS__)
+      |                              [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/MockPublisher.hpp:12:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KMOCK_METHOD0[m[K’
+   12 |     [01;36m[KMOCK_METHOD0[m[K(void, publish_movement_info());
+      |     [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/MockPublisher.hpp:12:45:[m[K [01;31m[Kerror: [m[Kcannot call member function ‘[01m[Kvirtual void MovementInterface::publish_movement_info()[m[K’ without object
+   12 |     MOCK_METHOD0(void, [01;31m[Kpublish_movement_info()[m[K);
+      |                        [01;31m[K~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock-generated-function-mockers.h:119:38:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGMOCK_RESULT_[m[K’
+  119 |     tn ::testing::internal::Function<[01;36m[K__VA_ARGS__[m[K>::Result
+      |                                      [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock-generated-function-mockers.h:599:30:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGMOCK_METHOD0_[m[K’
+  599 | #define MOCK_METHOD0(m, ...) [01;36m[KGMOCK_METHOD0_[m[K(, , , m, __VA_ARGS__)
+      |                              [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/MockPublisher.hpp:12:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KMOCK_METHOD0[m[K’
+   12 |     [01;36m[KMOCK_METHOD0[m[K(void, publish_movement_info());
+      |     [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock-generated-function-mockers.h:119:49:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  119 |     tn ::testing::internal::Function<__VA_ARGS__[01;31m[K>[m[K::Result
+      |                                                 [01;31m[K^[m[K
+[01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock-generated-function-mockers.h:141:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGMOCK_RESULT_[m[K’
+  141 |   [01;36m[KGMOCK_RESULT_[m[K(tn, __VA_ARGS__) ct Method( \
+      |   [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock-generated-function-mockers.h:599:30:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGMOCK_METHOD0_[m[K’
+  599 | #define MOCK_METHOD0(m, ...) [01;36m[KGMOCK_METHOD0_[m[K(, , , m, __VA_ARGS__)
+      |                              [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/MockPublisher.hpp:12:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KMOCK_METHOD0[m[K’
+   12 |     [01;36m[KMOCK_METHOD0[m[K(void, publish_movement_info());
+      |     [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock-generated-function-mockers.h:119:52:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  119 |     tn ::testing::internal::Function<__VA_ARGS__>::[01;31m[KResult[m[K
+      |                                                    [01;31m[K^~~~~~[m[K
+[01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock-generated-function-mockers.h:141:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGMOCK_RESULT_[m[K’
+  141 |   [01;36m[KGMOCK_RESULT_[m[K(tn, __VA_ARGS__) ct Method( \
+      |   [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock-generated-function-mockers.h:599:30:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGMOCK_METHOD0_[m[K’
+  599 | #define MOCK_METHOD0(m, ...) [01;36m[KGMOCK_METHOD0_[m[K(, , , m, __VA_ARGS__)
+      |                              [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/MockPublisher.hpp:12:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KMOCK_METHOD0[m[K’
+   12 |     [01;36m[KMOCK_METHOD0[m[K(void, publish_movement_info());
+      |     [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock-generated-function-mockers.h:142:7:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K)[m[K’ token
+  142 |       [01;31m[K)[m[K constness { \
+      |       [01;31m[K^[m[K
+[01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock-generated-function-mockers.h:599:30:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGMOCK_METHOD0_[m[K’
+  599 | #define MOCK_METHOD0(m, ...) [01;36m[KGMOCK_METHOD0_[m[K(, , , m, __VA_ARGS__)
+      |                              [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/MockPublisher.hpp:12:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KMOCK_METHOD0[m[K’
+   12 |     [01;36m[KMOCK_METHOD0[m[K(void, publish_movement_info());
+      |     [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/MockPublisher.hpp:12:45:[m[K [01;31m[Kerror: [m[Kcannot call member function ‘[01m[Kvirtual void MovementInterface::publish_movement_info()[m[K’ without object
+   12 |     MOCK_METHOD0(void, [01;31m[Kpublish_movement_info()[m[K);
+      |                        [01;31m[K~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock-generated-function-mockers.h:146:23:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGMOCK_METHOD0_[m[K’
+  146 |   ::testing::MockSpec<[01;36m[K__VA_ARGS__[m[K> \
+      |                       [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/MockPublisher.hpp:12:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KMOCK_METHOD0[m[K’
+   12 |     [01;36m[KMOCK_METHOD0[m[K(void, publish_movement_info());
+      |     [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock-generated-function-mockers.h:146:34:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  146 |   ::testing::MockSpec<__VA_ARGS__[01;31m[K>[m[K \
+      |                                  [01;31m[K^[m[K
+[01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock-generated-function-mockers.h:599:30:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGMOCK_METHOD0_[m[K’
+  599 | #define MOCK_METHOD0(m, ...) [01;36m[KGMOCK_METHOD0_[m[K(, , , m, __VA_ARGS__)
+      |                              [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/MockPublisher.hpp:12:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KMOCK_METHOD0[m[K’
+   12 |     [01;36m[KMOCK_METHOD0[m[K(void, publish_movement_info());
+      |     [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/MockPublisher.hpp:12:45:[m[K [01;31m[Kerror: [m[Kcannot call member function ‘[01m[Kvirtual void MovementInterface::publish_movement_info()[m[K’ without object
+   12 |     MOCK_METHOD0(void, [01;31m[Kpublish_movement_info()[m[K);
+      |                        [01;31m[K~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock-generated-function-mockers.h:151:23:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGMOCK_METHOD0_[m[K’
+  151 |   ::testing::MockSpec<[01;36m[K__VA_ARGS__[m[K> gmock_##Method( \
+      |                       [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/MockPublisher.hpp:12:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KMOCK_METHOD0[m[K’
+   12 |     [01;36m[KMOCK_METHOD0[m[K(void, publish_movement_info());
+      |     [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock-generated-function-mockers.h:151:34:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  151 |   ::testing::MockSpec<__VA_ARGS__[01;31m[K>[m[K gmock_##Method( \
+      |                                  [01;31m[K^[m[K
+[01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock-generated-function-mockers.h:599:30:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGMOCK_METHOD0_[m[K’
+  599 | #define MOCK_METHOD0(m, ...) [01;36m[KGMOCK_METHOD0_[m[K(, , , m, __VA_ARGS__)
+      |                              [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/MockPublisher.hpp:12:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KMOCK_METHOD0[m[K’
+   12 |     [01;36m[KMOCK_METHOD0[m[K(void, publish_movement_info());
+      |     [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/MockPublisher.hpp:12:45:[m[K [01;31m[Kerror: [m[Kcannot call member function ‘[01m[Kvirtual void MovementInterface::publish_movement_info()[m[K’ without object
+   12 |     MOCK_METHOD0(void, [01;31m[Kpublish_movement_info()[m[K);
+      |                        [01;31m[K~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock-generated-function-mockers.h:153:47:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGMOCK_METHOD0_[m[K’
+  153 |       constness ::testing::internal::Function<[01;36m[K__VA_ARGS__[m[K>* ) const { \
+      |                                               [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/MockPublisher.hpp:12:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KMOCK_METHOD0[m[K’
+   12 |     [01;36m[KMOCK_METHOD0[m[K(void, publish_movement_info());
+      |     [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock-generated-function-mockers.h:153:58:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  153 |       constness ::testing::internal::Function<__VA_ARGS__[01;31m[K>[m[K* ) const { \
+      |                                                          [01;31m[K^[m[K
+[01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock-generated-function-mockers.h:599:30:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGMOCK_METHOD0_[m[K’
+  599 | #define MOCK_METHOD0(m, ...) [01;36m[KGMOCK_METHOD0_[m[K(, , , m, __VA_ARGS__)
+      |                              [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/MockPublisher.hpp:12:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KMOCK_METHOD0[m[K’
+   12 |     [01;36m[KMOCK_METHOD0[m[K(void, publish_movement_info());
+      |     [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/MockPublisher.hpp:12:45:[m[K [01;31m[Kerror: [m[Kcannot call member function ‘[01m[Kvirtual void MovementInterface::publish_movement_info()[m[K’ without object
+   12 |     MOCK_METHOD0(void, [01;31m[Kpublish_movement_info()[m[K);
+      |                        [01;31m[K~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock-generated-function-mockers.h:157:37:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGMOCK_METHOD0_[m[K’
+  157 |   mutable ::testing::FunctionMocker<[01;36m[K__VA_ARGS__[m[K> GMOCK_MOCKER_(0, constness, \
+      |                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/MockPublisher.hpp:12:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KMOCK_METHOD0[m[K’
+   12 |     [01;36m[KMOCK_METHOD0[m[K(void, publish_movement_info());
+      |     [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock-generated-function-mockers.h:157:48:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  157 |   mutable ::testing::FunctionMocker<__VA_ARGS__[01;31m[K>[m[K GMOCK_MOCKER_(0, constness, \
+      |                                                [01;31m[K^[m[K
+[01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock-generated-function-mockers.h:599:30:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGMOCK_METHOD0_[m[K’
+  599 | #define MOCK_METHOD0(m, ...) [01;36m[KGMOCK_METHOD0_[m[K(, , , m, __VA_ARGS__)
+      |                              [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/MockPublisher.hpp:12:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KMOCK_METHOD0[m[K’
+   12 |     [01;36m[KMOCK_METHOD0[m[K(void, publish_movement_info());
+      |     [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/MockPublisher.hpp:[m[K In member function ‘[01m[Kint MockPublisher::gmock_void()[m[K’:
+[01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock-generated-function-mockers.h:148:41:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KRegisterOwner[m[K’ in ‘[01m[K((MockPublisher*)this)->MockPublisher::gmock0_void_12[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  148 |     GMOCK_MOCKER_(0, constness, Method).[01;31m[KRegisterOwner[m[K(this); \
+      |                                         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock-generated-function-mockers.h:599:30:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGMOCK_METHOD0_[m[K’
+  599 | #define MOCK_METHOD0(m, ...) [01;36m[KGMOCK_METHOD0_[m[K(, , , m, __VA_ARGS__)
+      |                              [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/MockPublisher.hpp:12:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KMOCK_METHOD0[m[K’
+   12 |     [01;36m[KMOCK_METHOD0[m[K(void, publish_movement_info());
+      |     [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock-generated-function-mockers.h:149:48:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KWith[m[K’ in ‘[01m[K((MockPublisher*)this)->MockPublisher::gmock0_void_12[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  149 |     return GMOCK_MOCKER_(0, constness, Method).[01;31m[KWith[m[K(); \
+      |                                                [01;31m[K^~~~[m[K
+[01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock-generated-function-mockers.h:599:30:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGMOCK_METHOD0_[m[K’
+  599 | #define MOCK_METHOD0(m, ...) [01;36m[KGMOCK_METHOD0_[m[K(, , , m, __VA_ARGS__)
+      |                              [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/MockPublisher.hpp:12:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KMOCK_METHOD0[m[K’
+   12 |     [01;36m[KMOCK_METHOD0[m[K(void, publish_movement_info());
+      |     [01;36m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock-generated-function-mockers.h:47[m[K,
+                 from [01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock-function-mocker.h:39[m[K,
+                 from [01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock.h:61[m[K,
+                 from [01m[K/home/kargla/robot_movement/src/movement_info/test/movement_test.cpp:2[m[K:
+[01m[K/home/kargla/robot_movement/src/movement_info/test/movement_test.cpp:[m[K In member function ‘[01m[Kvirtual void MovementTest_MovementInfoPublishingTest_Test::TestBody()[m[K’:
+[01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock-spec-builders.h:1975:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MockPublisher[m[K’ has no member named ‘[01m[Kgmock_publish_movement_info[m[K’; did you mean ‘[01m[Kpublish_movement_info[m[K’?
+ 1975 |   ((mock_expr).[01;31m[Kgmock_[m[K##call)(::testing::internal::GetWithoutMatchers(), \
+      |                [01;31m[K^~~~~~[m[K
+[01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock-spec-builders.h:1983:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGMOCK_ON_CALL_IMPL_[m[K’
+ 1983 |   [01;36m[KGMOCK_ON_CALL_IMPL_[m[K(obj, InternalExpectedAt, call)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kargla/robot_movement/src/movement_info/test/movement_test.cpp:59:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_CALL[m[K’
+   59 |     [01;36m[KEXPECT_CALL[m[K(mockPublisher, publish_movement_info()).Times(1);
+      |     [01;36m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/movement_info_movement_gmock.dir/build.make:76: CMakeFiles/movement_info_movement_gmock.dir/test/movement_test.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:264: CMakeFiles/movement_info_movement_gmock.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/movement_info_movement_gtest.dir/build.make:76: CMakeFiles/movement_info_movement_gtest.dir/test/movement_test.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:235: CMakeFiles/movement_info_movement_gtest.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

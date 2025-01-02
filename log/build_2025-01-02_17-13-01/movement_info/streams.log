@@ -1,0 +1,38 @@
+[0.016s] Invoking command in '/home/kargla/robot_movement/build/movement_info': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kargla/robot_movement/build/movement_info -- -j12 -l12
+[0.083s] [ 10%] Built target gtest
+[0.086s] [ 45%] Built target movement
+[0.087s] [ 40%] Built target gmock
+[0.087s] [ 55%] Built target gmock_main
+[0.089s] [ 70%] Built target movement_info_library
+[0.090s] [ 80%] Built target gtest_main
+[0.109s] [35m[1mConsolidate compiler generated dependencies of target movement_info_movement_gmock[0m
+[0.112s] [35m[1mConsolidate compiler generated dependencies of target movement_info_movement_gtest[0m
+[0.139s] [ 85%] [32mBuilding CXX object CMakeFiles/movement_info_movement_gmock.dir/test/movement_test.cpp.o[0m
+[0.141s] [ 90%] [32mBuilding CXX object CMakeFiles/movement_info_movement_gtest.dir/test/movement_test.cpp.o[0m
+[3.597s] In file included from [01m[K/home/kargla/robot_movement/src/movement_info/test/movement_test.cpp:5[m[K:
+[3.597s] [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/MockPublisher.hpp:[m[K In member function ‘[01m[Kvoid MockPublisher::setMesssage(movement_info_msgs::msg::MovementInfo)[m[K’:
+[3.597s] [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/MockPublisher.hpp:16:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kmovement_info_msgs::msg::MovementInfo MovementInterface::message_[m[K’ is private within this context
+[3.597s]    16 |         this->[01;31m[Kmessage_[m[K = message;
+[3.597s]       |               [01;31m[K^~~~~~~~[m[K
+[3.597s] In file included from [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:9[m[K,
+[3.598s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/test/movement_test.cpp:3[m[K:
+[3.598s] [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement_interface.hpp:15:43:[m[K [01;36m[Knote: [m[Kdeclared private here
+[3.598s]    15 |     movement_info_msgs::msg::MovementInfo [01;36m[Kmessage_[m[K;
+[3.598s]       |                                           [01;36m[K^~~~~~~~[m[K
+[3.699s] In file included from [01m[K/home/kargla/robot_movement/src/movement_info/test/movement_test.cpp:5[m[K:
+[3.699s] [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/MockPublisher.hpp:[m[K In member function ‘[01m[Kvoid MockPublisher::setMesssage(movement_info_msgs::msg::MovementInfo)[m[K’:
+[3.700s] [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/MockPublisher.hpp:16:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kmovement_info_msgs::msg::MovementInfo MovementInterface::message_[m[K’ is private within this context
+[3.700s]    16 |         this->[01;31m[Kmessage_[m[K = message;
+[3.700s]       |               [01;31m[K^~~~~~~~[m[K
+[3.700s] In file included from [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:9[m[K,
+[3.700s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/test/movement_test.cpp:3[m[K:
+[3.700s] [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement_interface.hpp:15:43:[m[K [01;36m[Knote: [m[Kdeclared private here
+[3.700s]    15 |     movement_info_msgs::msg::MovementInfo [01;36m[Kmessage_[m[K;
+[3.700s]       |                                           [01;36m[K^~~~~~~~[m[K
+[4.669s] gmake[2]: *** [CMakeFiles/movement_info_movement_gtest.dir/build.make:76: CMakeFiles/movement_info_movement_gtest.dir/test/movement_test.cpp.o] Error 1
+[4.669s] gmake[1]: *** [CMakeFiles/Makefile2:235: CMakeFiles/movement_info_movement_gtest.dir/all] Error 2
+[4.669s] gmake[1]: *** Waiting for unfinished jobs....
+[4.783s] gmake[2]: *** [CMakeFiles/movement_info_movement_gmock.dir/build.make:76: CMakeFiles/movement_info_movement_gmock.dir/test/movement_test.cpp.o] Error 1
+[4.783s] gmake[1]: *** [CMakeFiles/Makefile2:264: CMakeFiles/movement_info_movement_gmock.dir/all] Error 2
+[4.783s] gmake: *** [Makefile:146: all] Error 2
+[4.786s] Invoked command in '/home/kargla/robot_movement/build/movement_info' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kargla/robot_movement/build/movement_info -- -j12 -l12

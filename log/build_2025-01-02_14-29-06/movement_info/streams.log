@@ -1,0 +1,45 @@
+[0.014s] Invoking command in '/home/kargla/robot_movement/build/movement_info': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kargla/robot_movement/build/movement_info -- -j12 -l12
+[0.072s] [35m[1mConsolidate compiler generated dependencies of target movement[0m
+[0.096s] [ 31%] Built target gtest
+[0.097s] [ 31%] Built target gtest_main
+[0.097s] [ 31%] Built target gmock_main
+[0.101s] [ 47%] Built target gmock
+[0.101s] [ 52%] [32mBuilding CXX object CMakeFiles/movement_info_library.dir/src/movement.cpp.o[0m
+[0.119s] [ 57%] [32mBuilding CXX object CMakeFiles/movement.dir/src/movement.cpp.o[0m
+[0.122s] [ 63%] [32mBuilding CXX object CMakeFiles/movement.dir/src/main.cpp.o[0m
+[0.124s] [ 68%] [32mBuilding CXX object CMakeFiles/movement.dir/test/movement_interface.cpp.o[0m
+[0.656s] In file included from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1[m[K:
+[0.657s] [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:9:10:[m[K [01;31m[Kfatal error: [m[Kmovement_info/movement_interface.hpp: No such file or directory
+[0.657s]     9 | #include [01;31m[K"movement_info/movement_interface.hpp"[m[K
+[0.657s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.657s] compilation terminated.
+[0.669s] gmake[2]: *** [CMakeFiles/movement_info_library.dir/build.make:76: CMakeFiles/movement_info_library.dir/src/movement.cpp.o] Error 1
+[0.670s] gmake[1]: *** [CMakeFiles/Makefile2:206: CMakeFiles/movement_info_library.dir/all] Error 2
+[0.670s] gmake[1]: *** Waiting for unfinished jobs....
+[0.691s] In file included from [01m[K/home/kargla/robot_movement/src/movement_info/src/main.cpp:1[m[K:
+[0.691s] [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:9:10:[m[K [01;31m[Kfatal error: [m[Kmovement_info/movement_interface.hpp: No such file or directory
+[0.691s]     9 | #include [01;31m[K"movement_info/movement_interface.hpp"[m[K
+[0.691s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.691s] compilation terminated.
+[0.699s] gmake[2]: *** [CMakeFiles/movement.dir/build.make:90: CMakeFiles/movement.dir/src/main.cpp.o] Error 1
+[0.699s] gmake[2]: *** Waiting for unfinished jobs....
+[0.708s] In file included from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1[m[K:
+[0.708s] [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:9:10:[m[K [01;31m[Kfatal error: [m[Kmovement_info/movement_interface.hpp: No such file or directory
+[0.708s]     9 | #include [01;31m[K"movement_info/movement_interface.hpp"[m[K
+[0.708s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.708s] compilation terminated.
+[0.714s] gmake[2]: *** [CMakeFiles/movement.dir/build.make:76: CMakeFiles/movement.dir/src/movement.cpp.o] Error 1
+[2.893s] [01m[K/home/kargla/robot_movement/src/movement_info/test/movement_interface.cpp:[m[K In constructor ‘[01m[KMovementInterface::MovementInterface(const string&)[m[K’:
+[2.893s] [01m[K/home/kargla/robot_movement/src/movement_info/test/movement_interface.cpp:9:26:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’}
+[2.893s]     9 |         publisher_ = node[01;31m[K->[m[Kcreate_publisher<movement_info_msgs::msg::MovementInfo>("/movement_info", 10);
+[2.894s]       |                          [01;31m[K^~[m[K
+[2.894s] [01m[K/home/kargla/robot_movement/src/movement_info/test/movement_interface.cpp:9:82:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[2.894s]     9 |         publisher_ = node->create_publisher<movement_info_msgs::msg::MovementInfo[01;31m[K>[m[K("/movement_info", 10);
+[2.894s]       |                                                                                  [01;31m[K^[m[K
+[2.894s] [01m[K/home/kargla/robot_movement/src/movement_info/test/movement_interface.cpp:9:84:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[2.894s]     9 |         publisher_ = node->create_publisher<movement_info_msgs::msg::MovementInfo>([01;35m[K"/movement_info"[m[K, 10);
+[2.895s]       |                                                                                    [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[3.381s] gmake[2]: *** [CMakeFiles/movement.dir/build.make:104: CMakeFiles/movement.dir/test/movement_interface.cpp.o] Error 1
+[3.382s] gmake[1]: *** [CMakeFiles/Makefile2:180: CMakeFiles/movement.dir/all] Error 2
+[3.382s] gmake: *** [Makefile:146: all] Error 2
+[3.386s] Invoked command in '/home/kargla/robot_movement/build/movement_info' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kargla/robot_movement/build/movement_info -- -j12 -l12

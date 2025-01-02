@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20250102-1633-Experimental"
+	Name="kargla-ideapad"
+	Generator="ctest-3.22.1"
+	CompilerName="/usr/bin/c++"
+	CompilerVersion="11.4.0"
+	OSName="Linux"
+	Hostname="kargla-ideapad"
+	OSRelease="6.8.0-50-generic"
+	OSVersion="#51~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Nov 21 12:03:03 UTC 2"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="AuthenticAMD"
+	VendorID="Advanced Micro Devices"
+	FamilyID="23"
+	ModelID="104"
+	ProcessorCacheSize="512"
+	NumberOfLogicalCPU="12"
+	NumberOfPhysicalCPU="6"
+	TotalVirtualMemory="2047"
+	TotalPhysicalMemory="15319"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="4027.56"
+	>
+	<Testing>
+		<StartDateTime>Jan 02 17:33 CET</StartDateTime>
+		<StartTestTime>1735835585</StartTestTime>
+		<TestList>
+			<Test>./movement_info_movement_gtest</Test>
+			<Test>./movement_info_movement_gmock</Test>
+		</TestList>
+		<Test Status="failed">
+			<Name>movement_info_movement_gtest</Name>
+			<Path>.</Path>
+			<FullName>./movement_info_movement_gtest</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/kargla/robot_movement/build/movement_info/test_results/movement_info/movement_info_movement_gtest.gtest.xml" "--package-name" "movement_info" "--output-file" "/home/kargla/robot_movement/build/movement_info/ament_cmake_gtest/movement_info_movement_gtest.txt" "--command" "/home/kargla/robot_movement/build/movement_info/movement_info_movement_gtest" "--gtest_output=xml:/home/kargla/robot_movement/build/movement_info/test_results/movement_info/movement_info_movement_gtest.gtest.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.220206</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/kargla/robot_movement/build/movement_info/test_results/movement_info/movement_info_movement_gtest.gtest.xml" "--package-name" "movement_info" "--output-file" "/home/kargla/robot_movement/build/movement_info/ament_cmake_gtest/movement_info_movement_gtest.txt" "--command" "/home/kargla/robot_movement/build/movement_info/movement_info_movement_gtest" "--gtest_output=xml:/home/kargla/robot_movement/build/movement_info/test_results/movement_info/movement_info_movement_gtest.gtest.xml"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/kargla/robot_movement/build/movement_info':
+ - /home/kargla/robot_movement/build/movement_info/movement_info_movement_gtest --gtest_output=xml:/home/kargla/robot_movement/build/movement_info/test_results/movement_info/movement_info_movement_gtest.gtest.xml
+[==========] Running 3 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 2 tests from MovementTest
+[ RUN      ] MovementTest.HeadingDeterminationTest
+[INFO] [1735835586.041505075] [movement]: Direction treshold: '0.100000'
+[INFO] [1735835586.041599991] [movement]: Heading treshold: '0.100000'
+[INFO] [1735835586.041613960] [movement]: Movement topic: '/movement_info'
+[INFO] [1735835586.041624786] [movement]: Odometry topic: '/diff_drive/odom'
+[INFO] [1735835586.041635262] [movement]: Velocity topic: '/diff_drive/cmd_vel'
+/home/kargla/robot_movement/src/movement_info/test/movement_test.cpp:16: Failure
+Expected equality of these values:
+  movement.getMessage().heading
+    Which is: ""
+  movement_info_msgs::msg::MovementInfo::STRAIGHT
+    Which is: "straight"
+[  FAILED  ] MovementTest.HeadingDeterminationTest (21 ms)
+[ RUN      ] MovementTest.MovementInfoPublishingTest
+[       OK ] MovementTest.MovementInfoPublishingTest (7 ms)
+[----------] 2 tests from MovementTest (28 ms total)
+
+[----------] 1 test from MovementTEST
+[ RUN      ] MovementTEST.DirectionDeterminationTest
+[INFO] [1735835586.062426096] [movement]: Direction treshold: '0.100000'
+[INFO] [1735835586.062614671] [movement]: Heading treshold: '0.100000'
+[INFO] [1735835586.062632202] [movement]: Movement topic: '/movement_info'
+[INFO] [1735835586.062644703] [movement]: Odometry topic: '/diff_drive/odom'
+[INFO] [1735835586.062656507] [movement]: Velocity topic: '/diff_drive/cmd_vel'
+/home/kargla/robot_movement/src/movement_info/test/movement_test.cpp:40: Failure
+Expected equality of these values:
+  movement.getMessage().movement
+    Which is: ""
+  movement_info_msgs::msg::MovementInfo::STANDSTILL
+    Which is: "standstill"
+[  FAILED  ] MovementTEST.DirectionDeterminationTest (8 ms)
+[----------] 1 test from MovementTEST (8 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 2 test suites ran. (36 ms total)
+[  PASSED  ] 1 test.
+[  FAILED  ] 2 tests, listed below:
+[  FAILED  ] MovementTest.HeadingDeterminationTest
+[  FAILED  ] MovementTEST.DirectionDeterminationTest
+
+ 2 FAILED TESTS
+-- run_test.py: return code 1
+-- run_test.py: inject classname prefix into gtest result file '/home/kargla/robot_movement/build/movement_info/test_results/movement_info/movement_info_movement_gtest.gtest.xml'
+-- run_test.py: verify result file '/home/kargla/robot_movement/build/movement_info/test_results/movement_info/movement_info_movement_gtest.gtest.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>gtest</Label>
+			</Labels>
+		</Test>
+		<Test Status="failed">
+			<Name>movement_info_movement_gmock</Name>
+			<Path>.</Path>
+			<FullName>./movement_info_movement_gmock</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/kargla/robot_movement/build/movement_info/test_results/movement_info/movement_info_movement_gmock.gtest.xml" "--package-name" "movement_info" "--output-file" "/home/kargla/robot_movement/build/movement_info/ament_cmake_gmock/movement_info_movement_gmock.txt" "--command" "/home/kargla/robot_movement/build/movement_info/movement_info_movement_gmock" "--gtest_output=xml:/home/kargla/robot_movement/build/movement_info/test_results/movement_info/movement_info_movement_gmock.gtest.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.221132</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/kargla/robot_movement/build/movement_info/test_results/movement_info/movement_info_movement_gmock.gtest.xml" "--package-name" "movement_info" "--output-file" "/home/kargla/robot_movement/build/movement_info/ament_cmake_gmock/movement_info_movement_gmock.txt" "--command" "/home/kargla/robot_movement/build/movement_info/movement_info_movement_gmock" "--gtest_output=xml:/home/kargla/robot_movement/build/movement_info/test_results/movement_info/movement_info_movement_gmock.gtest.xml"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/kargla/robot_movement/build/movement_info':
+ - /home/kargla/robot_movement/build/movement_info/movement_info_movement_gmock --gtest_output=xml:/home/kargla/robot_movement/build/movement_info/test_results/movement_info/movement_info_movement_gmock.gtest.xml
+[==========] Running 3 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 2 tests from MovementTest
+[ RUN      ] MovementTest.HeadingDeterminationTest
+[INFO] [1735835586.263051941] [movement]: Direction treshold: '0.100000'
+[INFO] [1735835586.263162641] [movement]: Heading treshold: '0.100000'
+[INFO] [1735835586.263177867] [movement]: Movement topic: '/movement_info'
+[INFO] [1735835586.263188483] [movement]: Odometry topic: '/diff_drive/odom'
+[INFO] [1735835586.263199728] [movement]: Velocity topic: '/diff_drive/cmd_vel'
+/home/kargla/robot_movement/src/movement_info/test/movement_test.cpp:16: Failure
+Expected equality of these values:
+  movement.getMessage().heading
+    Which is: ""
+  movement_info_msgs::msg::MovementInfo::STRAIGHT
+    Which is: "straight"
+[  FAILED  ] MovementTest.HeadingDeterminationTest (24 ms)
+[ RUN      ] MovementTest.MovementInfoPublishingTest
+[       OK ] MovementTest.MovementInfoPublishingTest (8 ms)
+[----------] 2 tests from MovementTest (32 ms total)
+
+[----------] 1 test from MovementTEST
+[ RUN      ] MovementTEST.DirectionDeterminationTest
+[INFO] [1735835586.287219109] [movement]: Direction treshold: '0.100000'
+[INFO] [1735835586.287265135] [movement]: Heading treshold: '0.100000'
+[INFO] [1735835586.287277497] [movement]: Movement topic: '/movement_info'
+[INFO] [1735835586.287290977] [movement]: Odometry topic: '/diff_drive/odom'
+[INFO] [1735835586.287303269] [movement]: Velocity topic: '/diff_drive/cmd_vel'
+/home/kargla/robot_movement/src/movement_info/test/movement_test.cpp:40: Failure
+Expected equality of these values:
+  movement.getMessage().movement
+    Which is: ""
+  movement_info_msgs::msg::MovementInfo::STANDSTILL
+    Which is: "standstill"
+[  FAILED  ] MovementTEST.DirectionDeterminationTest (7 ms)
+[----------] 1 test from MovementTEST (7 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 2 test suites ran. (39 ms total)
+[  PASSED  ] 1 test.
+[  FAILED  ] 2 tests, listed below:
+[  FAILED  ] MovementTest.HeadingDeterminationTest
+[  FAILED  ] MovementTEST.DirectionDeterminationTest
+
+ 2 FAILED TESTS
+-- run_test.py: return code 1
+-- run_test.py: inject classname prefix into gtest result file '/home/kargla/robot_movement/build/movement_info/test_results/movement_info/movement_info_movement_gmock.gtest.xml'
+-- run_test.py: verify result file '/home/kargla/robot_movement/build/movement_info/test_results/movement_info/movement_info_movement_gmock.gtest.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>gmock</Label>
+			</Labels>
+		</Test>
+		<EndDateTime>Jan 02 17:33 CET</EndDateTime>
+		<EndTestTime>1735835586</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

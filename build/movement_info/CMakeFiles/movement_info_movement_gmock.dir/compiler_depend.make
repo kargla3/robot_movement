@@ -820,7 +820,9 @@ CMakeFiles/movement_info_movement_gmock.dir/test/movement_test.cpp.o: /home/karg
   /usr/include/yaml-cpp/node/convert.h \
   /usr/include/yaml-cpp/node/detail/impl.h \
   /usr/include/yaml-cpp/node/parse.h \
-  /usr/include/yaml-cpp/node/emit.h
+  /usr/include/yaml-cpp/node/emit.h \
+  /home/kargla/robot_movement/src/movement_info/include/movement_info/movement_interface.hpp \
+  /home/kargla/robot_movement/src/movement_info/include/movement_info/MockPublisher.hpp
 
 
 /usr/include/yaml-cpp/node/parse.h:
@@ -1006,6 +1008,8 @@ CMakeFiles/movement_info_movement_gmock.dir/test/movement_test.cpp.o: /home/karg
 /usr/include/yaml-cpp/node/emit.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_topics_interface.hpp:
+
+/home/kargla/robot_movement/src/movement_info/include/movement_info/movement_interface.hpp:
 
 /opt/ros/humble/include/rcutils/rcutils/shared_library.h:
 
@@ -1634,6 +1638,8 @@ CMakeFiles/movement_info_movement_gmock.dir/test/movement_test.cpp.o: /home/karg
 /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h:
+
+/home/kargla/robot_movement/src/movement_info/include/movement_info/MockPublisher.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/timesize.h:
 

@@ -1,0 +1,24 @@
+[ 10%] Built target gtest
+[ 30%] Built target gtest_main
+[ 30%] Built target gmock_main
+[ 45%] Built target gmock
+[ 60%] Built target movement_info_library
+[ 80%] Built target movement
+[35m[1mConsolidate compiler generated dependencies of target movement_info_movement_gtest[0m
+[35m[1mConsolidate compiler generated dependencies of target movement_info_movement_gmock[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/movement_info_movement_gtest.dir/test/movement_test.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/movement_info_movement_gmock.dir/test/movement_test.cpp.o[0m
+[01m[K/home/kargla/robot_movement/src/movement_info/test/movement_test.cpp:[m[K In member function ‘[01m[Kvirtual void MovementTEST_DirectionDeterminationTest_Test::TestBody()[m[K’:
+[01m[K/home/kargla/robot_movement/src/movement_info/test/movement_test.cpp:54:27:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::nullptr_t[m[K’ to ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >::_x_type[m[K’ {aka ‘[01m[Kdouble[m[K’} in assignment
+   54 |     msg->twist.linear.x = [01;31m[Knullptr[m[K;
+      |                           [01;31m[K^~~~~~~[m[K
+[01m[K/home/kargla/robot_movement/src/movement_info/test/movement_test.cpp:[m[K In member function ‘[01m[Kvirtual void MovementTEST_DirectionDeterminationTest_Test::TestBody()[m[K’:
+[01m[K/home/kargla/robot_movement/src/movement_info/test/movement_test.cpp:54:27:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::nullptr_t[m[K’ to ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >::_x_type[m[K’ {aka ‘[01m[Kdouble[m[K’} in assignment
+   54 |     msg->twist.linear.x = [01;31m[Knullptr[m[K;
+      |                           [01;31m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/movement_info_movement_gmock.dir/build.make:76: CMakeFiles/movement_info_movement_gmock.dir/test/movement_test.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:264: CMakeFiles/movement_info_movement_gmock.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/movement_info_movement_gtest.dir/build.make:76: CMakeFiles/movement_info_movement_gtest.dir/test/movement_test.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:235: CMakeFiles/movement_info_movement_gtest.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

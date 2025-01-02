@@ -1,0 +1,36 @@
+[ 10%] Built target gtest
+[ 45%] Built target movement
+[ 40%] Built target gmock
+[ 55%] Built target gmock_main
+[ 70%] Built target movement_info_library
+[ 80%] Built target gtest_main
+[35m[1mConsolidate compiler generated dependencies of target movement_info_movement_gmock[0m
+[35m[1mConsolidate compiler generated dependencies of target movement_info_movement_gtest[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/movement_info_movement_gmock.dir/test/movement_test.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/movement_info_movement_gtest.dir/test/movement_test.cpp.o[0m
+In file included from [01m[K/home/kargla/robot_movement/src/movement_info/test/movement_test.cpp:5[m[K:
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/MockPublisher.hpp:[m[K In member function ‘[01m[Kvoid MockPublisher::setMesssage(movement_info_msgs::msg::MovementInfo)[m[K’:
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/MockPublisher.hpp:16:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kmovement_info_msgs::msg::MovementInfo MovementInterface::message_[m[K’ is private within this context
+   16 |         this->[01;31m[Kmessage_[m[K = message;
+      |               [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:9[m[K,
+                 from [01m[K/home/kargla/robot_movement/src/movement_info/test/movement_test.cpp:3[m[K:
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement_interface.hpp:15:43:[m[K [01;36m[Knote: [m[Kdeclared private here
+   15 |     movement_info_msgs::msg::MovementInfo [01;36m[Kmessage_[m[K;
+      |                                           [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/kargla/robot_movement/src/movement_info/test/movement_test.cpp:5[m[K:
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/MockPublisher.hpp:[m[K In member function ‘[01m[Kvoid MockPublisher::setMesssage(movement_info_msgs::msg::MovementInfo)[m[K’:
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/MockPublisher.hpp:16:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kmovement_info_msgs::msg::MovementInfo MovementInterface::message_[m[K’ is private within this context
+   16 |         this->[01;31m[Kmessage_[m[K = message;
+      |               [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:9[m[K,
+                 from [01m[K/home/kargla/robot_movement/src/movement_info/test/movement_test.cpp:3[m[K:
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement_interface.hpp:15:43:[m[K [01;36m[Knote: [m[Kdeclared private here
+   15 |     movement_info_msgs::msg::MovementInfo [01;36m[Kmessage_[m[K;
+      |                                           [01;36m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/movement_info_movement_gtest.dir/build.make:76: CMakeFiles/movement_info_movement_gtest.dir/test/movement_test.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:235: CMakeFiles/movement_info_movement_gtest.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/movement_info_movement_gmock.dir/build.make:76: CMakeFiles/movement_info_movement_gmock.dir/test/movement_test.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:264: CMakeFiles/movement_info_movement_gmock.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,10 @@
+[ 10%] Built target gtest_main
+[ 25%] Built target movement_info_library
+[ 35%] Built target gmock_main
+[ 75%] Built target gmock
+[ 80%] Built target movement
+[ 75%] Built target gtest
+[35m[1mConsolidate compiler generated dependencies of target movement_info_movement_gmock[0m
+[35m[1mConsolidate compiler generated dependencies of target movement_info_movement_gtest[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/movement_info_movement_gmock.dir/test/movement_test.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/movement_info_movement_gtest.dir/test/movement_test.cpp.o[0m

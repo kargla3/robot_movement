@@ -1,0 +1,20 @@
+[01m[K/home/kargla/robot_movement/src/movement_info/src/movement_interface.cpp:3:1:[m[K [01;31m[Kerror: [m[K‘[01m[KMovementInterface[m[K’ does not name a type
+    3 | [01;31m[KMovementInterface[m[K::MovementInterface() : rclcpp::Node("movement_interface")
+      | [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kargla/robot_movement/src/movement_info/src/movement_interface.cpp:8:14:[m[K [01;31m[Kerror: [m[K‘[01m[KMovementInterface[m[K’ has not been declared
+    8 | virtual void [01;31m[KMovementInterface[m[K::publish_movement_info()
+      |              [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kargla/robot_movement/src/movement_info/src/movement_interface.cpp:8:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kvirtual[m[K’ outside class declaration
+    8 | [01;31m[Kvirtual[m[K void MovementInterface::publish_movement_info()
+      | [01;31m[K^~~~~~~[m[K
+[01m[K/home/kargla/robot_movement/src/movement_info/src/movement_interface.cpp:[m[K In function ‘[01m[Kvoid publish_movement_info()[m[K’:
+[01m[K/home/kargla/robot_movement/src/movement_info/src/movement_interface.cpp:10:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope
+   10 |     [01;31m[Kpublisher_[m[K->publish(message_);
+      |     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/kargla/robot_movement/src/movement_info/src/movement_interface.cpp:10:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kmessage_[m[K’ was not declared in this scope
+   10 |     publisher_->publish([01;31m[Kmessage_[m[K);
+      |                         [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/movement.dir/build.make:104: CMakeFiles/movement.dir/src/movement_interface.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:180: CMakeFiles/movement.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

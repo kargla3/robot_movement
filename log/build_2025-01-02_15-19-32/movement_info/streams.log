@@ -1,0 +1,43 @@
+[0.017s] Invoking command in '/home/kargla/robot_movement/build/movement_info': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kargla/robot_movement/build/movement_info -- -j12 -l12
+[0.087s] [35m[1mConsolidate compiler generated dependencies of target movement_info_library[0m
+[0.091s] [35m[1mConsolidate compiler generated dependencies of target movement[0m
+[0.115s] [ 10%] Built target gtest_main
+[0.118s] [ 26%] Built target gmock
+[0.119s] [ 36%] Built target gtest
+[0.119s] [ 47%] Built target gmock_main
+[0.128s] [ 52%] [32mBuilding CXX object CMakeFiles/movement_info_library.dir/src/movement.cpp.o[0m
+[0.159s] [ 57%] [32mBuilding CXX object CMakeFiles/movement.dir/src/movement.cpp.o[0m
+[0.161s] [ 63%] [32mBuilding CXX object CMakeFiles/movement.dir/src/main.cpp.o[0m
+[12.415s] [ 68%] [32m[1mLinking CXX executable movement[0m
+[12.520s] [ 73%] [32m[1mLinking CXX static library libmovement_info_library.a[0m
+[12.777s] [ 73%] Built target movement_info_library
+[12.795s] [35m[1mConsolidate compiler generated dependencies of target movement_info_movement_gtest[0m
+[12.795s] [35m[1mConsolidate compiler generated dependencies of target movement_info_movement_gmock[0m
+[12.821s] [ 78%] [32mBuilding CXX object CMakeFiles/movement_info_movement_gtest.dir/test/movement_test.cpp.o[0m
+[12.823s] [ 84%] [32mBuilding CXX object CMakeFiles/movement_info_movement_gmock.dir/test/movement_test.cpp.o[0m
+[13.418s] [ 89%] Built target movement
+[17.431s] [ 94%] [32m[1mLinking CXX executable movement_info_movement_gtest[0m
+[17.447s] [100%] [32m[1mLinking CXX executable movement_info_movement_gmock[0m
+[18.372s] /usr/bin/ld: CMakeFiles/movement_info_movement_gtest.dir/test/movement_test.cpp.o: warning: relocation against `_ZTV17MovementInterface' in read-only section `.text._ZN17MovementInterfaceD2Ev[_ZN17MovementInterfaceD5Ev]'
+[18.393s] /usr/bin/ld: CMakeFiles/movement_info_movement_gmock.dir/test/movement_test.cpp.o: warning: relocation against `_ZTV17MovementInterface' in read-only section `.text._ZN17MovementInterfaceD2Ev[_ZN17MovementInterfaceD5Ev]'
+[18.420s] /usr/bin/ld: CMakeFiles/movement_info_movement_gtest.dir/test/movement_test.cpp.o: in function `MovementInterface::~MovementInterface()':
+[18.420s] movement_test.cpp:(.text._ZN17MovementInterfaceD2Ev[_ZN17MovementInterfaceD5Ev]+0x13): undefined reference to `vtable for MovementInterface'
+[18.437s] /usr/bin/ld: libmovement_info_library.a(movement.cpp.o): in function `Movement::Movement()':
+[18.437s] movement.cpp:(.text+0xd6): undefined reference to `MovementInterface::MovementInterface(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+[18.441s] /usr/bin/ld: CMakeFiles/movement_info_movement_gmock.dir/test/movement_test.cpp.o: in function `MovementInterface::~MovementInterface()':
+[18.441s] movement_test.cpp:(.text._ZN17MovementInterfaceD2Ev[_ZN17MovementInterfaceD5Ev]+0x13): undefined reference to `vtable for MovementInterface'
+[18.455s] /usr/bin/ld: /usr/bin/ld: libmovement_info_library.a(movement.cpp.o):(.data.rel.ro._ZTI8Movement[_ZTI8Movement]+0x10): undefined reference to `typeinfo for MovementInterface'
+[18.460s] libmovement_info_library.a(movement.cpp.o): in function `Movement::Movement()':
+[18.461s] movement.cpp:(.text+0xd6): undefined reference to `MovementInterface::MovementInterface(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+[18.479s] /usr/bin/ld: libmovement_info_library.a(movement.cpp.o):(.data.rel.ro._ZTI8Movement[_ZTI8Movement]+0x10): undefined reference to `typeinfo for MovementInterface'
+[18.523s] /usr/bin/ld: warning: creating DT_TEXTREL in a PIE
+[18.538s] collect2: error: ld returned 1 exit status
+[18.540s] gmake[2]: *** [CMakeFiles/movement_info_movement_gtest.dir/build.make:188: movement_info_movement_gtest] Error 1
+[18.540s] gmake[1]: *** [CMakeFiles/Makefile2:235: CMakeFiles/movement_info_movement_gtest.dir/all] Error 2
+[18.540s] gmake[1]: *** Waiting for unfinished jobs....
+[18.545s] /usr/bin/ld: warning: creating DT_TEXTREL in a PIE
+[18.561s] collect2: error: ld returned 1 exit status
+[18.563s] gmake[2]: *** [CMakeFiles/movement_info_movement_gmock.dir/build.make:188: movement_info_movement_gmock] Error 1
+[18.564s] gmake[1]: *** [CMakeFiles/Makefile2:264: CMakeFiles/movement_info_movement_gmock.dir/all] Error 2
+[18.565s] gmake: *** [Makefile:146: all] Error 2
+[18.569s] Invoked command in '/home/kargla/robot_movement/build/movement_info' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kargla/robot_movement/build/movement_info -- -j12 -l12

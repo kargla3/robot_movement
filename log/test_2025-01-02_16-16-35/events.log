@@ -1,0 +1,114 @@
+[0.000000] (-) TimerEvent: {}
+[0.000352] (movement_info) JobQueued: {'identifier': 'movement_info', 'dependencies': OrderedDict([('movement_info', '/home/kargla/robot_movement/install/movement_info')])}
+[0.000434] (movement_info_msgs) JobQueued: {'identifier': 'movement_info_msgs', 'dependencies': OrderedDict([('movement_info_msgs', '/home/kargla/robot_movement/install/movement_info_msgs')])}
+[0.000491] (movement_info) JobStarted: {'identifier': 'movement_info'}
+[0.007844] (movement_info_msgs) JobStarted: {'identifier': 'movement_info_msgs'}
+[0.025931] (movement_info) Command: {'cmd': ['/usr/bin/ctest', '-C', 'Release', '-D', 'ExperimentalTest', '--no-compress-output', '-V', '--force-new-ctest-process'], 'cwd': '/home/kargla/robot_movement/build/movement_info', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kargla'), ('LC_TIME', 'pl_PL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kargla/robot_movement/install/movement_info_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kargla'), ('OLDPWD', '/home/kargla'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pl_PL.UTF-8'), ('SYSTEMD_EXEC_PID', '3457'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kargla/robot_movement/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kargla'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kargla'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/kargla/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kargla-ideapad:@/tmp/.ICE-unix/3414,unix/kargla-ideapad:/tmp/.ICE-unix/3414'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pl_PL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5d9f1769_7dc9_4d92_9211_e9671ddd237a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pl_PL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.RTKXZ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.106'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kargla/robot_movement/install/movement_info_msgs:/home/kargla/robot_movement/install/movement_info:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pl_PL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pl_PL.UTF-8'), ('LC_IDENTIFICATION', 'pl_PL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kargla/robot_movement/build/movement_info'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kargla/robot_movement/install/movement_info_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pl_PL.UTF-8'), ('LC_PAPER', 'pl_PL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kargla/robot_movement/install/movement_info:/home/kargla/robot_movement/install/movement_info_msgs')]), 'shell': False}
+[0.031749] (movement_info_msgs) JobEnded: {'identifier': 'movement_info_msgs', 'rc': 0}
+[0.039009] (movement_info) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/kargla/robot_movement/build/movement_info/CTestConfiguration.ini\n'}
+[0.039547] (movement_info) StdoutLine: {'line': b'Parse Config file:/home/kargla/robot_movement/build/movement_info/CTestConfiguration.ini\n'}
+[0.039632] (movement_info) StdoutLine: {'line': b'   Site: kargla-ideapad\n'}
+[0.039728] (movement_info) StdoutLine: {'line': b'   Build name: (empty)\n'}
+[0.039784] (movement_info) StdoutLine: {'line': b' Add coverage exclude regular expressions.\n'}
+[0.039834] (movement_info) StdoutLine: {'line': b'Create new tag: 20250102-1516 - Experimental\n'}
+[0.039885] (movement_info) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/kargla/robot_movement/build/movement_info/CTestConfiguration.ini\n'}
+[0.039966] (movement_info) StdoutLine: {'line': b'Parse Config file:/home/kargla/robot_movement/build/movement_info/CTestConfiguration.ini\n'}
+[0.040023] (movement_info) StdoutLine: {'line': b'Test project /home/kargla/robot_movement/build/movement_info\n'}
+[0.040077] (movement_info) StdoutLine: {'line': b'Constructing a list of tests\n'}
+[0.040182] (movement_info) StdoutLine: {'line': b'Done constructing a list of tests\n'}
+[0.040246] (movement_info) StdoutLine: {'line': b'Updating test list for fixtures\n'}
+[0.040316] (movement_info) StdoutLine: {'line': b'Added 0 tests to meet fixture requirements\n'}
+[0.040447] (movement_info) StdoutLine: {'line': b'Checking test dependency graph...\n'}
+[0.040505] (movement_info) StdoutLine: {'line': b'Checking test dependency graph end\n'}
+[0.040556] (movement_info) StdoutLine: {'line': b'test 1\n'}
+[0.040606] (movement_info) StdoutLine: {'line': b'    Start 1: movement_info_movement_gtest\n'}
+[0.040660] (movement_info) StdoutLine: {'line': b'\n'}
+[0.040710] (movement_info) StdoutLine: {'line': b'1: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/kargla/robot_movement/build/movement_info/test_results/movement_info/movement_info_movement_gtest.gtest.xml" "--package-name" "movement_info" "--output-file" "/home/kargla/robot_movement/build/movement_info/ament_cmake_gtest/movement_info_movement_gtest.txt" "--command" "/home/kargla/robot_movement/build/movement_info/movement_info_movement_gtest" "--gtest_output=xml:/home/kargla/robot_movement/build/movement_info/test_results/movement_info/movement_info_movement_gtest.gtest.xml"\n'}
+[0.040768] (movement_info) StdoutLine: {'line': b'1: Test timeout computed to be: 60\n'}
+[0.098866] (-) TimerEvent: {}
+[0.108423] (movement_info) StdoutLine: {'line': b"1: -- run_test.py: invoking following command in '/home/kargla/robot_movement/build/movement_info':\n"}
+[0.108712] (movement_info) StdoutLine: {'line': b'1:  - /home/kargla/robot_movement/build/movement_info/movement_info_movement_gtest --gtest_output=xml:/home/kargla/robot_movement/build/movement_info/test_results/movement_info/movement_info_movement_gtest.gtest.xml\n'}
+[0.121804] (movement_info) StdoutLine: {'line': b'1: [==========] Running 3 tests from 2 test suites.\n'}
+[0.122228] (movement_info) StdoutLine: {'line': b'1: [----------] Global test environment set-up.\n'}
+[0.122389] (movement_info) StdoutLine: {'line': b'1: [----------] 2 tests from MovementTest\n'}
+[0.122533] (movement_info) StdoutLine: {'line': b'1: [ RUN      ] MovementTest.HeadingDeterminationTest\n'}
+[0.135036] (movement_info) StdoutLine: {'line': b"1: [INFO] [1735830995.698720931] [movement]: Direction treshold: '0.100000'\n"}
+[0.135435] (movement_info) StdoutLine: {'line': b"1: [INFO] [1735830995.698846787] [movement]: Heading treshold: '0.100000'\n"}
+[0.135594] (movement_info) StdoutLine: {'line': b"1: [INFO] [1735830995.698861104] [movement]: Movement topic: '/movement_info'\n"}
+[0.135739] (movement_info) StdoutLine: {'line': b"1: [INFO] [1735830995.698873117] [movement]: Odometry topic: '/diff_drive/odom'\n"}
+[0.135883] (movement_info) StdoutLine: {'line': b"1: [INFO] [1735830995.698882965] [movement]: Velocity topic: '/diff_drive/cmd_vel'\n"}
+[0.140562] (movement_info) StdoutLine: {'line': b'1: [       OK ] MovementTest.HeadingDeterminationTest (19 ms)\n'}
+[0.140865] (movement_info) StdoutLine: {'line': b'1: [ RUN      ] MovementTest.MovementInfoPublishingTest\n'}
+[0.147355] (movement_info) StdoutLine: {'line': b'1: [       OK ] MovementTest.MovementInfoPublishingTest (7 ms)\n'}
+[0.147654] (movement_info) StdoutLine: {'line': b'1: [----------] 2 tests from MovementTest (26 ms total)\n'}
+[0.147777] (movement_info) StdoutLine: {'line': b'1: \n'}
+[0.147883] (movement_info) StdoutLine: {'line': b'1: [----------] 1 test from MovementTEST\n'}
+[0.147957] (movement_info) StdoutLine: {'line': b'1: [ RUN      ] MovementTEST.DirectionDeterminationTest\n'}
+[0.151701] (movement_info) StdoutLine: {'line': b"1: [INFO] [1735830995.715532114] [movement]: Direction treshold: '0.100000'\n"}
+[0.151888] (movement_info) StdoutLine: {'line': b"1: [INFO] [1735830995.715583658] [movement]: Heading treshold: '0.100000'\n"}
+[0.152037] (movement_info) StdoutLine: {'line': b"1: [INFO] [1735830995.715596369] [movement]: Movement topic: '/movement_info'\n"}
+[0.152155] (movement_info) StdoutLine: {'line': b"1: [INFO] [1735830995.715607893] [movement]: Odometry topic: '/diff_drive/odom'\n"}
+[0.152264] (movement_info) StdoutLine: {'line': b"1: [INFO] [1735830995.715620046] [movement]: Velocity topic: '/diff_drive/cmd_vel'\n"}
+[0.154445] (movement_info) StdoutLine: {'line': b'1: [       OK ] MovementTEST.DirectionDeterminationTest (7 ms)\n'}
+[0.154799] (movement_info) StdoutLine: {'line': b'1: [----------] 1 test from MovementTEST (7 ms total)\n'}
+[0.154959] (movement_info) StdoutLine: {'line': b'1: \n'}
+[0.155024] (movement_info) StdoutLine: {'line': b'1: [----------] Global test environment tear-down\n'}
+[0.155077] (movement_info) StdoutLine: {'line': b'1: [==========] 3 tests from 2 test suites ran. (33 ms total)\n'}
+[0.155132] (movement_info) StdoutLine: {'line': b'1: [  PASSED  ] 3 tests.\n'}
+[0.200339] (-) TimerEvent: {}
+[0.260610] (movement_info) StdoutLine: {'line': b'1: -- run_test.py: return code 0\n'}
+[0.261099] (movement_info) StdoutLine: {'line': b"1: -- run_test.py: inject classname prefix into gtest result file '/home/kargla/robot_movement/build/movement_info/test_results/movement_info/movement_info_movement_gtest.gtest.xml'\n"}
+[0.261363] (movement_info) StdoutLine: {'line': b"1: -- run_test.py: verify result file '/home/kargla/robot_movement/build/movement_info/test_results/movement_info/movement_info_movement_gtest.gtest.xml'\n"}
+[0.274216] (movement_info) StdoutLine: {'line': b'1/2 Test #1: movement_info_movement_gtest .....   Passed    0.23 sec\n'}
+[0.274477] (movement_info) StdoutLine: {'line': b'test 2\n'}
+[0.274640] (movement_info) StdoutLine: {'line': b'    Start 2: movement_info_movement_gmock\n'}
+[0.274785] (movement_info) StdoutLine: {'line': b'\n'}
+[0.274979] (movement_info) StdoutLine: {'line': b'2: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/kargla/robot_movement/build/movement_info/test_results/movement_info/movement_info_movement_gmock.gtest.xml" "--package-name" "movement_info" "--output-file" "/home/kargla/robot_movement/build/movement_info/ament_cmake_gmock/movement_info_movement_gmock.txt" "--command" "/home/kargla/robot_movement/build/movement_info/movement_info_movement_gmock" "--gtest_output=xml:/home/kargla/robot_movement/build/movement_info/test_results/movement_info/movement_info_movement_gmock.gtest.xml"\n'}
+[0.275198] (movement_info) StdoutLine: {'line': b'2: Test timeout computed to be: 60\n'}
+[0.300489] (-) TimerEvent: {}
+[0.336693] (movement_info) StdoutLine: {'line': b"2: -- run_test.py: invoking following command in '/home/kargla/robot_movement/build/movement_info':\n"}
+[0.337025] (movement_info) StdoutLine: {'line': b'2:  - /home/kargla/robot_movement/build/movement_info/movement_info_movement_gmock --gtest_output=xml:/home/kargla/robot_movement/build/movement_info/test_results/movement_info/movement_info_movement_gmock.gtest.xml\n'}
+[0.349861] (movement_info) StdoutLine: {'line': b'2: [==========] Running 3 tests from 2 test suites.\n'}
+[0.350195] (movement_info) StdoutLine: {'line': b'2: [----------] Global test environment set-up.\n'}
+[0.350324] (movement_info) StdoutLine: {'line': b'2: [----------] 2 tests from MovementTest\n'}
+[0.350437] (movement_info) StdoutLine: {'line': b'2: [ RUN      ] MovementTest.HeadingDeterminationTest\n'}
+[0.361320] (movement_info) StdoutLine: {'line': b"2: [INFO] [1735830995.924966356] [movement]: Direction treshold: '0.100000'\n"}
+[0.361560] (movement_info) StdoutLine: {'line': b"2: [INFO] [1735830995.925089418] [movement]: Heading treshold: '0.100000'\n"}
+[0.361729] (movement_info) StdoutLine: {'line': b"2: [INFO] [1735830995.925103177] [movement]: Movement topic: '/movement_info'\n"}
+[0.361795] (movement_info) StdoutLine: {'line': b"2: [INFO] [1735830995.925115260] [movement]: Odometry topic: '/diff_drive/odom'\n"}
+[0.361850] (movement_info) StdoutLine: {'line': b"2: [INFO] [1735830995.925127063] [movement]: Velocity topic: '/diff_drive/cmd_vel'\n"}
+[0.366263] (movement_info) StdoutLine: {'line': b'2: [       OK ] MovementTest.HeadingDeterminationTest (16 ms)\n'}
+[0.366504] (movement_info) StdoutLine: {'line': b'2: [ RUN      ] MovementTest.MovementInfoPublishingTest\n'}
+[0.373408] (movement_info) StdoutLine: {'line': b'2: [       OK ] MovementTest.MovementInfoPublishingTest (7 ms)\n'}
+[0.373645] (movement_info) StdoutLine: {'line': b'2: [----------] 2 tests from MovementTest (24 ms total)\n'}
+[0.373706] (movement_info) StdoutLine: {'line': b'2: \n'}
+[0.373761] (movement_info) StdoutLine: {'line': b'2: [----------] 1 test from MovementTEST\n'}
+[0.373815] (movement_info) StdoutLine: {'line': b'2: [ RUN      ] MovementTEST.DirectionDeterminationTest\n'}
+[0.379124] (movement_info) StdoutLine: {'line': b"2: [INFO] [1735830995.942854088] [movement]: Direction treshold: '0.100000'\n"}
+[0.379431] (movement_info) StdoutLine: {'line': b"2: [INFO] [1735830995.942908845] [movement]: Heading treshold: '0.100000'\n"}
+[0.379495] (movement_info) StdoutLine: {'line': b"2: [INFO] [1735830995.942923372] [movement]: Movement topic: '/movement_info'\n"}
+[0.379551] (movement_info) StdoutLine: {'line': b"2: [INFO] [1735830995.942935804] [movement]: Odometry topic: '/diff_drive/odom'\n"}
+[0.379605] (movement_info) StdoutLine: {'line': b"2: [INFO] [1735830995.942947328] [movement]: Velocity topic: '/diff_drive/cmd_vel'\n"}
+[0.382290] (movement_info) StdoutLine: {'line': b'2: [       OK ] MovementTEST.DirectionDeterminationTest (9 ms)\n'}
+[0.382558] (movement_info) StdoutLine: {'line': b'2: [----------] 1 test from MovementTEST (9 ms total)\n'}
+[0.382635] (movement_info) StdoutLine: {'line': b'2: \n'}
+[0.382766] (movement_info) StdoutLine: {'line': b'2: [----------] Global test environment tear-down\n'}
+[0.382822] (movement_info) StdoutLine: {'line': b'2: [==========] 3 tests from 2 test suites ran. (33 ms total)\n'}
+[0.382887] (movement_info) StdoutLine: {'line': b'2: [  PASSED  ] 3 tests.\n'}
+[0.400689] (-) TimerEvent: {}
+[0.488549] (movement_info) StdoutLine: {'line': b'2: -- run_test.py: return code 0\n'}
+[0.488900] (movement_info) StdoutLine: {'line': b"2: -- run_test.py: inject classname prefix into gtest result file '/home/kargla/robot_movement/build/movement_info/test_results/movement_info/movement_info_movement_gmock.gtest.xml'\n"}
+[0.489239] (movement_info) StdoutLine: {'line': b"2: -- run_test.py: verify result file '/home/kargla/robot_movement/build/movement_info/test_results/movement_info/movement_info_movement_gmock.gtest.xml'\n"}
+[0.500867] (-) TimerEvent: {}
+[0.501722] (movement_info) StdoutLine: {'line': b'2/2 Test #2: movement_info_movement_gmock .....   Passed    0.23 sec\n'}
+[0.502286] (movement_info) StdoutLine: {'line': b'\n'}
+[0.502489] (movement_info) StdoutLine: {'line': b'\x1b[0;32m100% tests passed\x1b[0;0m, 0 tests failed\x1b[0;0m out of 2\n'}
+[0.502612] (movement_info) StdoutLine: {'line': b'\n'}
+[0.502722] (movement_info) StdoutLine: {'line': b'Label Time Summary:\n'}
+[0.502831] (movement_info) StdoutLine: {'line': b'gmock    =   0.23 sec*proc (1 test)\n'}
+[0.502956] (movement_info) StdoutLine: {'line': b'gtest    =   0.23 sec*proc (1 test)\n'}
+[0.503080] (movement_info) StdoutLine: {'line': b'\n'}
+[0.503189] (movement_info) StdoutLine: {'line': b'Total Test time (real) =   0.46 sec\n'}
+[0.508248] (movement_info) CommandEnded: {'returncode': 0}
+[0.509170] (movement_info) JobEnded: {'identifier': 'movement_info', 'rc': 0}
+[0.509877] (-) EventReactorShutdown: {}

@@ -6,12 +6,13 @@
 #include "geometry_msgs/msg/twist_stamped.hpp"
 #include "movement_info_msgs/msg/movement_info.hpp"
 #include "yaml-cpp/yaml.h"
+#include "movement_info/movement_interface.hpp"
 
-class Movement : public rclcpp::Node
+class Movement : public MovementInterface
 {
 public: 
     Movement();
-    void publish_movement_info();
+    void publish_movement_info() override;
     void odometry_callback(const nav_msgs::msg::Odometry::SharedPtr msg);
     void velocity_callback(const geometry_msgs::msg::TwistStamped::SharedPtr msg);
     movement_info_msgs::msg::MovementInfo getMessage();

@@ -1,0 +1,17 @@
+[ 10%] Built target gtest_main
+[ 31%] Built target gtest
+[ 36%] Built target gmock
+[ 42%] [32mBuilding CXX object CMakeFiles/movement_info_library.dir/src/movement.cpp.o[0m
+[ 52%] Built target gmock_main
+[ 63%] [32mBuilding CXX object CMakeFiles/movement.dir/src/movement.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/movement.dir/src/main.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/movement.dir/src/movement_interface.cpp.o[0m
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/kargla/robot_movement/src/movement_info/src/movement_interface.cpp: No such file or directory
+compilation terminated.
+gmake[2]: *** [CMakeFiles/movement.dir/build.make:104: CMakeFiles/movement.dir/src/movement_interface.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[ 73%] [32m[1mLinking CXX static library libmovement_info_library.a[0m
+gmake[1]: *** [CMakeFiles/Makefile2:180: CMakeFiles/movement.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 73%] Built target movement_info_library
+gmake: *** [Makefile:146: all] Error 2

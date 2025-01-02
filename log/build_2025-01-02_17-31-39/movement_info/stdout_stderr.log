@@ -1,0 +1,38 @@
+[ 20%] Built target gtest_main
+[ 25%] Built target gmock
+[ 35%] Built target gmock_main
+[ 45%] Built target gtest
+[ 50%] [32mBuilding CXX object CMakeFiles/movement.dir/src/movement.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/movement_info_library.dir/src/movement.cpp.o[0m
+[ 60%] [32m[1mLinking CXX static library libmovement_info_library.a[0m
+[ 65%] [32m[1mLinking CXX executable movement[0m
+[ 70%] Built target movement_info_library
+[35m[1mConsolidate compiler generated dependencies of target movement_info_movement_gtest[0m
+[35m[1mConsolidate compiler generated dependencies of target movement_info_movement_gmock[0m
+[ 80%] [32m[1mLinking CXX executable movement_info_movement_gtest[0m
+[ 80%] [32m[1mLinking CXX executable movement_info_movement_gmock[0m
+[ 90%] Built target movement
+/usr/bin/ld: CMakeFiles/movement_info_movement_gmock.dir/test/movement_test.cpp.o: in function `MovementTest_HeadingDeterminationTest_Test::TestBody()':
+movement_test.cpp:(.text+0xce): undefined reference to `Movement::getMessage()'
+/usr/bin/ld: movement_test.cpp:(.text+0x247): undefined reference to `Movement::getMessage()'
+/usr/bin/ld: movement_test.cpp:(.text+0x3c0): undefined reference to `Movement::getMessage()'
+/usr/bin/ld: movement_test.cpp:(.text+0x539): undefined reference to `Movement::getMessage()'
+/usr/bin/ld: CMakeFiles/movement_info_movement_gmock.dir/test/movement_test.cpp.o: in function `MovementTEST_DirectionDeterminationTest_Test::TestBody()':
+movement_test.cpp:(.text+0x98f): undefined reference to `Movement::getMessage()'
+/usr/bin/ld: CMakeFiles/movement_info_movement_gmock.dir/test/movement_test.cpp.o:movement_test.cpp:(.text+0xb01): more undefined references to `Movement::getMessage()' follow
+/usr/bin/ld: CMakeFiles/movement_info_movement_gtest.dir/test/movement_test.cpp.o: in function `MovementTest_HeadingDeterminationTest_Test::TestBody()':
+movement_test.cpp:(.text+0xce): undefined reference to `Movement::getMessage()'
+/usr/bin/ld: movement_test.cpp:(.text+0x247): undefined reference to `Movement::getMessage()'
+/usr/bin/ld: movement_test.cpp:(.text+0x3c0): undefined reference to `Movement::getMessage()'
+/usr/bin/ld: movement_test.cpp:(.text+0x539): undefined reference to `Movement::getMessage()'
+/usr/bin/ld: CMakeFiles/movement_info_movement_gtest.dir/test/movement_test.cpp.o: in function `MovementTEST_DirectionDeterminationTest_Test::TestBody()':
+movement_test.cpp:(.text+0x98f): undefined reference to `Movement::getMessage()'
+/usr/bin/ld: CMakeFiles/movement_info_movement_gtest.dir/test/movement_test.cpp.o:movement_test.cpp:(.text+0xb01): more undefined references to `Movement::getMessage()' follow
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/movement_info_movement_gmock.dir/build.make:188: movement_info_movement_gmock] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:264: CMakeFiles/movement_info_movement_gmock.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/movement_info_movement_gtest.dir/build.make:188: movement_info_movement_gtest] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:235: CMakeFiles/movement_info_movement_gtest.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

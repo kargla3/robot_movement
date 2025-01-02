@@ -1,0 +1,23 @@
+[0.018s] Invoking command in '/home/kargla/robot_movement/build/movement_info_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kargla/robot_movement/build/movement_info_msgs -- -j12 -l12
+[0.106s] [  9%] Built target movement_info_msgs__rosidl_generator_c
+[0.113s] [ 12%] Built target movement_info_msgs__cpp
+[0.129s] [ 12%] Built target ament_cmake_python_copy_movement_info_msgs
+[0.154s] [ 22%] Built target movement_info_msgs__rosidl_typesupport_fastrtps_c
+[0.160s] [ 41%] Built target movement_info_msgs__rosidl_typesupport_introspection_c
+[0.161s] [ 41%] Built target movement_info_msgs__rosidl_typesupport_fastrtps_cpp
+[0.161s] [ 51%] Built target movement_info_msgs__rosidl_typesupport_c
+[0.164s] [ 61%] Built target movement_info_msgs__rosidl_typesupport_cpp
+[0.165s] [ 70%] Built target movement_info_msgs__rosidl_typesupport_introspection_cpp
+[0.205s] [ 70%] Built target movement_info_msgs
+[0.236s] [ 74%] Built target movement_info_msgs__py
+[0.273s] [ 80%] Built target movement_info_msgs__rosidl_generator_py
+[0.316s] [ 93%] Built target movement_info_msgs__rosidl_typesupport_introspection_c__pyext
+[0.317s] [ 93%] Built target movement_info_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.325s] [100%] Built target movement_info_msgs__rosidl_typesupport_c__pyext
+[0.491s] running egg_info
+[0.494s] writing movement_info_msgs.egg-info/PKG-INFO
+[0.494s] writing dependency_links to movement_info_msgs.egg-info/dependency_links.txt
+[0.494s] writing top-level names to movement_info_msgs.egg-info/top_level.txt
+[0.501s] reading manifest file 'movement_info_msgs.egg-info/SOURCES.txt'
+[0.502s] writing manifest file 'movement_info_msgs.egg-info/SOURCES.txt'
+[0.605s] [100%] Built target ament_cmake_python_build_movement_info_msgs_egg

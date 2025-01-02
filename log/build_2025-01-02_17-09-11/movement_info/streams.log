@@ -1,0 +1,72 @@
+[0.016s] Invoking command in '/home/kargla/robot_movement/build/movement_info': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kargla/robot_movement/build/movement_info -- -j12 -l12
+[0.092s] [ 20%] Built target gmock_main
+[0.092s] [ 20%] Built target gtest_main
+[0.092s] [ 35%] Built target gmock
+[0.094s] [ 45%] Built target gtest
+[0.099s] [ 80%] Built target movement
+[0.100s] [ 80%] Built target movement_info_library
+[0.122s] [35m[1mConsolidate compiler generated dependencies of target movement_info_movement_gtest[0m
+[0.122s] [35m[1mConsolidate compiler generated dependencies of target movement_info_movement_gmock[0m
+[0.151s] [ 85%] [32mBuilding CXX object CMakeFiles/movement_info_movement_gmock.dir/test/movement_test.cpp.o[0m
+[0.155s] [ 90%] [32mBuilding CXX object CMakeFiles/movement_info_movement_gtest.dir/test/movement_test.cpp.o[0m
+[3.877s] [01m[K/home/kargla/robot_movement/src/movement_info/test/movement_test.cpp:[m[K In member function ‘[01m[Kvirtual void MovementTest_MovementInfoPublishingTest_Test::TestBody()[m[K’:
+[3.877s] [01m[K/home/kargla/robot_movement/src/movement_info/test/movement_test.cpp:60:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kmessage[m[K’ was not declared in this scope
+[3.877s]    60 |     .WillOnce([[01;31m[Kmessage[m[K]() {
+[3.877s]       |                [01;31m[K^~~~~~~[m[K
+[3.878s] In file included from [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:375[m[K,
+[3.878s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/test/movement_test.cpp:1[m[K:
+[3.878s] [01m[K/home/kargla/robot_movement/src/movement_info/test/movement_test.cpp:[m[K In lambda function:
+[3.878s] [01m[K/home/kargla/robot_movement/src/movement_info/test/movement_test.cpp:61:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kmessage[m[K’ is not captured
+[3.878s]    61 |             EXPECT_EQ([01;31m[Kmessage[m[K.heading, movement_info_msgs::msg::MovementInfo::STRAIGHT);
+[3.878s]       |                       [01;31m[K^~~~~~~[m[K
+[3.878s] [01m[K/home/kargla/robot_movement/src/movement_info/test/movement_test.cpp:60:23:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[3.878s]    60 |     .WillOnce([message[01;36m[K][m[K() {
+[3.878s]       |                       [01;36m[K^[m[K
+[3.878s] [01m[K/home/kargla/robot_movement/src/movement_info/test/movement_test.cpp:60:16:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>message[m[K’ declared here
+[3.878s]    60 |     .WillOnce([[01;36m[Kmessage[m[K]() {
+[3.878s]       |                [01;36m[K^~~~~~~[m[K
+[3.878s] In file included from [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:375[m[K,
+[3.879s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/test/movement_test.cpp:1[m[K:
+[3.879s] [01m[K/home/kargla/robot_movement/src/movement_info/test/movement_test.cpp:62:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kmessage[m[K’ is not captured
+[3.879s]    62 |             EXPECT_EQ([01;31m[Kmessage[m[K.movement, movement_info_msgs::msg::MovementInfo::FORWARD);
+[3.879s]       |                       [01;31m[K^~~~~~~[m[K
+[3.879s] [01m[K/home/kargla/robot_movement/src/movement_info/test/movement_test.cpp:60:23:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[3.879s]    60 |     .WillOnce([message[01;36m[K][m[K() {
+[3.879s]       |                       [01;36m[K^[m[K
+[3.879s] [01m[K/home/kargla/robot_movement/src/movement_info/test/movement_test.cpp:60:16:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>message[m[K’ declared here
+[3.879s]    60 |     .WillOnce([[01;36m[Kmessage[m[K]() {
+[3.879s]       |                [01;36m[K^~~~~~~[m[K
+[3.880s] [01m[K/home/kargla/robot_movement/src/movement_info/test/movement_test.cpp:[m[K In member function ‘[01m[Kvirtual void MovementTest_MovementInfoPublishingTest_Test::TestBody()[m[K’:
+[3.880s] [01m[K/home/kargla/robot_movement/src/movement_info/test/movement_test.cpp:60:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kmessage[m[K’ was not declared in this scope
+[3.880s]    60 |     .WillOnce([[01;31m[Kmessage[m[K]() {
+[3.880s]       |                [01;31m[K^~~~~~~[m[K
+[3.881s] In file included from [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:375[m[K,
+[3.881s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/test/movement_test.cpp:1[m[K:
+[3.881s] [01m[K/home/kargla/robot_movement/src/movement_info/test/movement_test.cpp:[m[K In lambda function:
+[3.881s] [01m[K/home/kargla/robot_movement/src/movement_info/test/movement_test.cpp:61:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kmessage[m[K’ is not captured
+[3.881s]    61 |             EXPECT_EQ([01;31m[Kmessage[m[K.heading, movement_info_msgs::msg::MovementInfo::STRAIGHT);
+[3.881s]       |                       [01;31m[K^~~~~~~[m[K
+[3.881s] [01m[K/home/kargla/robot_movement/src/movement_info/test/movement_test.cpp:60:23:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[3.881s]    60 |     .WillOnce([message[01;36m[K][m[K() {
+[3.881s]       |                       [01;36m[K^[m[K
+[3.881s] [01m[K/home/kargla/robot_movement/src/movement_info/test/movement_test.cpp:60:16:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>message[m[K’ declared here
+[3.882s]    60 |     .WillOnce([[01;36m[Kmessage[m[K]() {
+[3.882s]       |                [01;36m[K^~~~~~~[m[K
+[3.882s] In file included from [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:375[m[K,
+[3.882s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/test/movement_test.cpp:1[m[K:
+[3.882s] [01m[K/home/kargla/robot_movement/src/movement_info/test/movement_test.cpp:62:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kmessage[m[K’ is not captured
+[3.882s]    62 |             EXPECT_EQ([01;31m[Kmessage[m[K.movement, movement_info_msgs::msg::MovementInfo::FORWARD);
+[3.882s]       |                       [01;31m[K^~~~~~~[m[K
+[3.882s] [01m[K/home/kargla/robot_movement/src/movement_info/test/movement_test.cpp:60:23:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[3.882s]    60 |     .WillOnce([message[01;36m[K][m[K() {
+[3.882s]       |                       [01;36m[K^[m[K
+[3.882s] [01m[K/home/kargla/robot_movement/src/movement_info/test/movement_test.cpp:60:16:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>message[m[K’ declared here
+[3.882s]    60 |     .WillOnce([[01;36m[Kmessage[m[K]() {
+[3.882s]       |                [01;36m[K^~~~~~~[m[K
+[4.976s] gmake[2]: *** [CMakeFiles/movement_info_movement_gtest.dir/build.make:76: CMakeFiles/movement_info_movement_gtest.dir/test/movement_test.cpp.o] Error 1
+[4.976s] gmake[1]: *** [CMakeFiles/Makefile2:235: CMakeFiles/movement_info_movement_gtest.dir/all] Error 2
+[4.976s] gmake[1]: *** Waiting for unfinished jobs....
+[4.977s] gmake[2]: *** [CMakeFiles/movement_info_movement_gmock.dir/build.make:76: CMakeFiles/movement_info_movement_gmock.dir/test/movement_test.cpp.o] Error 1
+[4.977s] gmake[1]: *** [CMakeFiles/Makefile2:264: CMakeFiles/movement_info_movement_gmock.dir/all] Error 2
+[4.978s] gmake: *** [Makefile:146: all] Error 2
+[4.982s] Invoked command in '/home/kargla/robot_movement/build/movement_info' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kargla/robot_movement/build/movement_info -- -j12 -l12

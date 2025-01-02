@@ -1,0 +1,31 @@
+[0.016s] Invoking command in '/home/kargla/robot_movement/build/movement_info': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kargla/robot_movement/build/movement_info -- -j12 -l12
+[0.087s] [35m[1mConsolidate compiler generated dependencies of target movement_info_library[0m
+[0.092s] [35m[1mConsolidate compiler generated dependencies of target movement[0m
+[0.109s] [ 15%] Built target gmock
+[0.111s] [ 26%] Built target gmock_main
+[0.120s] [ 36%] Built target gtest_main
+[0.131s] [ 52%] [32mBuilding CXX object CMakeFiles/movement_info_library.dir/src/movement.cpp.o[0m
+[0.131s] [ 52%] Built target gtest
+[0.140s] [ 57%] [32mBuilding CXX object CMakeFiles/movement.dir/src/main.cpp.o[0m
+[0.140s] [ 63%] [32mBuilding CXX object CMakeFiles/movement.dir/src/movement.cpp.o[0m
+[4.203s] In file included from [01m[K/home/kargla/robot_movement/src/movement_info/src/main.cpp:1[m[K:
+[4.203s] [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:15:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid Movement::publish_movement_info()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[4.203s]    15 |     void [01;31m[Kpublish_movement_info[m[K() override;
+[4.203s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[4.218s] In file included from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1[m[K:
+[4.218s] [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:15:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid Movement::publish_movement_info()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[4.218s]    15 |     void [01;31m[Kpublish_movement_info[m[K() override;
+[4.219s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[4.223s] In file included from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1[m[K:
+[4.223s] [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:15:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid Movement::publish_movement_info()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[4.224s]    15 |     void [01;31m[Kpublish_movement_info[m[K() override;
+[4.224s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[4.827s] gmake[2]: *** [CMakeFiles/movement.dir/build.make:90: CMakeFiles/movement.dir/src/main.cpp.o] Error 1
+[4.827s] gmake[2]: *** Waiting for unfinished jobs....
+[7.533s] gmake[2]: *** [CMakeFiles/movement.dir/build.make:76: CMakeFiles/movement.dir/src/movement.cpp.o] Error 1
+[7.533s] gmake[1]: *** [CMakeFiles/Makefile2:180: CMakeFiles/movement.dir/all] Error 2
+[7.534s] gmake[1]: *** Waiting for unfinished jobs....
+[7.550s] gmake[2]: *** [CMakeFiles/movement_info_library.dir/build.make:76: CMakeFiles/movement_info_library.dir/src/movement.cpp.o] Error 1
+[7.551s] gmake[1]: *** [CMakeFiles/Makefile2:206: CMakeFiles/movement_info_library.dir/all] Error 2
+[7.551s] gmake: *** [Makefile:146: all] Error 2
+[7.555s] Invoked command in '/home/kargla/robot_movement/build/movement_info' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kargla/robot_movement/build/movement_info -- -j12 -l12

@@ -1,0 +1,19 @@
+[35m[1mConsolidate compiler generated dependencies of target movement_info_library[0m
+[35m[1mConsolidate compiler generated dependencies of target movement[0m
+[ 10%] Built target gtest_main
+[ 26%] Built target gmock
+[ 36%] Built target gtest
+[ 47%] Built target gmock_main
+[ 52%] [32mBuilding CXX object CMakeFiles/movement_info_library.dir/src/movement.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/movement.dir/src/movement.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/movement.dir/src/main.cpp.o[0m
+[ 68%] [32m[1mLinking CXX executable movement[0m
+[ 73%] [32m[1mLinking CXX static library libmovement_info_library.a[0m
+[ 73%] Built target movement_info_library
+[35m[1mConsolidate compiler generated dependencies of target movement_info_movement_gtest[0m
+[35m[1mConsolidate compiler generated dependencies of target movement_info_movement_gmock[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/movement_info_movement_gtest.dir/test/movement_test.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/movement_info_movement_gmock.dir/test/movement_test.cpp.o[0m
+[ 89%] Built target movement
+[ 94%] [32m[1mLinking CXX executable movement_info_movement_gtest[0m
+[100%] [32m[1mLinking CXX executable movement_info_movement_gmock[0m

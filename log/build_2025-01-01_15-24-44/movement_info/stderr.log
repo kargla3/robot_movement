@@ -1,0 +1,23 @@
+In file included from [01m[K/home/kargla/robot_movement/src/movement_info/src/main.cpp:1[m[K:
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:9:10:[m[K [01;31m[Kfatal error: [m[Kmovement_info/movement_interface.hpp: No such file or directory
+    9 | #include [01;31m[K"movement_info/movement_interface.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/movement.dir/build.make:90: CMakeFiles/movement.dir/src/main.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1[m[K:
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:9:10:[m[K [01;31m[Kfatal error: [m[Kmovement_info/movement_interface.hpp: No such file or directory
+    9 | #include [01;31m[K"movement_info/movement_interface.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/movement.dir/build.make:76: CMakeFiles/movement.dir/src/movement.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:180: CMakeFiles/movement.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1[m[K:
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:9:10:[m[K [01;31m[Kfatal error: [m[Kmovement_info/movement_interface.hpp: No such file or directory
+    9 | #include [01;31m[K"movement_info/movement_interface.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/movement_info_library.dir/build.make:76: CMakeFiles/movement_info_library.dir/src/movement.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:206: CMakeFiles/movement_info_library.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

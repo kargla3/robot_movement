@@ -83,17 +83,33 @@ CMakeFiles/movement_info_library.dir/src/movement.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/movement_info_library.dir/src/movement.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kargla/robot_movement/src/movement_info/src/movement.cpp -o CMakeFiles/movement_info_library.dir/src/movement.cpp.s
 
+CMakeFiles/movement_info_library.dir/src/movement_interface.cpp.o: CMakeFiles/movement_info_library.dir/flags.make
+CMakeFiles/movement_info_library.dir/src/movement_interface.cpp.o: /home/kargla/robot_movement/src/movement_info/src/movement_interface.cpp
+CMakeFiles/movement_info_library.dir/src/movement_interface.cpp.o: CMakeFiles/movement_info_library.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kargla/robot_movement/build/movement_info/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/movement_info_library.dir/src/movement_interface.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/movement_info_library.dir/src/movement_interface.cpp.o -MF CMakeFiles/movement_info_library.dir/src/movement_interface.cpp.o.d -o CMakeFiles/movement_info_library.dir/src/movement_interface.cpp.o -c /home/kargla/robot_movement/src/movement_info/src/movement_interface.cpp
+
+CMakeFiles/movement_info_library.dir/src/movement_interface.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/movement_info_library.dir/src/movement_interface.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kargla/robot_movement/src/movement_info/src/movement_interface.cpp > CMakeFiles/movement_info_library.dir/src/movement_interface.cpp.i
+
+CMakeFiles/movement_info_library.dir/src/movement_interface.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/movement_info_library.dir/src/movement_interface.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kargla/robot_movement/src/movement_info/src/movement_interface.cpp -o CMakeFiles/movement_info_library.dir/src/movement_interface.cpp.s
+
 # Object files for target movement_info_library
 movement_info_library_OBJECTS = \
-"CMakeFiles/movement_info_library.dir/src/movement.cpp.o"
+"CMakeFiles/movement_info_library.dir/src/movement.cpp.o" \
+"CMakeFiles/movement_info_library.dir/src/movement_interface.cpp.o"
 
 # External object files for target movement_info_library
 movement_info_library_EXTERNAL_OBJECTS =
 
 libmovement_info_library.a: CMakeFiles/movement_info_library.dir/src/movement.cpp.o
+libmovement_info_library.a: CMakeFiles/movement_info_library.dir/src/movement_interface.cpp.o
 libmovement_info_library.a: CMakeFiles/movement_info_library.dir/build.make
 libmovement_info_library.a: CMakeFiles/movement_info_library.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kargla/robot_movement/build/movement_info/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libmovement_info_library.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kargla/robot_movement/build/movement_info/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libmovement_info_library.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/movement_info_library.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/movement_info_library.dir/link.txt --verbose=$(VERBOSE)
 

@@ -1,0 +1,48 @@
+[0.016s] Invoking command in '/home/kargla/robot_movement/build/movement_info': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kargla/robot_movement/build/movement_info -- -j12 -l12
+[0.085s] [ 10%] Built target gtest_main
+[0.085s] [ 20%] Built target gtest
+[0.085s] [ 30%] Built target gmock_main
+[0.086s] [ 45%] Built target gmock
+[0.095s] [ 60%] Built target movement_info_library
+[0.101s] [ 80%] Built target movement
+[0.115s] [35m[1mConsolidate compiler generated dependencies of target movement_info_movement_gtest[0m
+[0.124s] [35m[1mConsolidate compiler generated dependencies of target movement_info_movement_gmock[0m
+[0.146s] [ 85%] [32mBuilding CXX object CMakeFiles/movement_info_movement_gtest.dir/test/movement_test.cpp.o[0m
+[0.152s] [ 90%] [32mBuilding CXX object CMakeFiles/movement_info_movement_gmock.dir/test/movement_test.cpp.o[0m
+[3.903s] [01m[K/home/kargla/robot_movement/src/movement_info/test/movement_test.cpp:[m[K In member function ‘[01m[Kvirtual void MovementTest_MovementInfoPublishingTest_Test::TestBody()[m[K’:
+[3.903s] [01m[K/home/kargla/robot_movement/src/movement_info/test/movement_test.cpp:74:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kreceived[m[K’ was not declared in this scope
+[3.903s]    74 |     for (int i = 0; i < 5 && [01;31m[Kreceived[m[K == 0; ++i) {
+[3.904s]       |                              [01;31m[K^~~~~~~~[m[K
+[3.904s] [01m[K/home/kargla/robot_movement/src/movement_info/test/movement_test.cpp:75:27:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[KYAML::detail::node[m[K’?
+[3.904s]    75 |         rclcpp::spin_some([01;31m[Knode[m[K);
+[3.905s]       |                           [01;31m[K^~~~[m[K
+[3.905s]       |                           [32m[KYAML::detail::node[m[K
+[3.905s] In file included from [01m[K/usr/include/yaml-cpp/node/impl.h:12[m[K,
+[3.905s]                  from [01m[K/usr/include/yaml-cpp/yaml.h:17[m[K,
+[3.905s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:8[m[K,
+[3.905s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/test/movement_test.cpp:3[m[K:
+[3.905s] [01m[K/usr/include/yaml-cpp/node/detail/node.h:20:7:[m[K [01;36m[Knote: [m[K‘[01m[KYAML::detail::node[m[K’ declared here
+[3.905s]    20 | class [01;36m[Knode[m[K {
+[3.905s]       |       [01;36m[K^~~~[m[K
+[3.926s] [01m[K/home/kargla/robot_movement/src/movement_info/test/movement_test.cpp:[m[K In member function ‘[01m[Kvirtual void MovementTest_MovementInfoPublishingTest_Test::TestBody()[m[K’:
+[3.926s] [01m[K/home/kargla/robot_movement/src/movement_info/test/movement_test.cpp:74:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kreceived[m[K’ was not declared in this scope
+[3.926s]    74 |     for (int i = 0; i < 5 && [01;31m[Kreceived[m[K == 0; ++i) {
+[3.926s]       |                              [01;31m[K^~~~~~~~[m[K
+[3.927s] [01m[K/home/kargla/robot_movement/src/movement_info/test/movement_test.cpp:75:27:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[KYAML::detail::node[m[K’?
+[3.927s]    75 |         rclcpp::spin_some([01;31m[Knode[m[K);
+[3.927s]       |                           [01;31m[K^~~~[m[K
+[3.927s]       |                           [32m[KYAML::detail::node[m[K
+[3.927s] In file included from [01m[K/usr/include/yaml-cpp/node/impl.h:12[m[K,
+[3.927s]                  from [01m[K/usr/include/yaml-cpp/yaml.h:17[m[K,
+[3.927s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:8[m[K,
+[3.927s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/test/movement_test.cpp:3[m[K:
+[3.927s] [01m[K/usr/include/yaml-cpp/node/detail/node.h:20:7:[m[K [01;36m[Knote: [m[K‘[01m[KYAML::detail::node[m[K’ declared here
+[3.927s]    20 | class [01;36m[Knode[m[K {
+[3.927s]       |       [01;36m[K^~~~[m[K
+[6.304s] gmake[2]: *** [CMakeFiles/movement_info_movement_gtest.dir/build.make:76: CMakeFiles/movement_info_movement_gtest.dir/test/movement_test.cpp.o] Error 1
+[6.305s] gmake[1]: *** [CMakeFiles/Makefile2:235: CMakeFiles/movement_info_movement_gtest.dir/all] Error 2
+[6.305s] gmake[1]: *** Waiting for unfinished jobs....
+[6.317s] gmake[2]: *** [CMakeFiles/movement_info_movement_gmock.dir/build.make:76: CMakeFiles/movement_info_movement_gmock.dir/test/movement_test.cpp.o] Error 1
+[6.318s] gmake[1]: *** [CMakeFiles/Makefile2:264: CMakeFiles/movement_info_movement_gmock.dir/all] Error 2
+[6.319s] gmake: *** [Makefile:146: all] Error 2
+[6.321s] Invoked command in '/home/kargla/robot_movement/build/movement_info' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kargla/robot_movement/build/movement_info -- -j12 -l12

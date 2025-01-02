@@ -1,0 +1,934 @@
+[0.017s] Invoking command in '/home/kargla/robot_movement/build/movement_info': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kargla/robot_movement/build/movement_info -- -j12 -l12
+[0.090s] [35m[1mConsolidate compiler generated dependencies of target movement_info_library[0m
+[0.091s] [35m[1mConsolidate compiler generated dependencies of target movement[0m
+[0.116s] [ 21%] Built target gtest_main
+[0.116s] [ 21%] Built target gmock_main
+[0.116s] [ 36%] Built target gmock
+[0.123s] [ 47%] Built target gtest
+[0.146s] [ 52%] [32mBuilding CXX object CMakeFiles/movement_info_library.dir/src/movement.cpp.o[0m
+[0.146s] [ 57%] [32mBuilding CXX object CMakeFiles/movement.dir/src/movement.cpp.o[0m
+[0.155s] [ 63%] [32mBuilding CXX object CMakeFiles/movement.dir/src/main.cpp.o[0m
+[4.076s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:[m[K In constructor ‘[01m[KMovement::Movement()[m[K’:
+[4.078s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:5:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kdeclare_parameter[m[K’
+[4.079s]     5 |     this->[01;31m[Kdeclare_parameter[m[K<float>("direction_treshold", 0.1);
+[4.080s]       |           [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[4.080s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:5:29:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kfloat[m[K’
+[4.081s]     5 |     this->declare_parameter<[01;31m[Kfloat[m[K>("direction_treshold", 0.1);
+[4.081s]       |                             [01;31m[K^~~~~[m[K
+[4.081s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:6:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kdeclare_parameter[m[K’
+[4.081s]     6 |     this->[01;31m[Kdeclare_parameter[m[K<float>("heading_treshold", 0.1);
+[4.081s]       |           [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[4.081s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:6:29:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kfloat[m[K’
+[4.081s]     6 |     this->declare_parameter<[01;31m[Kfloat[m[K>("heading_treshold", 0.1);
+[4.081s]       |                             [01;31m[K^~~~~[m[K
+[4.081s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:7:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kdeclare_parameter[m[K’
+[4.081s]     7 |     this->[01;31m[Kdeclare_parameter[m[K<std::string>("movement_topic", "/movement_info");
+[4.081s]       |           [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[4.081s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:7:40:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[4.081s]     7 |     this->declare_parameter<std::string[01;31m[K>[m[K("movement_topic", "/movement_info");
+[4.082s]       |                                        [01;31m[K^[m[K
+[4.082s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:7:42:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[4.082s]     7 |     this->declare_parameter<std::string>([01;35m[K"movement_topic"[m[K, "/movement_info");
+[4.082s]       |                                          [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[4.082s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:8:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kdeclare_parameter[m[K’
+[4.082s]     8 |     this->[01;31m[Kdeclare_parameter[m[K<std::string>("odometry_topic", "/diff_drive/odom");
+[4.082s]       |           [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[4.082s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:8:40:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[4.082s]     8 |     this->declare_parameter<std::string[01;31m[K>[m[K("odometry_topic", "/diff_drive/odom");
+[4.082s]       |                                        [01;31m[K^[m[K
+[4.082s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:8:42:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[4.082s]     8 |     this->declare_parameter<std::string>([01;35m[K"odometry_topic"[m[K, "/diff_drive/odom");
+[4.083s]       |                                          [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[4.083s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:9:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kdeclare_parameter[m[K’
+[4.083s]     9 |     this->[01;31m[Kdeclare_parameter[m[K<std::string>("velocity_topic", "/diff_drive/cmd_vel");
+[4.083s]       |           [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[4.083s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:9:40:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[4.083s]     9 |     this->declare_parameter<std::string[01;31m[K>[m[K("velocity_topic", "/diff_drive/cmd_vel");
+[4.083s]       |                                        [01;31m[K^[m[K
+[4.083s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:9:42:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[4.083s]     9 |     this->declare_parameter<std::string>([01;35m[K"velocity_topic"[m[K, "/diff_drive/cmd_vel");
+[4.083s]       |                                          [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[4.083s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:11:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_parameter[m[K’
+[4.083s]    11 |     this->[01;31m[Kget_parameter[m[K("direction_treshold", dir_treshold);
+[4.083s]       |           [01;31m[K^~~~~~~~~~~~~[m[K
+[4.083s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:12:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_parameter[m[K’
+[4.084s]    12 |     this->[01;31m[Kget_parameter[m[K("heading_treshold", heading_treshold);
+[4.084s]       |           [01;31m[K^~~~~~~~~~~~~[m[K
+[4.084s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:13:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_parameter[m[K’
+[4.084s]    13 |     this->[01;31m[Kget_parameter[m[K("movement_topic", movement_topic);
+[4.084s]       |           [01;31m[K^~~~~~~~~~~~~[m[K
+[4.084s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:14:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_parameter[m[K’
+[4.084s]    14 |     this->[01;31m[Kget_parameter[m[K("odometry_topic", odometry_topic);
+[4.084s]       |           [01;31m[K^~~~~~~~~~~~~[m[K
+[4.084s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:15:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_parameter[m[K’
+[4.084s]    15 |     this->[01;31m[Kget_parameter[m[K("velocity_topic", velocity_topic);
+[4.084s]       |           [01;31m[K^~~~~~~~~~~~~[m[K
+[4.084s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.084s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.084s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.085s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.085s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.085s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.085s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.085s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.085s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.085s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.085s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:4[m[K,
+[4.085s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1[m[K:
+[4.085s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:19:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[4.085s]    19 |         RCLCPP_ERROR(this->[01;31m[Kget_logger[m[K(), "One or more parameters are empty");
+[4.085s]       |                            [01;31m[K^~~~~~~~~~[m[K
+[4.085s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:19:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[4.086s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:19:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.086s]    19 |         [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "One or more parameters are empty");
+[4.086s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[4.086s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:19:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.086s]    19 |         [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "One or more parameters are empty");
+[4.086s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[4.086s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:19:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.086s]    19 |         [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "One or more parameters are empty");
+[4.086s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[4.086s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[4.086s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.086s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.087s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.087s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.087s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.087s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.087s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.087s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.087s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.087s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.087s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:4[m[K,
+[4.087s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1[m[K:
+[4.087s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:19:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[4.087s]    19 |         RCLCPP_ERROR(this->[01;31m[Kget_logger[m[K(), "One or more parameters are empty");
+[4.087s]       |                            [01;31m[K^~~~~~~~~~[m[K
+[4.087s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:19:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[4.088s]    19 |         RCLCPP_ERROR(this->[01;31m[Kget_logger[m[K(), "One or more parameters are empty");
+[4.088s]       |                            [01;31m[K^~~~~~~~~~[m[K
+[4.088s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.088s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.088s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.088s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.088s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.088s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.088s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.088s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.088s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.089s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.089s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:4[m[K,
+[4.089s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1[m[K:
+[4.089s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:23:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[4.089s]    23 |     RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Direction treshold: '%f'", dir_treshold);
+[4.089s]       |                       [01;31m[K^~~~~~~~~~[m[K
+[4.089s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:23:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[4.089s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:23:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.089s]    23 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Direction treshold: '%f'", dir_treshold);
+[4.089s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[4.089s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:23:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.089s]    23 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Direction treshold: '%f'", dir_treshold);
+[4.089s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[4.090s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:23:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.090s]    23 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Direction treshold: '%f'", dir_treshold);
+[4.090s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[4.090s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[4.090s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.090s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.090s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.090s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.090s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.090s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.090s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.090s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.090s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.090s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.091s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:4[m[K,
+[4.091s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1[m[K:
+[4.091s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:23:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[4.091s]    23 |     RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Direction treshold: '%f'", dir_treshold);
+[4.091s]       |                       [01;31m[K^~~~~~~~~~[m[K
+[4.091s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:23:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[4.091s]    23 |     RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Direction treshold: '%f'", dir_treshold);
+[4.091s]       |                       [01;31m[K^~~~~~~~~~[m[K
+[4.091s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.091s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.091s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.091s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.091s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.091s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.092s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.092s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.092s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.092s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.092s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:4[m[K,
+[4.092s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1[m[K:
+[4.092s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:24:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[4.092s]    24 |     RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Heading treshold: '%f'", heading_treshold);
+[4.092s]       |                       [01;31m[K^~~~~~~~~~[m[K
+[4.092s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:24:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[4.092s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:24:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.092s]    24 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Heading treshold: '%f'", heading_treshold);
+[4.092s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[4.093s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:24:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.093s]    24 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Heading treshold: '%f'", heading_treshold);
+[4.093s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[4.093s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:24:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.093s]    24 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Heading treshold: '%f'", heading_treshold);
+[4.093s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[4.093s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[4.093s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.093s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.093s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.093s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.094s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.094s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.094s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.094s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.094s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.094s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.094s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:4[m[K,
+[4.094s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1[m[K:
+[4.094s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:24:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[4.094s]    24 |     RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Heading treshold: '%f'", heading_treshold);
+[4.094s]       |                       [01;31m[K^~~~~~~~~~[m[K
+[4.095s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:24:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[4.095s]    24 |     RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Heading treshold: '%f'", heading_treshold);
+[4.095s]       |                       [01;31m[K^~~~~~~~~~[m[K
+[4.095s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.095s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.095s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.095s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.095s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.095s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.095s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.096s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.096s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.096s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.096s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:4[m[K,
+[4.096s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1[m[K:
+[4.096s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:25:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[4.096s]    25 |     RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Movement topic: '%s'", movement_topic.c_str());
+[4.096s]       |                       [01;31m[K^~~~~~~~~~[m[K
+[4.096s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:25:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[4.097s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:25:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.097s]    25 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Movement topic: '%s'", movement_topic.c_str());
+[4.097s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[4.097s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:25:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.097s]    25 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Movement topic: '%s'", movement_topic.c_str());
+[4.097s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[4.097s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:25:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.097s]    25 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Movement topic: '%s'", movement_topic.c_str());
+[4.097s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[4.098s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[4.098s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.098s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.098s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.098s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.098s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.098s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.098s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.098s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.098s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.099s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.099s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:4[m[K,
+[4.099s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1[m[K:
+[4.099s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:25:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[4.099s]    25 |     RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Movement topic: '%s'", movement_topic.c_str());
+[4.099s]       |                       [01;31m[K^~~~~~~~~~[m[K
+[4.099s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:25:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[4.099s]    25 |     RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Movement topic: '%s'", movement_topic.c_str());
+[4.099s]       |                       [01;31m[K^~~~~~~~~~[m[K
+[4.100s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.100s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.100s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.100s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.100s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.100s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.100s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.100s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.100s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.101s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.101s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:4[m[K,
+[4.101s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1[m[K:
+[4.101s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:26:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[4.101s]    26 |     RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Odometry topic: '%s'", odometry_topic.c_str());
+[4.101s]       |                       [01;31m[K^~~~~~~~~~[m[K
+[4.101s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:26:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[4.101s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:26:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.102s]    26 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Odometry topic: '%s'", odometry_topic.c_str());
+[4.102s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[4.102s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:26:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.102s]    26 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Odometry topic: '%s'", odometry_topic.c_str());
+[4.102s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[4.102s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:26:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.103s]    26 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Odometry topic: '%s'", odometry_topic.c_str());
+[4.103s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[4.103s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[4.103s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.103s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.103s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.103s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.103s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.104s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.104s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.104s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.104s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.104s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.104s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:4[m[K,
+[4.104s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1[m[K:
+[4.104s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:26:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[4.105s]    26 |     RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Odometry topic: '%s'", odometry_topic.c_str());
+[4.105s]       |                       [01;31m[K^~~~~~~~~~[m[K
+[4.105s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:26:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[4.105s]    26 |     RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Odometry topic: '%s'", odometry_topic.c_str());
+[4.105s]       |                       [01;31m[K^~~~~~~~~~[m[K
+[4.105s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.105s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.105s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.105s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.106s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.106s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.106s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.106s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.106s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.106s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.107s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:4[m[K,
+[4.107s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1[m[K:
+[4.107s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:27:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[4.107s]    27 |     RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Velocity topic: '%s'", velocity_topic.c_str());
+[4.107s]       |                       [01;31m[K^~~~~~~~~~[m[K
+[4.107s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:27:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[4.107s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:27:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.107s]    27 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Velocity topic: '%s'", velocity_topic.c_str());
+[4.108s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[4.108s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:27:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.108s]    27 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Velocity topic: '%s'", velocity_topic.c_str());
+[4.108s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[4.108s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:27:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.108s]    27 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Velocity topic: '%s'", velocity_topic.c_str());
+[4.108s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[4.108s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[4.109s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.109s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.109s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.109s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.110s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.110s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.110s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.110s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.110s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.110s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.110s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:4[m[K,
+[4.110s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1[m[K:
+[4.111s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:27:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[4.111s]    27 |     RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Velocity topic: '%s'", velocity_topic.c_str());
+[4.111s]       |                       [01;31m[K^~~~~~~~~~[m[K
+[4.111s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:27:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[4.111s]    27 |     RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Velocity topic: '%s'", velocity_topic.c_str());
+[4.111s]       |                       [01;31m[K^~~~~~~~~~[m[K
+[4.111s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:29:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kcreate_publisher[m[K’
+[4.111s]    29 |     publisher_ = this->[01;31m[Kcreate_publisher[m[K<movement_info_msgs::msg::MovementInfo>(movement_topic, 10);
+[4.112s]       |                        [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[4.112s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:29:78:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[4.112s]    29 | this->create_publisher<movement_info_msgs::msg::MovementInfo[01;31m[K>[m[K(movement_topic, 10);
+[4.112s]       |                                                             [01;31m[K^[m[K
+[4.112s] 
+[4.112s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:29:80:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[4.112s]    29 | is->create_publisher<movement_info_msgs::msg::MovementInfo>([01;35m[Kmovement_topic[m[K, 10);
+[4.112s]       |                                                             [01;35m[K^~~~~~~~~~~~~~[m[K
+[4.113s] 
+[4.113s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:30:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kcreate_subscription[m[K’
+[4.113s]    30 |     odom_subscriber = this->[01;31m[Kcreate_subscription[m[K<nav_msgs::msg::Odometry>(odometry_topic, 10, std::bind(&Movement::odometry_callback, this, std::placeholders::_1));
+[4.113s]       |                             [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[4.113s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:30:72:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[4.113s]    30 | bscriber = this->create_subscription<nav_msgs::msg::Odometry[01;31m[K>[m[K(odometry_topic, 10, std::bind(&Movement::odometry_callback, this, std::placeholders::_1));
+[4.113s]       |                                                             [01;31m[K^[m[K
+[4.114s] 
+[4.114s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:30:74:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[4.114s]    30 | criber = this->create_subscription<nav_msgs::msg::Odometry>([01;35m[Kodometry_topic[m[K, 10, std::bind(&Movement::odometry_callback, this, std::placeholders::_1));
+[4.114s]       |                                                             [01;35m[K^~~~~~~~~~~~~~[m[K
+[4.114s] 
+[4.114s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:30:161:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[4.114s]    30 |  std::bind(&Movement::odometry_callback, this, std::placeholders::_1[01;35m[K)[m[K);
+[4.114s]       |                                                                     [01;35m[K^[m[K
+[4.115s] 
+[4.115s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:31:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kcreate_subscription[m[K’
+[4.115s]    31 |     vel_subscriber = this->[01;31m[Kcreate_subscription[m[K<geometry_msgs::msg::TwistStamped>(velocity_topic, 10, std::bind(&Movement::velocity_callback, this, std::placeholders::_1));
+[4.115s]       |                            [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[4.115s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:31:80:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[4.115s]    31 | = this->create_subscription<geometry_msgs::msg::TwistStamped[01;31m[K>[m[K(velocity_topic, 10, std::bind(&Movement::velocity_callback, this, std::placeholders::_1));
+[4.115s]       |                                                             [01;31m[K^[m[K
+[4.116s] 
+[4.116s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:31:82:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[4.116s]    31 | this->create_subscription<geometry_msgs::msg::TwistStamped>([01;35m[Kvelocity_topic[m[K, 10, std::bind(&Movement::velocity_callback, this, std::placeholders::_1));
+[4.116s]       |                                                             [01;35m[K^~~~~~~~~~~~~~[m[K
+[4.116s] 
+[4.116s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:31:169:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[4.116s]    31 |  std::bind(&Movement::velocity_callback, this, std::placeholders::_1[01;35m[K)[m[K);
+[4.116s]       |                                                                     [01;35m[K^[m[K
+[4.117s] 
+[4.117s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:34:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kcreate_wall_timer[m[K’
+[4.117s]    34 |     timer_ = this->[01;31m[Kcreate_wall_timer[m[K(std::chrono::seconds(1), std::bind(&Movement::publish_movement_info, this));
+[4.117s]       |                    [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[4.117s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.117s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.117s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.118s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.118s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.118s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.118s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.118s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.118s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.118s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.118s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:4[m[K,
+[4.119s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1[m[K:
+[4.119s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:[m[K In member function ‘[01m[Kvoid Movement::publish_movement_info()[m[K’:
+[4.119s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:54:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[4.119s]    54 |     RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Publishing: '%s'", message_.movement.c_str());
+[4.119s]       |                       [01;31m[K^~~~~~~~~~[m[K
+[4.119s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:54:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[4.119s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:54:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.120s]    54 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Publishing: '%s'", message_.movement.c_str());
+[4.120s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[4.120s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:54:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.120s]    54 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Publishing: '%s'", message_.movement.c_str());
+[4.120s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[4.120s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:54:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.120s]    54 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Publishing: '%s'", message_.movement.c_str());
+[4.121s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[4.121s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[4.121s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.121s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.121s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.121s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.121s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.121s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.122s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.122s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.122s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.122s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.122s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:4[m[K,
+[4.122s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1[m[K:
+[4.122s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:54:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[4.123s]    54 |     RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Publishing: '%s'", message_.movement.c_str());
+[4.123s]       |                       [01;31m[K^~~~~~~~~~[m[K
+[4.123s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:54:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[4.123s]    54 |     RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Publishing: '%s'", message_.movement.c_str());
+[4.123s]       |                       [01;31m[K^~~~~~~~~~[m[K
+[4.123s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.123s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.124s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.124s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.124s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.124s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.124s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.124s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.124s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.125s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.125s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:4[m[K,
+[4.125s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1[m[K:
+[4.125s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:55:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[4.125s]    55 |     RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Publishing: '%s'", message_.heading.c_str());
+[4.125s]       |                       [01;31m[K^~~~~~~~~~[m[K
+[4.125s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:55:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[4.125s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:55:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.126s]    55 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Publishing: '%s'", message_.heading.c_str());
+[4.126s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[4.126s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:55:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.126s]    55 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Publishing: '%s'", message_.heading.c_str());
+[4.126s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[4.126s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:55:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.126s]    55 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Publishing: '%s'", message_.heading.c_str());
+[4.126s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[4.127s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[4.127s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.127s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.127s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.127s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.127s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.127s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.127s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.128s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.128s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.128s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.128s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:4[m[K,
+[4.128s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1[m[K:
+[4.128s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:55:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[4.129s]    55 |     RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Publishing: '%s'", message_.heading.c_str());
+[4.129s]       |                       [01;31m[K^~~~~~~~~~[m[K
+[4.129s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:55:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[4.129s]    55 |     RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Publishing: '%s'", message_.heading.c_str());
+[4.129s]       |                       [01;31m[K^~~~~~~~~~[m[K
+[4.139s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:[m[K In constructor ‘[01m[KMovement::Movement()[m[K’:
+[4.139s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:5:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kdeclare_parameter[m[K’
+[4.140s]     5 |     this->[01;31m[Kdeclare_parameter[m[K<float>("direction_treshold", 0.1);
+[4.140s]       |           [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[4.140s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:5:29:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kfloat[m[K’
+[4.140s]     5 |     this->declare_parameter<[01;31m[Kfloat[m[K>("direction_treshold", 0.1);
+[4.141s]       |                             [01;31m[K^~~~~[m[K
+[4.141s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:6:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kdeclare_parameter[m[K’
+[4.141s]     6 |     this->[01;31m[Kdeclare_parameter[m[K<float>("heading_treshold", 0.1);
+[4.141s]       |           [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[4.142s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:6:29:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kfloat[m[K’
+[4.142s]     6 |     this->declare_parameter<[01;31m[Kfloat[m[K>("heading_treshold", 0.1);
+[4.142s]       |                             [01;31m[K^~~~~[m[K
+[4.142s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:7:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kdeclare_parameter[m[K’
+[4.142s]     7 |     this->[01;31m[Kdeclare_parameter[m[K<std::string>("movement_topic", "/movement_info");
+[4.142s]       |           [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[4.142s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:7:40:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[4.142s]     7 |     this->declare_parameter<std::string[01;31m[K>[m[K("movement_topic", "/movement_info");
+[4.143s]       |                                        [01;31m[K^[m[K
+[4.143s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:7:42:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[4.143s]     7 |     this->declare_parameter<std::string>([01;35m[K"movement_topic"[m[K, "/movement_info");
+[4.143s]       |                                          [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[4.143s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:8:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kdeclare_parameter[m[K’
+[4.143s]     8 |     this->[01;31m[Kdeclare_parameter[m[K<std::string>("odometry_topic", "/diff_drive/odom");
+[4.143s]       |           [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[4.143s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:8:40:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[4.143s]     8 |     this->declare_parameter<std::string[01;31m[K>[m[K("odometry_topic", "/diff_drive/odom");
+[4.144s]       |                                        [01;31m[K^[m[K
+[4.144s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:8:42:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[4.144s]     8 |     this->declare_parameter<std::string>([01;35m[K"odometry_topic"[m[K, "/diff_drive/odom");
+[4.144s]       |                                          [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[4.144s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:9:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kdeclare_parameter[m[K’
+[4.144s]     9 |     this->[01;31m[Kdeclare_parameter[m[K<std::string>("velocity_topic", "/diff_drive/cmd_vel");
+[4.144s]       |           [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[4.144s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:9:40:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[4.144s]     9 |     this->declare_parameter<std::string[01;31m[K>[m[K("velocity_topic", "/diff_drive/cmd_vel");
+[4.145s]       |                                        [01;31m[K^[m[K
+[4.145s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:9:42:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[4.145s]     9 |     this->declare_parameter<std::string>([01;35m[K"velocity_topic"[m[K, "/diff_drive/cmd_vel");
+[4.146s]       |                                          [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[4.146s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:11:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_parameter[m[K’
+[4.146s]    11 |     this->[01;31m[Kget_parameter[m[K("direction_treshold", dir_treshold);
+[4.146s]       |           [01;31m[K^~~~~~~~~~~~~[m[K
+[4.146s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:12:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_parameter[m[K’
+[4.147s]    12 |     this->[01;31m[Kget_parameter[m[K("heading_treshold", heading_treshold);
+[4.147s]       |           [01;31m[K^~~~~~~~~~~~~[m[K
+[4.147s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:13:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_parameter[m[K’
+[4.147s]    13 |     this->[01;31m[Kget_parameter[m[K("movement_topic", movement_topic);
+[4.147s]       |           [01;31m[K^~~~~~~~~~~~~[m[K
+[4.147s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:14:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_parameter[m[K’
+[4.147s]    14 |     this->[01;31m[Kget_parameter[m[K("odometry_topic", odometry_topic);
+[4.147s]       |           [01;31m[K^~~~~~~~~~~~~[m[K
+[4.147s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:15:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_parameter[m[K’
+[4.148s]    15 |     this->[01;31m[Kget_parameter[m[K("velocity_topic", velocity_topic);
+[4.148s]       |           [01;31m[K^~~~~~~~~~~~~[m[K
+[4.148s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.148s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.148s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.148s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.148s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.148s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.148s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.148s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.149s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.149s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.149s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:4[m[K,
+[4.149s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1[m[K:
+[4.149s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:19:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[4.149s]    19 |         RCLCPP_ERROR(this->[01;31m[Kget_logger[m[K(), "One or more parameters are empty");
+[4.149s]       |                            [01;31m[K^~~~~~~~~~[m[K
+[4.149s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:19:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[4.149s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:19:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.149s]    19 |         [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "One or more parameters are empty");
+[4.149s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[4.149s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:19:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.150s]    19 |         [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "One or more parameters are empty");
+[4.150s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[4.150s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:19:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.150s]    19 |         [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "One or more parameters are empty");
+[4.150s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[4.150s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[4.150s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.150s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.150s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.150s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.150s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.150s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.151s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.151s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.151s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.151s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.151s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:4[m[K,
+[4.151s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1[m[K:
+[4.151s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:19:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[4.151s]    19 |         RCLCPP_ERROR(this->[01;31m[Kget_logger[m[K(), "One or more parameters are empty");
+[4.151s]       |                            [01;31m[K^~~~~~~~~~[m[K
+[4.151s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:19:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[4.151s]    19 |         RCLCPP_ERROR(this->[01;31m[Kget_logger[m[K(), "One or more parameters are empty");
+[4.151s]       |                            [01;31m[K^~~~~~~~~~[m[K
+[4.152s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.152s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.152s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.152s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.152s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.152s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.152s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.152s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.152s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.152s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.152s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:4[m[K,
+[4.153s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1[m[K:
+[4.153s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:23:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[4.153s]    23 |     RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Direction treshold: '%f'", dir_treshold);
+[4.153s]       |                       [01;31m[K^~~~~~~~~~[m[K
+[4.153s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:23:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[4.153s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:23:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.153s]    23 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Direction treshold: '%f'", dir_treshold);
+[4.153s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[4.153s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:23:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.154s]    23 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Direction treshold: '%f'", dir_treshold);
+[4.154s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[4.154s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:23:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.154s]    23 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Direction treshold: '%f'", dir_treshold);
+[4.154s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[4.154s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[4.154s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.154s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.154s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.155s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.155s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.155s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.155s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.155s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.155s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.155s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.155s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:4[m[K,
+[4.156s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1[m[K:
+[4.156s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:23:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[4.156s]    23 |     RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Direction treshold: '%f'", dir_treshold);
+[4.156s]       |                       [01;31m[K^~~~~~~~~~[m[K
+[4.156s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:23:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[4.156s]    23 |     RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Direction treshold: '%f'", dir_treshold);
+[4.156s]       |                       [01;31m[K^~~~~~~~~~[m[K
+[4.156s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.156s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.156s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.157s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.157s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.157s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.157s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.157s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.157s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.157s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.157s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:4[m[K,
+[4.157s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1[m[K:
+[4.158s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:24:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[4.158s]    24 |     RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Heading treshold: '%f'", heading_treshold);
+[4.158s]       |                       [01;31m[K^~~~~~~~~~[m[K
+[4.158s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:24:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[4.158s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:24:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.158s]    24 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Heading treshold: '%f'", heading_treshold);
+[4.158s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[4.159s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:24:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.159s]    24 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Heading treshold: '%f'", heading_treshold);
+[4.159s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[4.159s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:24:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.159s]    24 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Heading treshold: '%f'", heading_treshold);
+[4.159s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[4.159s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[4.159s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.159s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.160s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.160s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.160s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.160s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.160s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.160s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.160s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.160s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.160s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:4[m[K,
+[4.161s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1[m[K:
+[4.161s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:24:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[4.161s]    24 |     RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Heading treshold: '%f'", heading_treshold);
+[4.161s]       |                       [01;31m[K^~~~~~~~~~[m[K
+[4.161s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:24:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[4.161s]    24 |     RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Heading treshold: '%f'", heading_treshold);
+[4.161s]       |                       [01;31m[K^~~~~~~~~~[m[K
+[4.161s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.161s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.162s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.162s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.162s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.162s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.162s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.162s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.162s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.163s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.163s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:4[m[K,
+[4.163s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1[m[K:
+[4.163s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:25:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[4.163s]    25 |     RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Movement topic: '%s'", movement_topic.c_str());
+[4.163s]       |                       [01;31m[K^~~~~~~~~~[m[K
+[4.163s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:25:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[4.163s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:25:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.164s]    25 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Movement topic: '%s'", movement_topic.c_str());
+[4.164s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[4.164s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:25:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.164s]    25 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Movement topic: '%s'", movement_topic.c_str());
+[4.164s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[4.164s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:25:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.164s]    25 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Movement topic: '%s'", movement_topic.c_str());
+[4.164s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[4.164s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[4.165s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.165s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.165s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.165s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.165s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.165s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.165s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.165s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.165s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.166s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.166s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:4[m[K,
+[4.166s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1[m[K:
+[4.166s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:25:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[4.166s]    25 |     RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Movement topic: '%s'", movement_topic.c_str());
+[4.166s]       |                       [01;31m[K^~~~~~~~~~[m[K
+[4.166s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:25:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[4.166s]    25 |     RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Movement topic: '%s'", movement_topic.c_str());
+[4.167s]       |                       [01;31m[K^~~~~~~~~~[m[K
+[4.167s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.167s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.167s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.167s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.167s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.167s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.168s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.168s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.168s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.168s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.168s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:4[m[K,
+[4.168s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1[m[K:
+[4.168s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:26:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[4.168s]    26 |     RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Odometry topic: '%s'", odometry_topic.c_str());
+[4.168s]       |                       [01;31m[K^~~~~~~~~~[m[K
+[4.168s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:26:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[4.168s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:26:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.169s]    26 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Odometry topic: '%s'", odometry_topic.c_str());
+[4.169s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[4.169s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:26:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.169s]    26 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Odometry topic: '%s'", odometry_topic.c_str());
+[4.169s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[4.169s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:26:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.169s]    26 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Odometry topic: '%s'", odometry_topic.c_str());
+[4.169s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[4.169s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[4.169s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.169s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.169s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.170s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.170s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.170s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.170s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.170s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.170s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.170s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.170s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:4[m[K,
+[4.170s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1[m[K:
+[4.170s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:26:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[4.170s]    26 |     RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Odometry topic: '%s'", odometry_topic.c_str());
+[4.171s]       |                       [01;31m[K^~~~~~~~~~[m[K
+[4.171s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:26:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[4.171s]    26 |     RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Odometry topic: '%s'", odometry_topic.c_str());
+[4.171s]       |                       [01;31m[K^~~~~~~~~~[m[K
+[4.171s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.171s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.171s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.171s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.171s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.171s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.171s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.172s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.172s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.172s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.172s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:4[m[K,
+[4.172s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1[m[K:
+[4.172s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:27:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[4.172s]    27 |     RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Velocity topic: '%s'", velocity_topic.c_str());
+[4.172s]       |                       [01;31m[K^~~~~~~~~~[m[K
+[4.172s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:27:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[4.172s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:27:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.172s]    27 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Velocity topic: '%s'", velocity_topic.c_str());
+[4.172s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[4.173s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:27:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.173s]    27 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Velocity topic: '%s'", velocity_topic.c_str());
+[4.173s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[4.173s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:27:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.173s]    27 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Velocity topic: '%s'", velocity_topic.c_str());
+[4.173s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[4.173s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[4.173s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.174s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.174s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.174s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.174s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.175s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.175s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.175s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.175s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.175s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.175s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:4[m[K,
+[4.175s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1[m[K:
+[4.175s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:27:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[4.175s]    27 |     RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Velocity topic: '%s'", velocity_topic.c_str());
+[4.175s]       |                       [01;31m[K^~~~~~~~~~[m[K
+[4.176s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:27:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[4.176s]    27 |     RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Velocity topic: '%s'", velocity_topic.c_str());
+[4.176s]       |                       [01;31m[K^~~~~~~~~~[m[K
+[4.176s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:29:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kcreate_publisher[m[K’
+[4.176s]    29 |     publisher_ = this->[01;31m[Kcreate_publisher[m[K<movement_info_msgs::msg::MovementInfo>(movement_topic, 10);
+[4.176s]       |                        [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[4.176s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:29:78:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[4.176s]    29 |     publisher_ = this->create_publisher<movement_info_msgs::msg::MovementInfo[01;31m[K>[m[K(movement_topic, 10);
+[4.176s]       |                                                                              [01;31m[K^[m[K
+[4.176s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:29:80:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[4.176s]    29 |     publisher_ = this->create_publisher<movement_info_msgs::msg::MovementInfo>([01;35m[Kmovement_topic[m[K, 10);
+[4.177s]       |                                                                                [01;35m[K^~~~~~~~~~~~~~[m[K
+[4.177s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:30:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kcreate_subscription[m[K’
+[4.177s]    30 |     odom_subscriber = this->[01;31m[Kcreate_subscription[m[K<nav_msgs::msg::Odometry>(odometry_topic, 10, std::bind(&Movement::odometry_callback, this, std::placeholders::_1));
+[4.177s]       |                             [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[4.177s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:30:72:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[4.177s]    30 |     odom_subscriber = this->create_subscription<nav_msgs::msg::Odometry[01;31m[K>[m[K(odometry_topic, 10, std::bind(&Movement::odometry_callback, this, std::placeholders::_1));
+[4.177s]       |                                                                        [01;31m[K^[m[K
+[4.177s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:30:74:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[4.177s]    30 |     odom_subscriber = this->create_subscription<nav_msgs::msg::Odometry>([01;35m[Kodometry_topic[m[K, 10, std::bind(&Movement::odometry_callback, this, std::placeholders::_1));
+[4.177s]       |                                                                          [01;35m[K^~~~~~~~~~~~~~[m[K
+[4.178s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:30:161:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[4.178s]    30 |     odom_subscriber = this->create_subscription<nav_msgs::msg::Odometry>(odometry_topic, 10, std::bind(&Movement::odometry_callback, this, std::placeholders::_1[01;35m[K)[m[K);
+[4.178s]       |                                                                                                                                                                 [01;35m[K^[m[K
+[4.178s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:31:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kcreate_subscription[m[K’
+[4.178s]    31 |     vel_subscriber = this->[01;31m[Kcreate_subscription[m[K<geometry_msgs::msg::TwistStamped>(velocity_topic, 10, std::bind(&Movement::velocity_callback, this, std::placeholders::_1));
+[4.178s]       |                            [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[4.178s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:31:80:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[4.178s]    31 |     vel_subscriber = this->create_subscription<geometry_msgs::msg::TwistStamped[01;31m[K>[m[K(velocity_topic, 10, std::bind(&Movement::velocity_callback, this, std::placeholders::_1));
+[4.178s]       |                                                                                [01;31m[K^[m[K
+[4.178s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:31:82:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[4.178s]    31 |     vel_subscriber = this->create_subscription<geometry_msgs::msg::TwistStamped>([01;35m[Kvelocity_topic[m[K, 10, std::bind(&Movement::velocity_callback, this, std::placeholders::_1));
+[4.178s]       |                                                                                  [01;35m[K^~~~~~~~~~~~~~[m[K
+[4.179s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:31:169:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[4.179s]    31 |     vel_subscriber = this->create_subscription<geometry_msgs::msg::TwistStamped>(velocity_topic, 10, std::bind(&Movement::velocity_callback, this, std::placeholders::_1[01;35m[K)[m[K);
+[4.179s]       |                                                                                                                                                                         [01;35m[K^[m[K
+[4.179s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:34:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kcreate_wall_timer[m[K’
+[4.179s]    34 |     timer_ = this->[01;31m[Kcreate_wall_timer[m[K(std::chrono::seconds(1), std::bind(&Movement::publish_movement_info, this));
+[4.179s]       |                    [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[4.179s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.179s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.179s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.179s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.179s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.179s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.180s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.180s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.180s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.180s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.180s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:4[m[K,
+[4.180s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1[m[K:
+[4.180s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:[m[K In member function ‘[01m[Kvoid Movement::publish_movement_info()[m[K’:
+[4.180s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:54:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[4.180s]    54 |     RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Publishing: '%s'", message_.movement.c_str());
+[4.180s]       |                       [01;31m[K^~~~~~~~~~[m[K
+[4.180s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:54:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[4.180s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:54:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.181s]    54 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Publishing: '%s'", message_.movement.c_str());
+[4.181s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[4.181s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:54:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.181s]    54 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Publishing: '%s'", message_.movement.c_str());
+[4.181s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[4.181s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:54:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.181s]    54 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Publishing: '%s'", message_.movement.c_str());
+[4.181s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[4.181s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[4.181s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.181s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.181s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.181s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.182s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.182s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.182s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.182s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.182s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.182s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.182s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:4[m[K,
+[4.182s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1[m[K:
+[4.182s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:54:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[4.182s]    54 |     RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Publishing: '%s'", message_.movement.c_str());
+[4.182s]       |                       [01;31m[K^~~~~~~~~~[m[K
+[4.182s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:54:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[4.183s]    54 |     RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Publishing: '%s'", message_.movement.c_str());
+[4.183s]       |                       [01;31m[K^~~~~~~~~~[m[K
+[4.183s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.183s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.183s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.183s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.183s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.183s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.183s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.183s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.183s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.183s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.184s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:4[m[K,
+[4.184s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1[m[K:
+[4.184s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:55:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[4.184s]    55 |     RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Publishing: '%s'", message_.heading.c_str());
+[4.184s]       |                       [01;31m[K^~~~~~~~~~[m[K
+[4.184s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:55:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[4.184s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:55:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.184s]    55 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Publishing: '%s'", message_.heading.c_str());
+[4.184s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[4.184s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:55:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.184s]    55 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Publishing: '%s'", message_.heading.c_str());
+[4.184s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[4.184s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:55:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.184s]    55 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Publishing: '%s'", message_.heading.c_str());
+[4.185s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[4.185s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[4.185s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.185s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.185s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.185s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.185s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.185s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.185s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.185s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.185s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.186s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.186s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:4[m[K,
+[4.186s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1[m[K:
+[4.186s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:55:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[4.186s]    55 |     RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Publishing: '%s'", message_.heading.c_str());
+[4.186s]       |                       [01;31m[K^~~~~~~~~~[m[K
+[4.186s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:55:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Movement[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[4.186s]    55 |     RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Publishing: '%s'", message_.heading.c_str());
+[4.186s]       |                       [01;31m[K^~~~~~~~~~[m[K
+[4.271s] [01m[K/home/kargla/robot_movement/src/movement_info/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[4.271s] [01m[K/home/kargla/robot_movement/src/movement_info/src/main.cpp:6:17:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kspin(std::shared_ptr<Movement>)[m[K’
+[4.271s]     6 |     [01;31m[Krclcpp::spin(std::make_shared<Movement>())[m[K;
+[4.271s]       |     [01;31m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.271s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.271s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:4[m[K,
+[4.272s]                  from [01m[K/home/kargla/robot_movement/src/movement_info/src/main.cpp:1[m[K:
+[4.272s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:45:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::spin(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr)[m[K’
+[4.272s]    45 | [01;36m[Kspin[m[K(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr);
+[4.272s]       | [01;36m[K^~~~[m[K
+[4.272s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:45:60:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kshared_ptr<[01;32m[KMovement[m[K>[m[K’ to ‘[01m[Kshared_ptr<[01;32m[Krclcpp::node_interfaces::NodeBaseInterface[m[K>[m[K’
+[4.272s]    45 | spin([01;36m[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr[m[K);
+[4.272s]       |      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[4.272s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:49:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::spin(rclcpp::Node::SharedPtr)[m[K’
+[4.273s]    49 | [01;36m[Kspin[m[K(rclcpp::Node::SharedPtr node_ptr);
+[4.273s]       | [01;36m[K^~~~[m[K
+[4.273s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:49:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kshared_ptr<[01;32m[KMovement[m[K>[m[K’ to ‘[01m[Kshared_ptr<[01;32m[Krclcpp::Node[m[K>[m[K’
+[4.273s]    49 | spin([01;36m[Krclcpp::Node::SharedPtr node_ptr[m[K);
+[4.273s]       |      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[5.112s] gmake[2]: *** [CMakeFiles/movement.dir/build.make:90: CMakeFiles/movement.dir/src/main.cpp.o] Error 1
+[5.112s] gmake[2]: *** Waiting for unfinished jobs....
+[5.225s] gmake[2]: *** [CMakeFiles/movement.dir/build.make:76: CMakeFiles/movement.dir/src/movement.cpp.o] Error 1
+[5.226s] gmake[1]: *** [CMakeFiles/Makefile2:180: CMakeFiles/movement.dir/all] Error 2
+[5.226s] gmake[1]: *** Waiting for unfinished jobs....
+[5.253s] gmake[2]: *** [CMakeFiles/movement_info_library.dir/build.make:76: CMakeFiles/movement_info_library.dir/src/movement.cpp.o] Error 1
+[5.256s] gmake[1]: *** [CMakeFiles/Makefile2:206: CMakeFiles/movement_info_library.dir/all] Error 2
+[5.256s] gmake: *** [Makefile:146: all] Error 2
+[5.261s] Invoked command in '/home/kargla/robot_movement/build/movement_info' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kargla/robot_movement/build/movement_info -- -j12 -l12

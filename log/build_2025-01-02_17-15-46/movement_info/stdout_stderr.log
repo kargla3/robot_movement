@@ -1,0 +1,31 @@
+[ 10%] Built target gtest
+[ 20%] Built target gtest_main
+[ 35%] Built target gmock
+[ 50%] Built target gmock_main
+[ 45%] [32mBuilding CXX object CMakeFiles/movement.dir/src/movement.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/movement_info_library.dir/src/movement.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/movement_info_library.dir/src/movement_interface.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/movement.dir/src/movement_interface.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/movement.dir/src/main.cpp.o[0m
+[01m[K/home/kargla/robot_movement/src/movement_info/src/movement_interface.cpp:13:6:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kvoid MovementInterface::setMessage(movement_info_msgs::msg::MovementInfo)[m[K’
+   13 | void [01;31m[KMovementInterface[m[K::setMessage(movement_info_msgs::msg::MovementInfo message)
+      |      [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement_interface.cpp:1[m[K:
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement_interface.hpp:12:10:[m[K [01;36m[Knote: [m[K‘[01m[Kvoid MovementInterface::setMessage(movement_info_msgs::msg::MovementInfo)[m[K’ previously defined here
+   12 |     void [01;36m[KsetMessage[m[K(movement_info_msgs::msg::MovementInfo message)
+      |          [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/kargla/robot_movement/src/movement_info/src/movement_interface.cpp:13:6:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kvoid MovementInterface::setMessage(movement_info_msgs::msg::MovementInfo)[m[K’
+   13 | void [01;31m[KMovementInterface[m[K::setMessage(movement_info_msgs::msg::MovementInfo message)
+      |      [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement_interface.cpp:1[m[K:
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement_interface.hpp:12:10:[m[K [01;36m[Knote: [m[K‘[01m[Kvoid MovementInterface::setMessage(movement_info_msgs::msg::MovementInfo)[m[K’ previously defined here
+   12 |     void [01;36m[KsetMessage[m[K(movement_info_msgs::msg::MovementInfo message)
+      |          [01;36m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/movement.dir/build.make:104: CMakeFiles/movement.dir/src/movement_interface.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/movement_info_library.dir/build.make:90: CMakeFiles/movement_info_library.dir/src/movement_interface.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:206: CMakeFiles/movement_info_library.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:180: CMakeFiles/movement.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

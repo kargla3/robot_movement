@@ -1,6 +1,9 @@
 cmake_minimum_required(VERSION 3.8)
 project(movement_info)
 
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
 endif()
@@ -9,7 +12,6 @@ find_package(ament_cmake REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 find_package(movement_info_msgs REQUIRED)
 find_package(rclcpp REQUIRED)
-find_package(std_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(nav_msgs REQUIRED)
 find_package(ament_cmake_gtest REQUIRED)
@@ -17,10 +19,12 @@ find_package(ament_cmake_gtest REQUIRED)
 add_executable(movement 
   src/movement.cpp
   src/main.cpp
+  src/movement_interface.cpp
 )
-
+  
 add_library(movement_info_library
   src/movement.cpp
+  src/movement_interface.cpp
 )
 
 target_include_directories(movement_info_library PUBLIC
@@ -42,7 +46,6 @@ install(DIRECTORY include/
 ament_target_dependencies(movement 
   rclcpp 
   movement_info_msgs 
-  std_msgs 
   geometry_msgs 
   nav_msgs
 )
@@ -50,7 +53,6 @@ ament_target_dependencies(movement
 ament_target_dependencies(movement_info_library
   rclcpp
   movement_info_msgs
-  std_msgs
   geometry_msgs
   nav_msgs
 )
@@ -77,7 +79,6 @@ if(BUILD_TESTING)
   ament_target_dependencies(${PROJECT_NAME}_movement_gtest
     rclcpp
     movement_info_msgs
-    std_msgs
     geometry_msgs
     nav_msgs
   )

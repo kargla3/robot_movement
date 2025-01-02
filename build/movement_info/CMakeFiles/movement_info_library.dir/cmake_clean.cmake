@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/movement_info_library.dir/src/movement.cpp.o"
   "CMakeFiles/movement_info_library.dir/src/movement.cpp.o.d"
+  "CMakeFiles/movement_info_library.dir/src/movement_interface.cpp.o"
+  "CMakeFiles/movement_info_library.dir/src/movement_interface.cpp.o.d"
   "libmovement_info_library.a"
   "libmovement_info_library.pdb"
 )

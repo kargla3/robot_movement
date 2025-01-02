@@ -1,0 +1,32 @@
+[35m[1mConsolidate compiler generated dependencies of target movement[0m
+[35m[1mConsolidate compiler generated dependencies of target movement_info_library[0m
+[ 11%] Built target gtest_main
+[ 44%] Built target gmock_main
+[ 44%] Built target gtest
+[ 50%] Built target gmock
+[ 66%] Built target movement
+[ 77%] Built target movement_info_library
+[35m[1mConsolidate compiler generated dependencies of target movement_info_movement_gmock[0m
+[35m[1mConsolidate compiler generated dependencies of target movement_info_movement_gtest[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/movement_info_movement_gmock.dir/test/movement_test.cpp.o[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/movement_info_movement_gtest.dir/test/movement_test.cpp.o[0m
+[01m[K/home/kargla/robot_movement/src/movement_info/test/movement_test.cpp:[m[K In member function ‘[01m[Kvirtual void MovementTest_HeadingDeterminationTest1_Test::TestBody()[m[K’:
+[01m[K/home/kargla/robot_movement/src/movement_info/test/movement_test.cpp:20:38:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kmovement[m[K’
+   20 |     msg->twist.twist.angular.z = 0.11
+      |                                      [01;31m[K^[m[K
+      |                                      [32m[K;[m[K
+   21 |     [32m[Kmovement[m[K.odometry_callback(msg);
+      |     [32m[K~~~~~~~~[m[K                          
+[01m[K/home/kargla/robot_movement/src/movement_info/test/movement_test.cpp:[m[K In member function ‘[01m[Kvirtual void MovementTest_HeadingDeterminationTest1_Test::TestBody()[m[K’:
+[01m[K/home/kargla/robot_movement/src/movement_info/test/movement_test.cpp:20:38:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kmovement[m[K’
+   20 |     msg->twist.twist.angular.z = 0.11
+      |                                      [01;31m[K^[m[K
+      |                                      [32m[K;[m[K
+   21 |     [32m[Kmovement[m[K.odometry_callback(msg);
+      |     [32m[K~~~~~~~~[m[K                          
+gmake[2]: *** [CMakeFiles/movement_info_movement_gmock.dir/build.make:76: CMakeFiles/movement_info_movement_gmock.dir/test/movement_test.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:264: CMakeFiles/movement_info_movement_gmock.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/movement_info_movement_gtest.dir/build.make:76: CMakeFiles/movement_info_movement_gtest.dir/test/movement_test.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:235: CMakeFiles/movement_info_movement_gtest.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

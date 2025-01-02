@@ -1,0 +1,242 @@
+[01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:[m[K In constructor ‘[01m[KMovement::Movement()[m[K’:
+[01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:32:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmovement_info_msgs::msg::MovementInfo MovementInterface::message_[m[K’ is private within this context
+   32 |     [01;31m[Kmessage_[m[K.heading = movement_info_msgs::msg::MovementInfo::STRAIGHT;
+      |     [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:9[m[K,
+                 from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1[m[K:
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement_interface.hpp:17:43:[m[K [01;36m[Knote: [m[Kdeclared private here
+   17 |     movement_info_msgs::msg::MovementInfo [01;36m[Kmessage_[m[K;
+      |                                           [01;36m[K^~~~~~~~[m[K
+[01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:33:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmovement_info_msgs::msg::MovementInfo MovementInterface::message_[m[K’ is private within this context
+   33 |     [01;31m[Kmessage_[m[K.movement = movement_info_msgs::msg::MovementInfo::STANDSTILL;
+      |     [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:9[m[K,
+                 from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1[m[K:
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement_interface.hpp:17:43:[m[K [01;36m[Knote: [m[Kdeclared private here
+   17 |     movement_info_msgs::msg::MovementInfo [01;36m[Kmessage_[m[K;
+      |                                           [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:4[m[K,
+                 from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1[m[K:
+[01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:[m[K In member function ‘[01m[Kvirtual void Movement::publish_movement_info()[m[K’:
+[01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:49:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kmovement_info_msgs::msg::MovementInfo MovementInterface::message_[m[K’ is private within this context
+   49 |     RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", [01;31m[Kmessage_[m[K.movement.c_str());
+      |                                                         [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:9[m[K,
+                 from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1[m[K:
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement_interface.hpp:17:43:[m[K [01;36m[Knote: [m[Kdeclared private here
+   17 |     movement_info_msgs::msg::MovementInfo [01;36m[Kmessage_[m[K;
+      |                                           [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:4[m[K,
+                 from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1[m[K:
+[01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:50:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kmovement_info_msgs::msg::MovementInfo MovementInterface::message_[m[K’ is private within this context
+   50 |     RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", [01;31m[Kmessage_[m[K.heading.c_str());
+      |                                                         [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:9[m[K,
+                 from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1[m[K:
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement_interface.hpp:17:43:[m[K [01;36m[Knote: [m[Kdeclared private here
+   17 |     movement_info_msgs::msg::MovementInfo [01;36m[Kmessage_[m[K;
+      |                                           [01;36m[K^~~~~~~~[m[K
+[01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:51:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kmovement_info_msgs::msg::MovementInfo MovementInterface::message_[m[K’ is private within this context
+   51 |     publisher_->publish([01;31m[Kmessage_[m[K);
+      |                         [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:9[m[K,
+                 from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1[m[K:
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement_interface.hpp:17:43:[m[K [01;36m[Knote: [m[Kdeclared private here
+   17 |     movement_info_msgs::msg::MovementInfo [01;36m[Kmessage_[m[K;
+      |                                           [01;36m[K^~~~~~~~[m[K
+[01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:[m[K In member function ‘[01m[Kvoid Movement::odometry_callback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:58:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmovement_info_msgs::msg::MovementInfo MovementInterface::message_[m[K’ is private within this context
+   58 |         [01;31m[Kmessage_[m[K.heading = movement_info_msgs::msg::MovementInfo::STRAIGHT;
+      |         [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:9[m[K,
+                 from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1[m[K:
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement_interface.hpp:17:43:[m[K [01;36m[Knote: [m[Kdeclared private here
+   17 |     movement_info_msgs::msg::MovementInfo [01;36m[Kmessage_[m[K;
+      |                                           [01;36m[K^~~~~~~~[m[K
+[01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:62:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmovement_info_msgs::msg::MovementInfo MovementInterface::message_[m[K’ is private within this context
+   62 |         [01;31m[Kmessage_[m[K.heading = movement_info_msgs::msg::MovementInfo::LEFT;
+      |         [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:9[m[K,
+                 from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1[m[K:
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement_interface.hpp:17:43:[m[K [01;36m[Knote: [m[Kdeclared private here
+   17 |     movement_info_msgs::msg::MovementInfo [01;36m[Kmessage_[m[K;
+      |                                           [01;36m[K^~~~~~~~[m[K
+[01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:66:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmovement_info_msgs::msg::MovementInfo MovementInterface::message_[m[K’ is private within this context
+   66 |         [01;31m[Kmessage_[m[K.heading = movement_info_msgs::msg::MovementInfo::RIGHT;
+      |         [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:9[m[K,
+                 from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1[m[K:
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement_interface.hpp:17:43:[m[K [01;36m[Knote: [m[Kdeclared private here
+   17 |     movement_info_msgs::msg::MovementInfo [01;36m[Kmessage_[m[K;
+      |                                           [01;36m[K^~~~~~~~[m[K
+[01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:[m[K In member function ‘[01m[Kvoid Movement::velocity_callback(geometry_msgs::msg::TwistStamped_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:74:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmovement_info_msgs::msg::MovementInfo MovementInterface::message_[m[K’ is private within this context
+   74 |         [01;31m[Kmessage_[m[K.movement = movement_info_msgs::msg::MovementInfo::STANDSTILL;
+      |         [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:9[m[K,
+                 from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1[m[K:
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement_interface.hpp:17:43:[m[K [01;36m[Knote: [m[Kdeclared private here
+   17 |     movement_info_msgs::msg::MovementInfo [01;36m[Kmessage_[m[K;
+      |                                           [01;36m[K^~~~~~~~[m[K
+[01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:78:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmovement_info_msgs::msg::MovementInfo MovementInterface::message_[m[K’ is private within this context
+   78 |         [01;31m[Kmessage_[m[K.movement = movement_info_msgs::msg::MovementInfo::FORWARD;
+      |         [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:9[m[K,
+                 from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1[m[K:
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement_interface.hpp:17:43:[m[K [01;36m[Knote: [m[Kdeclared private here
+   17 |     movement_info_msgs::msg::MovementInfo [01;36m[Kmessage_[m[K;
+      |                                           [01;36m[K^~~~~~~~[m[K
+[01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:82:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmovement_info_msgs::msg::MovementInfo MovementInterface::message_[m[K’ is private within this context
+   82 |         [01;31m[Kmessage_[m[K.movement = movement_info_msgs::msg::MovementInfo::BACKWARD;
+      |         [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:9[m[K,
+                 from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1[m[K:
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement_interface.hpp:17:43:[m[K [01;36m[Knote: [m[Kdeclared private here
+   17 |     movement_info_msgs::msg::MovementInfo [01;36m[Kmessage_[m[K;
+      |                                           [01;36m[K^~~~~~~~[m[K
+[01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:[m[K In constructor ‘[01m[KMovement::Movement()[m[K’:
+[01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:32:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmovement_info_msgs::msg::MovementInfo MovementInterface::message_[m[K’ is private within this context
+   32 |     [01;31m[Kmessage_[m[K.heading = movement_info_msgs::msg::MovementInfo::STRAIGHT;
+      |     [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:9[m[K,
+                 from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1[m[K:
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement_interface.hpp:17:43:[m[K [01;36m[Knote: [m[Kdeclared private here
+   17 |     movement_info_msgs::msg::MovementInfo [01;36m[Kmessage_[m[K;
+      |                                           [01;36m[K^~~~~~~~[m[K
+[01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:33:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmovement_info_msgs::msg::MovementInfo MovementInterface::message_[m[K’ is private within this context
+   33 |     [01;31m[Kmessage_[m[K.movement = movement_info_msgs::msg::MovementInfo::STANDSTILL;
+      |     [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:9[m[K,
+                 from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1[m[K:
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement_interface.hpp:17:43:[m[K [01;36m[Knote: [m[Kdeclared private here
+   17 |     movement_info_msgs::msg::MovementInfo [01;36m[Kmessage_[m[K;
+      |                                           [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:4[m[K,
+                 from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1[m[K:
+[01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:[m[K In member function ‘[01m[Kvirtual void Movement::publish_movement_info()[m[K’:
+[01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:49:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kmovement_info_msgs::msg::MovementInfo MovementInterface::message_[m[K’ is private within this context
+   49 |     RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", [01;31m[Kmessage_[m[K.movement.c_str());
+      |                                                         [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:9[m[K,
+                 from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1[m[K:
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement_interface.hpp:17:43:[m[K [01;36m[Knote: [m[Kdeclared private here
+   17 |     movement_info_msgs::msg::MovementInfo [01;36m[Kmessage_[m[K;
+      |                                           [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:4[m[K,
+                 from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1[m[K:
+[01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:50:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kmovement_info_msgs::msg::MovementInfo MovementInterface::message_[m[K’ is private within this context
+   50 |     RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", [01;31m[Kmessage_[m[K.heading.c_str());
+      |                                                         [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:9[m[K,
+                 from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1[m[K:
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement_interface.hpp:17:43:[m[K [01;36m[Knote: [m[Kdeclared private here
+   17 |     movement_info_msgs::msg::MovementInfo [01;36m[Kmessage_[m[K;
+      |                                           [01;36m[K^~~~~~~~[m[K
+[01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:51:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kmovement_info_msgs::msg::MovementInfo MovementInterface::message_[m[K’ is private within this context
+   51 |     publisher_->publish([01;31m[Kmessage_[m[K);
+      |                         [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:9[m[K,
+                 from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1[m[K:
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement_interface.hpp:17:43:[m[K [01;36m[Knote: [m[Kdeclared private here
+   17 |     movement_info_msgs::msg::MovementInfo [01;36m[Kmessage_[m[K;
+      |                                           [01;36m[K^~~~~~~~[m[K
+[01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:[m[K In member function ‘[01m[Kvoid Movement::odometry_callback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:58:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmovement_info_msgs::msg::MovementInfo MovementInterface::message_[m[K’ is private within this context
+   58 |         [01;31m[Kmessage_[m[K.heading = movement_info_msgs::msg::MovementInfo::STRAIGHT;
+      |         [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:9[m[K,
+                 from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1[m[K:
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement_interface.hpp:17:43:[m[K [01;36m[Knote: [m[Kdeclared private here
+   17 |     movement_info_msgs::msg::MovementInfo [01;36m[Kmessage_[m[K;
+      |                                           [01;36m[K^~~~~~~~[m[K
+[01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:62:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmovement_info_msgs::msg::MovementInfo MovementInterface::message_[m[K’ is private within this context
+   62 |         [01;31m[Kmessage_[m[K.heading = movement_info_msgs::msg::MovementInfo::LEFT;
+      |         [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:9[m[K,
+                 from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1[m[K:
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement_interface.hpp:17:43:[m[K [01;36m[Knote: [m[Kdeclared private here
+   17 |     movement_info_msgs::msg::MovementInfo [01;36m[Kmessage_[m[K;
+      |                                           [01;36m[K^~~~~~~~[m[K
+[01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:66:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmovement_info_msgs::msg::MovementInfo MovementInterface::message_[m[K’ is private within this context
+   66 |         [01;31m[Kmessage_[m[K.heading = movement_info_msgs::msg::MovementInfo::RIGHT;
+      |         [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:9[m[K,
+                 from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1[m[K:
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement_interface.hpp:17:43:[m[K [01;36m[Knote: [m[Kdeclared private here
+   17 |     movement_info_msgs::msg::MovementInfo [01;36m[Kmessage_[m[K;
+      |                                           [01;36m[K^~~~~~~~[m[K
+[01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:[m[K In member function ‘[01m[Kvoid Movement::velocity_callback(geometry_msgs::msg::TwistStamped_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:74:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmovement_info_msgs::msg::MovementInfo MovementInterface::message_[m[K’ is private within this context
+   74 |         [01;31m[Kmessage_[m[K.movement = movement_info_msgs::msg::MovementInfo::STANDSTILL;
+      |         [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:9[m[K,
+                 from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1[m[K:
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement_interface.hpp:17:43:[m[K [01;36m[Knote: [m[Kdeclared private here
+   17 |     movement_info_msgs::msg::MovementInfo [01;36m[Kmessage_[m[K;
+      |                                           [01;36m[K^~~~~~~~[m[K
+[01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:78:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmovement_info_msgs::msg::MovementInfo MovementInterface::message_[m[K’ is private within this context
+   78 |         [01;31m[Kmessage_[m[K.movement = movement_info_msgs::msg::MovementInfo::FORWARD;
+      |         [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:9[m[K,
+                 from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1[m[K:
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement_interface.hpp:17:43:[m[K [01;36m[Knote: [m[Kdeclared private here
+   17 |     movement_info_msgs::msg::MovementInfo [01;36m[Kmessage_[m[K;
+      |                                           [01;36m[K^~~~~~~~[m[K
+[01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:82:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmovement_info_msgs::msg::MovementInfo MovementInterface::message_[m[K’ is private within this context
+   82 |         [01;31m[Kmessage_[m[K.movement = movement_info_msgs::msg::MovementInfo::BACKWARD;
+      |         [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:9[m[K,
+                 from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1[m[K:
+[01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement_interface.hpp:17:43:[m[K [01;36m[Knote: [m[Kdeclared private here
+   17 |     movement_info_msgs::msg::MovementInfo [01;36m[Kmessage_[m[K;
+      |                                           [01;36m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/movement_info_library.dir/build.make:76: CMakeFiles/movement_info_library.dir/src/movement.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:206: CMakeFiles/movement_info_library.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/movement.dir/build.make:76: CMakeFiles/movement.dir/src/movement.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:180: CMakeFiles/movement.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

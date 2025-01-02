@@ -1,0 +1,86 @@
+[0.039s] Invoking command in '/home/kargla/robot_movement/build/movement_info': CMAKE_PREFIX_PATH=/home/kargla/robot_movement/install/movement_info:/home/kargla/robot_movement/install/movement_info_msgs /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.047s] UpdateCTestConfiguration  from :/home/kargla/robot_movement/build/movement_info/CTestConfiguration.ini
+[0.047s] Parse Config file:/home/kargla/robot_movement/build/movement_info/CTestConfiguration.ini
+[0.048s]    Site: kargla-ideapad
+[0.048s]    Build name: (empty)
+[0.048s]  Add coverage exclude regular expressions.
+[0.048s] Create new tag: 20250101-1334 - Experimental
+[0.048s] UpdateCTestConfiguration  from :/home/kargla/robot_movement/build/movement_info/CTestConfiguration.ini
+[0.048s] Parse Config file:/home/kargla/robot_movement/build/movement_info/CTestConfiguration.ini
+[0.048s] Test project /home/kargla/robot_movement/build/movement_info
+[0.048s] Constructing a list of tests
+[0.048s] Done constructing a list of tests
+[0.049s] Updating test list for fixtures
+[0.049s] Added 0 tests to meet fixture requirements
+[0.049s] Checking test dependency graph...
+[0.049s] Checking test dependency graph end
+[0.049s] test 1
+[0.049s]     Start 1: movement_info_movement_gtest
+[0.049s] 
+[0.049s] 1: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/kargla/robot_movement/build/movement_info/test_results/movement_info/movement_info_movement_gtest.gtest.xml" "--package-name" "movement_info" "--output-file" "/home/kargla/robot_movement/build/movement_info/ament_cmake_gtest/movement_info_movement_gtest.txt" "--command" "/home/kargla/robot_movement/build/movement_info/movement_info_movement_gtest" "--gtest_output=xml:/home/kargla/robot_movement/build/movement_info/test_results/movement_info/movement_info_movement_gtest.gtest.xml"
+[0.049s] 1: Test timeout computed to be: 60
+[0.125s] 1: -- run_test.py: invoking following command in '/home/kargla/robot_movement/build/movement_info':
+[0.126s] 1:  - /home/kargla/robot_movement/build/movement_info/movement_info_movement_gtest --gtest_output=xml:/home/kargla/robot_movement/build/movement_info/test_results/movement_info/movement_info_movement_gtest.gtest.xml
+[0.136s] 1: [==========] Running 1 test from 1 test suite.
+[0.136s] 1: [----------] Global test environment set-up.
+[0.136s] 1: [----------] 1 test from MovementTest
+[0.136s] 1: [ RUN      ] MovementTest.HeadingDeterminationTest1
+[0.142s] 1: unknown file: Failure
+[0.142s] 1: C++ exception with description "failed to create guard condition: context argument is null, at ./src/rcl/guard_condition.c:65" thrown in the test body.
+[0.143s] 1: [  FAILED  ] MovementTest.HeadingDeterminationTest1 (9 ms)
+[0.143s] 1: [----------] 1 test from MovementTest (9 ms total)
+[0.143s] 1: 
+[0.143s] 1: [----------] Global test environment tear-down
+[0.143s] 1: [==========] 1 test from 1 test suite ran. (9 ms total)
+[0.143s] 1: [  PASSED  ] 0 tests.
+[0.143s] 1: [  FAILED  ] 1 test, listed below:
+[0.143s] 1: [  FAILED  ] MovementTest.HeadingDeterminationTest1
+[0.144s] 1: 
+[0.144s] 1:  1 FAILED TEST
+[0.145s] 1: -- run_test.py: return code 1
+[0.145s] 1: -- run_test.py: inject classname prefix into gtest result file '/home/kargla/robot_movement/build/movement_info/test_results/movement_info/movement_info_movement_gtest.gtest.xml'
+[0.145s] 1: -- run_test.py: verify result file '/home/kargla/robot_movement/build/movement_info/test_results/movement_info/movement_info_movement_gtest.gtest.xml'
+[0.166s] 1/2 Test #1: movement_info_movement_gtest .....***Failed    0.12 sec
+[0.166s] test 2
+[0.166s]     Start 2: movement_info_movement_gmock
+[0.167s] 
+[0.167s] 2: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/kargla/robot_movement/build/movement_info/test_results/movement_info/movement_info_movement_gmock.gtest.xml" "--package-name" "movement_info" "--output-file" "/home/kargla/robot_movement/build/movement_info/ament_cmake_gmock/movement_info_movement_gmock.txt" "--command" "/home/kargla/robot_movement/build/movement_info/movement_info_movement_gmock" "--gtest_output=xml:/home/kargla/robot_movement/build/movement_info/test_results/movement_info/movement_info_movement_gmock.gtest.xml"
+[0.167s] 2: Test timeout computed to be: 60
+[0.232s] 2: -- run_test.py: invoking following command in '/home/kargla/robot_movement/build/movement_info':
+[0.232s] 2:  - /home/kargla/robot_movement/build/movement_info/movement_info_movement_gmock --gtest_output=xml:/home/kargla/robot_movement/build/movement_info/test_results/movement_info/movement_info_movement_gmock.gtest.xml
+[0.239s] 2: [==========] Running 1 test from 1 test suite.
+[0.239s] 2: [----------] Global test environment set-up.
+[0.239s] 2: [----------] 1 test from MovementTest
+[0.239s] 2: [ RUN      ] MovementTest.HeadingDeterminationTest1
+[0.248s] 2: unknown file: Failure
+[0.248s] 2: C++ exception with description "failed to create guard condition: context argument is null, at ./src/rcl/guard_condition.c:65" thrown in the test body.
+[0.248s] 2: [  FAILED  ] MovementTest.HeadingDeterminationTest1 (6 ms)
+[0.248s] 2: [----------] 1 test from MovementTest (6 ms total)
+[0.248s] 2: 
+[0.248s] 2: [----------] Global test environment tear-down
+[0.248s] 2: [==========] 1 test from 1 test suite ran. (6 ms total)
+[0.248s] 2: [  PASSED  ] 0 tests.
+[0.249s] 2: [  FAILED  ] 1 test, listed below:
+[0.249s] 2: [  FAILED  ] MovementTest.HeadingDeterminationTest1
+[0.249s] 2: 
+[0.249s] 2:  1 FAILED TEST
+[0.249s] 2: -- run_test.py: return code 1
+[0.249s] 2: -- run_test.py: inject classname prefix into gtest result file '/home/kargla/robot_movement/build/movement_info/test_results/movement_info/movement_info_movement_gmock.gtest.xml'
+[0.249s] 2: -- run_test.py: verify result file '/home/kargla/robot_movement/build/movement_info/test_results/movement_info/movement_info_movement_gmock.gtest.xml'
+[0.271s] 2/2 Test #2: movement_info_movement_gmock .....***Failed    0.10 sec
+[0.271s] 
+[0.271s] 0% tests passed[0;0m, [0;31m2 tests failed[0;0m out of 2
+[0.272s] 
+[0.272s] Label Time Summary:
+[0.272s] gmock    =   0.10 sec*proc (1 test)
+[0.272s] gtest    =   0.12 sec*proc (1 test)
+[0.272s] 
+[0.273s] Total Test time (real) =   0.22 sec
+[0.273s] 
+[0.273s] The following tests FAILED:
+[0.273s] 	[0;31m  1 - movement_info_movement_gtest (Failed)[0;0m
+[0.273s] 	[0;31m  2 - movement_info_movement_gmock (Failed)[0;0m
+[0.277s] Errors while running CTest
+[0.278s] Output from these tests are in: /home/kargla/robot_movement/build/movement_info/Testing/Temporary/LastTest.log
+[0.279s] Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
+[0.280s] Invoked command in '/home/kargla/robot_movement/build/movement_info' returned '8': CMAKE_PREFIX_PATH=/home/kargla/robot_movement/install/movement_info:/home/kargla/robot_movement/install/movement_info_msgs /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

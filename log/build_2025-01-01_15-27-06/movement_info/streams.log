@@ -1,0 +1,63 @@
+[0.018s] Invoking command in '/home/kargla/robot_movement/build/movement_info': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kargla/robot_movement/build/movement_info -- -j12 -l12
+[0.045s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.208s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.210s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.213s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.252s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.283s] -- Found movement_info_msgs: 0.0.0 (/home/kargla/robot_movement/install/movement_info_msgs/share/movement_info_msgs/cmake)
+[0.291s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.327s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.328s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.474s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.531s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.544s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.563s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[0.567s] -- Found ament_cmake_gmock: 1.3.11 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[0.567s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.572s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[0.653s] -- Configuring done
+[0.682s] -- Generating done
+[0.693s] -- Build files have been written to: /home/kargla/robot_movement/build/movement_info
+[0.734s] [35m[1mConsolidate compiler generated dependencies of target movement[0m
+[0.735s] [35m[1mConsolidate compiler generated dependencies of target gmock_main[0m
+[0.735s] [35m[1mConsolidate compiler generated dependencies of target gmock[0m
+[0.735s] [35m[1mConsolidate compiler generated dependencies of target movement_info_library[0m
+[0.735s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.735s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.758s] [ 10%] Built target gtest_main
+[0.761s] [ 21%] Built target gmock_main
+[0.762s] [ 42%] Built target gmock
+[0.762s] [ 47%] Built target gtest
+[0.767s] [ 52%] [32mBuilding CXX object CMakeFiles/movement_info_library.dir/src/movement.cpp.o[0m
+[0.774s] [ 63%] [32mBuilding CXX object CMakeFiles/movement.dir/src/movement.cpp.o[0m
+[0.774s] [ 63%] [32mBuilding CXX object CMakeFiles/movement.dir/src/main.cpp.o[0m
+[0.776s] [ 68%] [32mBuilding CXX object CMakeFiles/movement.dir/test/movement_interface.cpp.o[0m
+[1.187s] In file included from [01m[K/home/kargla/robot_movement/src/movement_info/src/main.cpp:1[m[K:
+[1.187s] [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:9:10:[m[K [01;31m[Kfatal error: [m[Kmovement_info/movement_interface.hpp: No such file or directory
+[1.188s]     9 | #include [01;31m[K"movement_info/movement_interface.hpp"[m[K
+[1.188s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.188s] compilation terminated.
+[1.188s] In file included from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1[m[K:
+[1.188s] [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:9:10:[m[K [01;31m[Kfatal error: [m[Kmovement_info/movement_interface.hpp: No such file or directory
+[1.189s]     9 | #include [01;31m[K"movement_info/movement_interface.hpp"[m[K
+[1.189s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.189s] compilation terminated.
+[1.197s] In file included from [01m[K/home/kargla/robot_movement/src/movement_info/src/movement.cpp:1[m[K:
+[1.197s] [01m[K/home/kargla/robot_movement/src/movement_info/include/movement_info/movement.hpp:9:10:[m[K [01;31m[Kfatal error: [m[Kmovement_info/movement_interface.hpp: No such file or directory
+[1.197s]     9 | #include [01;31m[K"movement_info/movement_interface.hpp"[m[K
+[1.198s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.198s] compilation terminated.
+[1.202s] gmake[2]: *** [CMakeFiles/movement.dir/build.make:90: CMakeFiles/movement.dir/src/main.cpp.o] Error 1
+[1.202s] gmake[2]: *** [CMakeFiles/movement_info_library.dir/build.make:76: CMakeFiles/movement_info_library.dir/src/movement.cpp.o] Error 1
+[1.203s] gmake[2]: *** Waiting for unfinished jobs....
+[1.203s] gmake[1]: *** [CMakeFiles/Makefile2:206: CMakeFiles/movement_info_library.dir/all] Error 2
+[1.203s] gmake[1]: *** Waiting for unfinished jobs....
+[1.203s] gmake[2]: *** [CMakeFiles/movement.dir/build.make:76: CMakeFiles/movement.dir/src/movement.cpp.o] Error 1
+[3.006s] [01m[K/home/kargla/robot_movement/src/movement_info/test/movement_interface.cpp:7:29:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Knode[m[K’
+[3.006s]     7 |     MovementInterface[34m[K([m[KString[01;31m[K [m[K[32m[Knode[m[K) : Node(node)
+[3.006s]       |                      [34m[K~[m[K      [01;31m[K^[m[K[32m[K~~~~[m[K
+[3.006s]       |                             [32m[K)[m[K
+[3.446s] gmake[2]: *** [CMakeFiles/movement.dir/build.make:104: CMakeFiles/movement.dir/test/movement_interface.cpp.o] Error 1
+[3.446s] gmake[1]: *** [CMakeFiles/Makefile2:180: CMakeFiles/movement.dir/all] Error 2
+[3.447s] gmake: *** [Makefile:146: all] Error 2
+[3.451s] Invoked command in '/home/kargla/robot_movement/build/movement_info' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kargla/robot_movement/build/movement_info -- -j12 -l12

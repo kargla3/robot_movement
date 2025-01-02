@@ -1,0 +1,102 @@
+Start testing: Jan 02 18:08 CET
+----------------------------------------------------------
+1/2 Testing: movement_info_movement_gtest
+1/2 Test: movement_info_movement_gtest
+Command: "/usr/bin/python3" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/kargla/robot_movement/build/movement_info/test_results/movement_info/movement_info_movement_gtest.gtest.xml" "--package-name" "movement_info" "--output-file" "/home/kargla/robot_movement/build/movement_info/ament_cmake_gtest/movement_info_movement_gtest.txt" "--command" "/home/kargla/robot_movement/build/movement_info/movement_info_movement_gtest" "--gtest_output=xml:/home/kargla/robot_movement/build/movement_info/test_results/movement_info/movement_info_movement_gtest.gtest.xml"
+Directory: /home/kargla/robot_movement/build/movement_info
+"movement_info_movement_gtest" start time: Jan 02 18:08 CET
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/kargla/robot_movement/build/movement_info':
+ - /home/kargla/robot_movement/build/movement_info/movement_info_movement_gtest --gtest_output=xml:/home/kargla/robot_movement/build/movement_info/test_results/movement_info/movement_info_movement_gtest.gtest.xml
+[==========] Running 3 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 2 tests from MovementTest
+[ RUN      ] MovementTest.HeadingDeterminationTest
+[INFO] [1735837719.895329101] [movement]: Direction treshold: '0.100000'
+[INFO] [1735837719.895443084] [movement]: Heading treshold: '0.100000'
+[INFO] [1735837719.895456493] [movement]: Movement topic: '/movement_info'
+[INFO] [1735837719.895466970] [movement]: Odometry topic: '/diff_drive/odom'
+[INFO] [1735837719.895477935] [movement]: Velocity topic: '/diff_drive/cmd_vel'
+[       OK ] MovementTest.HeadingDeterminationTest (22 ms)
+[ RUN      ] MovementTest.MovementInfoPublishingTest
+[       OK ] MovementTest.MovementInfoPublishingTest (11 ms)
+[----------] 2 tests from MovementTest (33 ms total)
+
+[----------] 1 test from MovementTEST
+[ RUN      ] MovementTEST.DirectionDeterminationTest
+[INFO] [1735837719.919632097] [movement]: Direction treshold: '0.100000'
+[INFO] [1735837719.919676237] [movement]: Heading treshold: '0.100000'
+[INFO] [1735837719.919689577] [movement]: Movement topic: '/movement_info'
+[INFO] [1735837719.919700961] [movement]: Odometry topic: '/diff_drive/odom'
+[INFO] [1735837719.919710600] [movement]: Velocity topic: '/diff_drive/cmd_vel'
+[       OK ] MovementTEST.DirectionDeterminationTest (11 ms)
+[----------] 1 test from MovementTEST (11 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 2 test suites ran. (44 ms total)
+[  PASSED  ] 3 tests.
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/home/kargla/robot_movement/build/movement_info/test_results/movement_info/movement_info_movement_gtest.gtest.xml'
+-- run_test.py: verify result file '/home/kargla/robot_movement/build/movement_info/test_results/movement_info/movement_info_movement_gtest.gtest.xml'
+<end of output>
+Test time =   0.23 sec
+----------------------------------------------------------
+Test Passed.
+"movement_info_movement_gtest" end time: Jan 02 18:08 CET
+"movement_info_movement_gtest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: movement_info_movement_gmock
+2/2 Test: movement_info_movement_gmock
+Command: "/usr/bin/python3" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/kargla/robot_movement/build/movement_info/test_results/movement_info/movement_info_movement_gmock.gtest.xml" "--package-name" "movement_info" "--output-file" "/home/kargla/robot_movement/build/movement_info/ament_cmake_gmock/movement_info_movement_gmock.txt" "--command" "/home/kargla/robot_movement/build/movement_info/movement_info_movement_gmock" "--gtest_output=xml:/home/kargla/robot_movement/build/movement_info/test_results/movement_info/movement_info_movement_gmock.gtest.xml"
+Directory: /home/kargla/robot_movement/build/movement_info
+"movement_info_movement_gmock" start time: Jan 02 18:08 CET
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/kargla/robot_movement/build/movement_info':
+ - /home/kargla/robot_movement/build/movement_info/movement_info_movement_gmock --gtest_output=xml:/home/kargla/robot_movement/build/movement_info/test_results/movement_info/movement_info_movement_gmock.gtest.xml
+[==========] Running 3 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 2 tests from MovementTest
+[ RUN      ] MovementTest.HeadingDeterminationTest
+[INFO] [1735837720.116503274] [movement]: Direction treshold: '0.100000'
+[INFO] [1735837720.116634298] [movement]: Heading treshold: '0.100000'
+[INFO] [1735837720.116650502] [movement]: Movement topic: '/movement_info'
+[INFO] [1735837720.116662864] [movement]: Odometry topic: '/diff_drive/odom'
+[INFO] [1735837720.116675366] [movement]: Velocity topic: '/diff_drive/cmd_vel'
+[       OK ] MovementTest.HeadingDeterminationTest (20 ms)
+[ RUN      ] MovementTest.MovementInfoPublishingTest
+[       OK ] MovementTest.MovementInfoPublishingTest (9 ms)
+[----------] 2 tests from MovementTest (29 ms total)
+
+[----------] 1 test from MovementTEST
+[ RUN      ] MovementTEST.DirectionDeterminationTest
+[INFO] [1735837720.136525139] [movement]: Direction treshold: '0.100000'
+[INFO] [1735837720.136567115] [movement]: Heading treshold: '0.100000'
+[INFO] [1735837720.136581013] [movement]: Movement topic: '/movement_info'
+[INFO] [1735837720.136593305] [movement]: Odometry topic: '/diff_drive/odom'
+[INFO] [1735837720.136606296] [movement]: Velocity topic: '/diff_drive/cmd_vel'
+[       OK ] MovementTEST.DirectionDeterminationTest (9 ms)
+[----------] 1 test from MovementTEST (9 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 2 test suites ran. (38 ms total)
+[  PASSED  ] 3 tests.
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/home/kargla/robot_movement/build/movement_info/test_results/movement_info/movement_info_movement_gmock.gtest.xml'
+-- run_test.py: verify result file '/home/kargla/robot_movement/build/movement_info/test_results/movement_info/movement_info_movement_gmock.gtest.xml'
+<end of output>
+Test time =   0.22 sec
+----------------------------------------------------------
+Test Passed.
+"movement_info_movement_gmock" end time: Jan 02 18:08 CET
+"movement_info_movement_gmock" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jan 02 18:08 CET
+
+gmock =   0.22 sec*proc
+
+gtest =   0.23 sec*proc
+

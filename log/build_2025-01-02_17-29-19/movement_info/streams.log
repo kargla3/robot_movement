@@ -1,0 +1,26 @@
+[0.017s] Invoking command in '/home/kargla/robot_movement/build/movement_info': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kargla/robot_movement/build/movement_info -- -j12 -l12
+[0.087s] [ 10%] Built target gtest
+[0.087s] [ 30%] Built target gtest_main
+[0.087s] [ 30%] Built target gmock_main
+[0.094s] [ 45%] Built target gmock
+[0.099s] [ 60%] Built target movement_info_library
+[0.103s] [ 80%] Built target movement
+[0.123s] [35m[1mConsolidate compiler generated dependencies of target movement_info_movement_gtest[0m
+[0.128s] [35m[1mConsolidate compiler generated dependencies of target movement_info_movement_gmock[0m
+[0.153s] [ 85%] [32mBuilding CXX object CMakeFiles/movement_info_movement_gtest.dir/test/movement_test.cpp.o[0m
+[0.158s] [ 90%] [32mBuilding CXX object CMakeFiles/movement_info_movement_gmock.dir/test/movement_test.cpp.o[0m
+[3.630s] [01m[K/home/kargla/robot_movement/src/movement_info/test/movement_test.cpp:[m[K In member function ‘[01m[Kvirtual void MovementTEST_DirectionDeterminationTest_Test::TestBody()[m[K’:
+[3.630s] [01m[K/home/kargla/robot_movement/src/movement_info/test/movement_test.cpp:54:27:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::nullptr_t[m[K’ to ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >::_x_type[m[K’ {aka ‘[01m[Kdouble[m[K’} in assignment
+[3.630s]    54 |     msg->twist.linear.x = [01;31m[Knullptr[m[K;
+[3.631s]       |                           [01;31m[K^~~~~~~[m[K
+[3.771s] [01m[K/home/kargla/robot_movement/src/movement_info/test/movement_test.cpp:[m[K In member function ‘[01m[Kvirtual void MovementTEST_DirectionDeterminationTest_Test::TestBody()[m[K’:
+[3.771s] [01m[K/home/kargla/robot_movement/src/movement_info/test/movement_test.cpp:54:27:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::nullptr_t[m[K’ to ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >::_x_type[m[K’ {aka ‘[01m[Kdouble[m[K’} in assignment
+[3.771s]    54 |     msg->twist.linear.x = [01;31m[Knullptr[m[K;
+[3.771s]       |                           [01;31m[K^~~~~~~[m[K
+[4.752s] gmake[2]: *** [CMakeFiles/movement_info_movement_gmock.dir/build.make:76: CMakeFiles/movement_info_movement_gmock.dir/test/movement_test.cpp.o] Error 1
+[4.752s] gmake[1]: *** [CMakeFiles/Makefile2:264: CMakeFiles/movement_info_movement_gmock.dir/all] Error 2
+[4.753s] gmake[1]: *** Waiting for unfinished jobs....
+[4.870s] gmake[2]: *** [CMakeFiles/movement_info_movement_gtest.dir/build.make:76: CMakeFiles/movement_info_movement_gtest.dir/test/movement_test.cpp.o] Error 1
+[4.870s] gmake[1]: *** [CMakeFiles/Makefile2:235: CMakeFiles/movement_info_movement_gtest.dir/all] Error 2
+[4.871s] gmake: *** [Makefile:146: all] Error 2
+[4.874s] Invoked command in '/home/kargla/robot_movement/build/movement_info' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kargla/robot_movement/build/movement_info -- -j12 -l12

@@ -1,0 +1,77 @@
+[0.034s] Invoking command in '/home/kargla/robot_movement/build/movement_info': CMAKE_PREFIX_PATH=/home/kargla/robot_movement/install/movement_info:/home/kargla/robot_movement/install/movement_info_msgs /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.042s] UpdateCTestConfiguration  from :/home/kargla/robot_movement/build/movement_info/CTestConfiguration.ini
+[0.042s] Parse Config file:/home/kargla/robot_movement/build/movement_info/CTestConfiguration.ini
+[0.042s]    Site: kargla-ideapad
+[0.042s]    Build name: (empty)
+[0.042s]  Add coverage exclude regular expressions.
+[0.042s] Create new tag: 20250101-1344 - Experimental
+[0.042s] UpdateCTestConfiguration  from :/home/kargla/robot_movement/build/movement_info/CTestConfiguration.ini
+[0.042s] Parse Config file:/home/kargla/robot_movement/build/movement_info/CTestConfiguration.ini
+[0.042s] Test project /home/kargla/robot_movement/build/movement_info
+[0.042s] Constructing a list of tests
+[0.043s] Done constructing a list of tests
+[0.043s] Updating test list for fixtures
+[0.043s] Added 0 tests to meet fixture requirements
+[0.043s] Checking test dependency graph...
+[0.043s] Checking test dependency graph end
+[0.043s] test 1
+[0.043s]     Start 1: movement_info_movement_gtest
+[0.043s] 
+[0.043s] 1: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/kargla/robot_movement/build/movement_info/test_results/movement_info/movement_info_movement_gtest.gtest.xml" "--package-name" "movement_info" "--output-file" "/home/kargla/robot_movement/build/movement_info/ament_cmake_gtest/movement_info_movement_gtest.txt" "--command" "/home/kargla/robot_movement/build/movement_info/movement_info_movement_gtest" "--gtest_output=xml:/home/kargla/robot_movement/build/movement_info/test_results/movement_info/movement_info_movement_gtest.gtest.xml"
+[0.043s] 1: Test timeout computed to be: 60
+[0.113s] 1: -- run_test.py: invoking following command in '/home/kargla/robot_movement/build/movement_info':
+[0.114s] 1:  - /home/kargla/robot_movement/build/movement_info/movement_info_movement_gtest --gtest_output=xml:/home/kargla/robot_movement/build/movement_info/test_results/movement_info/movement_info_movement_gtest.gtest.xml
+[0.128s] 1: [==========] Running 1 test from 1 test suite.
+[0.128s] 1: [----------] Global test environment set-up.
+[0.128s] 1: [----------] 1 test from MovementTest
+[0.128s] 1: [ RUN      ] MovementTest.HeadingDeterminationTest1
+[0.146s] 1: [INFO] [1735739067.979428386] [movement]: Direction treshold: '0.100000'
+[0.146s] 1: [INFO] [1735739067.979605573] [movement]: Heading treshold: '0.100000'
+[0.146s] 1: [INFO] [1735739067.979620868] [movement]: Movement topic: '/movement_info'
+[0.146s] 1: [INFO] [1735739067.979632881] [movement]: Odometry topic: '/diff_drive/odom'
+[0.146s] 1: [INFO] [1735739067.979645103] [movement]: Velocity topic: '/diff_drive/cmd_vel'
+[0.153s] 1: [       OK ] MovementTest.HeadingDeterminationTest1 (25 ms)
+[0.153s] 1: [----------] 1 test from MovementTest (25 ms total)
+[0.153s] 1: 
+[0.153s] 1: [----------] Global test environment tear-down
+[0.153s] 1: [==========] 1 test from 1 test suite ran. (25 ms total)
+[0.154s] 1: [  PASSED  ] 1 test.
+[0.259s] 1: -- run_test.py: return code 0
+[0.259s] 1: -- run_test.py: inject classname prefix into gtest result file '/home/kargla/robot_movement/build/movement_info/test_results/movement_info/movement_info_movement_gtest.gtest.xml'
+[0.259s] 1: -- run_test.py: verify result file '/home/kargla/robot_movement/build/movement_info/test_results/movement_info/movement_info_movement_gtest.gtest.xml'
+[0.286s] 1/2 Test #1: movement_info_movement_gtest .....   Passed    0.24 sec
+[0.287s] test 2
+[0.287s]     Start 2: movement_info_movement_gmock
+[0.287s] 
+[0.287s] 2: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/kargla/robot_movement/build/movement_info/test_results/movement_info/movement_info_movement_gmock.gtest.xml" "--package-name" "movement_info" "--output-file" "/home/kargla/robot_movement/build/movement_info/ament_cmake_gmock/movement_info_movement_gmock.txt" "--command" "/home/kargla/robot_movement/build/movement_info/movement_info_movement_gmock" "--gtest_output=xml:/home/kargla/robot_movement/build/movement_info/test_results/movement_info/movement_info_movement_gmock.gtest.xml"
+[0.287s] 2: Test timeout computed to be: 60
+[0.357s] 2: -- run_test.py: invoking following command in '/home/kargla/robot_movement/build/movement_info':
+[0.357s] 2:  - /home/kargla/robot_movement/build/movement_info/movement_info_movement_gmock --gtest_output=xml:/home/kargla/robot_movement/build/movement_info/test_results/movement_info/movement_info_movement_gmock.gtest.xml
+[0.370s] 2: [==========] Running 1 test from 1 test suite.
+[0.371s] 2: [----------] Global test environment set-up.
+[0.371s] 2: [----------] 1 test from MovementTest
+[0.371s] 2: [ RUN      ] MovementTest.HeadingDeterminationTest1
+[0.383s] 2: [INFO] [1735739068.216386855] [movement]: Direction treshold: '0.100000'
+[0.383s] 2: [INFO] [1735739068.216599452] [movement]: Heading treshold: '0.100000'
+[0.383s] 2: [INFO] [1735739068.216616633] [movement]: Movement topic: '/movement_info'
+[0.383s] 2: [INFO] [1735739068.216633325] [movement]: Odometry topic: '/diff_drive/odom'
+[0.383s] 2: [INFO] [1735739068.216646664] [movement]: Velocity topic: '/diff_drive/cmd_vel'
+[0.391s] 2: [       OK ] MovementTest.HeadingDeterminationTest1 (22 ms)
+[0.391s] 2: [----------] 1 test from MovementTest (22 ms total)
+[0.391s] 2: 
+[0.391s] 2: [----------] Global test environment tear-down
+[0.391s] 2: [==========] 1 test from 1 test suite ran. (22 ms total)
+[0.391s] 2: [  PASSED  ] 1 test.
+[0.496s] 2: -- run_test.py: return code 0
+[0.496s] 2: -- run_test.py: inject classname prefix into gtest result file '/home/kargla/robot_movement/build/movement_info/test_results/movement_info/movement_info_movement_gmock.gtest.xml'
+[0.496s] 2: -- run_test.py: verify result file '/home/kargla/robot_movement/build/movement_info/test_results/movement_info/movement_info_movement_gmock.gtest.xml'
+[0.517s] 2/2 Test #2: movement_info_movement_gmock .....   Passed    0.23 sec
+[0.518s] 
+[0.518s] [0;32m100% tests passed[0;0m, 0 tests failed[0;0m out of 2
+[0.518s] 
+[0.518s] Label Time Summary:
+[0.518s] gmock    =   0.23 sec*proc (1 test)
+[0.518s] gtest    =   0.24 sec*proc (1 test)
+[0.519s] 
+[0.519s] Total Test time (real) =   0.48 sec
+[0.526s] Invoked command in '/home/kargla/robot_movement/build/movement_info' returned '0': CMAKE_PREFIX_PATH=/home/kargla/robot_movement/install/movement_info:/home/kargla/robot_movement/install/movement_info_msgs /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

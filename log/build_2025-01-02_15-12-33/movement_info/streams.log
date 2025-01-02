@@ -1,0 +1,33 @@
+[0.019s] Invoking command in '/home/kargla/robot_movement/build/movement_info': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kargla/robot_movement/build/movement_info -- -j12 -l12
+[0.081s] [35m[1mConsolidate compiler generated dependencies of target movement[0m
+[0.109s] [ 10%] Built target gtest
+[0.109s] [ 21%] Built target gmock_main
+[0.111s] [ 31%] Built target movement_info_library
+[0.113s] [ 42%] Built target gtest_main
+[0.120s] [ 57%] Built target gmock
+[0.129s] [ 63%] [32mBuilding CXX object CMakeFiles/movement.dir/src/movement_interface.cpp.o[0m
+[0.146s] [35m[1mConsolidate compiler generated dependencies of target movement_info_movement_gtest[0m
+[0.146s] [35m[1mConsolidate compiler generated dependencies of target movement_info_movement_gmock[0m
+[0.148s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement_interface.cpp:3:1:[m[K [01;31m[Kerror: [m[K‘[01m[KMovementInterface[m[K’ does not name a type
+[0.148s]     3 | [01;31m[KMovementInterface[m[K::MovementInterface() : rclcpp::Node("movement_interface")
+[0.148s]       | [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[0.148s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement_interface.cpp:8:14:[m[K [01;31m[Kerror: [m[K‘[01m[KMovementInterface[m[K’ has not been declared
+[0.148s]     8 | virtual void [01;31m[KMovementInterface[m[K::publish_movement_info()
+[0.148s]       |              [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[0.149s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement_interface.cpp:8:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kvirtual[m[K’ outside class declaration
+[0.149s]     8 | [01;31m[Kvirtual[m[K void MovementInterface::publish_movement_info()
+[0.149s]       | [01;31m[K^~~~~~~[m[K
+[0.149s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement_interface.cpp:[m[K In function ‘[01m[Kvoid publish_movement_info()[m[K’:
+[0.149s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement_interface.cpp:10:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope
+[0.149s]    10 |     [01;31m[Kpublisher_[m[K->publish(message_);
+[0.149s]       |     [01;31m[K^~~~~~~~~~[m[K
+[0.149s] [01m[K/home/kargla/robot_movement/src/movement_info/src/movement_interface.cpp:10:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kmessage_[m[K’ was not declared in this scope
+[0.150s]    10 |     publisher_->publish([01;31m[Kmessage_[m[K);
+[0.150s]       |                         [01;31m[K^~~~~~~~[m[K
+[0.154s] gmake[2]: *** [CMakeFiles/movement.dir/build.make:104: CMakeFiles/movement.dir/src/movement_interface.cpp.o] Error 1
+[0.155s] gmake[1]: *** [CMakeFiles/Makefile2:180: CMakeFiles/movement.dir/all] Error 2
+[0.155s] gmake[1]: *** Waiting for unfinished jobs....
+[0.186s] [ 73%] Built target movement_info_movement_gmock
+[0.187s] [ 84%] Built target movement_info_movement_gtest
+[0.193s] gmake: *** [Makefile:146: all] Error 2
+[0.200s] Invoked command in '/home/kargla/robot_movement/build/movement_info' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kargla/robot_movement/build/movement_info -- -j12 -l12

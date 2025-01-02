@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-ef036b1e31d0e13c193c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "movement_info_msgs__py",
+					"jsonFile" : "directory-movement_info_msgs__py-fe5b13b8f388be0a0c94.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/kargla/robot_movement/build/movement_info_msgs/movement_info_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "movement_info_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_movement_info_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_movement_info_msgs_egg-68a2b0229132f8326c64.json",
+					"name" : "ament_cmake_python_build_movement_info_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_movement_info_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_movement_info_msgs-25e42a9c601282f79446.json",
+					"name" : "ament_cmake_python_copy_movement_info_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "movement_info_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-movement_info_msgs-a419c7e421d76c9d3de9.json",
+					"name" : "movement_info_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "movement_info_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-movement_info_msgs__cpp-e33bd280fc5c3a2fa4ee.json",
+					"name" : "movement_info_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "movement_info_msgs__py::@f0474dc2df4a77d8a207",
+					"jsonFile" : "target-movement_info_msgs__py-e3fc7705881de2c150e0.json",
+					"name" : "movement_info_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "movement_info_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-movement_info_msgs__rosidl_generator_c-be3d16c7e329d13f4857.json",
+					"name" : "movement_info_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "movement_info_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-movement_info_msgs__rosidl_generator_py-0392085bd02e0b421681.json",
+					"name" : "movement_info_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "movement_info_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-movement_info_msgs__rosidl_typesupport_c-7bc0fa8e772761845fe2.json",
+					"name" : "movement_info_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "movement_info_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-movement_info_msgs__rosidl_typesupport_c__pyext-c092d86405f438fc34d4.json",
+					"name" : "movement_info_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "movement_info_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-movement_info_msgs__rosidl_typesupport_cpp-3eb3542c9ce7138d02e5.json",
+					"name" : "movement_info_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "movement_info_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-movement_info_msgs__rosidl_typesupport_fastrtps_c-9cd2aeef7a3c40516ddb.json",
+					"name" : "movement_info_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "movement_info_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-movement_info_msgs__rosidl_typesupport_fastrtps_c__pyext-48f26b04a9032fec88f4.json",
+					"name" : "movement_info_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "movement_info_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-movement_info_msgs__rosidl_typesupport_fastrtps_cpp-e35e1bb6efcb1ea15b1c.json",
+					"name" : "movement_info_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "movement_info_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-movement_info_msgs__rosidl_typesupport_introspection_c-351ec57df55cd64d70de.json",
+					"name" : "movement_info_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "movement_info_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-movement_info_msgs__rosidl_typesupport_introspection_c__pyext-910d1ac67917c28e388f.json",
+					"name" : "movement_info_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "movement_info_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-movement_info_msgs__rosidl_typesupport_introspection_cpp-b7a40717168e0fe4360a.json",
+					"name" : "movement_info_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "movement_info_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-movement_info_msgs_uninstall-f483816ef84bfe77f480.json",
+					"name" : "movement_info_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-6d208f47dfb23e531b66.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/kargla/robot_movement/build/movement_info_msgs",
+		"source" : "/home/kargla/robot_movement/src/movement_info_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

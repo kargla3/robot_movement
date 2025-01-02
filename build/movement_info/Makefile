@@ -352,6 +352,33 @@ src/movement.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/movement_info_library.dir/build.make CMakeFiles/movement_info_library.dir/src/movement.cpp.s
 .PHONY : src/movement.cpp.s
 
+src/movement_interface.o: src/movement_interface.cpp.o
+.PHONY : src/movement_interface.o
+
+# target to build an object file
+src/movement_interface.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/movement.dir/build.make CMakeFiles/movement.dir/src/movement_interface.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/movement_info_library.dir/build.make CMakeFiles/movement_info_library.dir/src/movement_interface.cpp.o
+.PHONY : src/movement_interface.cpp.o
+
+src/movement_interface.i: src/movement_interface.cpp.i
+.PHONY : src/movement_interface.i
+
+# target to preprocess a source file
+src/movement_interface.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/movement.dir/build.make CMakeFiles/movement.dir/src/movement_interface.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/movement_info_library.dir/build.make CMakeFiles/movement_info_library.dir/src/movement_interface.cpp.i
+.PHONY : src/movement_interface.cpp.i
+
+src/movement_interface.s: src/movement_interface.cpp.s
+.PHONY : src/movement_interface.s
+
+# target to generate assembly for a file
+src/movement_interface.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/movement.dir/build.make CMakeFiles/movement.dir/src/movement_interface.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/movement_info_library.dir/build.make CMakeFiles/movement_info_library.dir/src/movement_interface.cpp.s
+.PHONY : src/movement_interface.cpp.s
+
 test/movement_test.o: test/movement_test.cpp.o
 .PHONY : test/movement_test.o
 
@@ -408,6 +435,9 @@ help:
 	@echo "... src/movement.o"
 	@echo "... src/movement.i"
 	@echo "... src/movement.s"
+	@echo "... src/movement_interface.o"
+	@echo "... src/movement_interface.i"
+	@echo "... src/movement_interface.s"
 	@echo "... test/movement_test.o"
 	@echo "... test/movement_test.i"
 	@echo "... test/movement_test.s"
