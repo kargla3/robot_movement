@@ -1,8 +1,0 @@
-setup.py
-movement_info_msgs/__init__.py
-movement_info_msgs.egg-info/PKG-INFO
-movement_info_msgs.egg-info/SOURCES.txt
-movement_info_msgs.egg-info/dependency_links.txt
-movement_info_msgs.egg-info/top_level.txt
-movement_info_msgs/msg/__init__.py
-movement_info_msgs/msg/_movement_info.py
